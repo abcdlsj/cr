@@ -1,6 +1,6 @@
 # CR
 
-a tool to print `colorful` text in terminal.
+A package to print `colorful` text in terminal.
 
 ## Usage
 
