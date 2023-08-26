@@ -3,4 +3,4 @@ all: clean
 	gofmt -w -s .
 
 clean:
-	rm cr*.go
+	rm cr*.go > /dev/null 2>&1 || true

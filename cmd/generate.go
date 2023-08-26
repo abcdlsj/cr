@@ -29,16 +29,24 @@ func main() {
 	crTestFile.WriteString("import (\n\t\"fmt\"\n\t\"testing\"\n)\n\n")
 	crTestFile.WriteString("var globalStr = \"Hello, World!\"\n\n")
 	for _, light := range []bool{false, true} {
-		for _, styles := range []string{"nil", "BOLD", "FAINT", "ITALIC", "UNDERLINE", "BLINK"} {
+		for _, style := range []string{"nil", "BOLD", "FAINT", "ITALIC", "UNDERLINE", "BLINK"} {
 			for _, fg := range colors {
 				for _, bg := range colors {
-					comment := fmt.Sprintf("// fg: %s(is_light: %v) bg: %s style: %v\n", fg, light, bg, styles)
+					var bgf = bg
+					if bg == fg {
+						bgf = "nil"
+					}
+					var fgf = fg
+					if light {
+						fgf = "light " + fg
+					}
+					comment := fmt.Sprintf("// fg: %s, bg: %s, style: %v\n", strings.ToLower(fgf), strings.ToLower(bgf), strings.ToLower(style))
 
 					crFile.WriteString(comment)
-					crFile.WriteString(genCode(fg, bg, light, styles) + "\n\n")
+					crFile.WriteString(genCode(fg, bg, light, style) + "\n\n")
 
 					crTestFile.WriteString(comment)
-					crTestFile.WriteString(genTest(fg, bg, light, styles) + "\n\n")
+					crTestFile.WriteString(genTest(fg, bg, light, style) + "\n\n")
 				}
 			}
 		}

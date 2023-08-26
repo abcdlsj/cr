@@ -2,3842 +2,3842 @@
 
 package cr
 
-// fg: BLACK(is_light: false) bg: BLACK style: nil
+// fg: black, bg: nil, style: nil
 func PBlack(txt string) string {
 	return P(txt, BLACK, nil)
 }
 
-// fg: BLACK(is_light: false) bg: RED style: nil
+// fg: black, bg: red, style: nil
 func PBlackBgRed(txt string) string {
 	return P(txt, BLACK, RED.Pointer())
 }
 
-// fg: BLACK(is_light: false) bg: GREEN style: nil
+// fg: black, bg: green, style: nil
 func PBlackBgGreen(txt string) string {
 	return P(txt, BLACK, GREEN.Pointer())
 }
 
-// fg: BLACK(is_light: false) bg: YELLOW style: nil
+// fg: black, bg: yellow, style: nil
 func PBlackBgYellow(txt string) string {
 	return P(txt, BLACK, YELLOW.Pointer())
 }
 
-// fg: BLACK(is_light: false) bg: BLUE style: nil
+// fg: black, bg: blue, style: nil
 func PBlackBgBlue(txt string) string {
 	return P(txt, BLACK, BLUE.Pointer())
 }
 
-// fg: BLACK(is_light: false) bg: MAGENTA style: nil
+// fg: black, bg: magenta, style: nil
 func PBlackBgMagenta(txt string) string {
 	return P(txt, BLACK, MAGENTA.Pointer())
 }
 
-// fg: BLACK(is_light: false) bg: CYAN style: nil
+// fg: black, bg: cyan, style: nil
 func PBlackBgCyan(txt string) string {
 	return P(txt, BLACK, CYAN.Pointer())
 }
 
-// fg: BLACK(is_light: false) bg: WHITE style: nil
+// fg: black, bg: white, style: nil
 func PBlackBgWhite(txt string) string {
 	return P(txt, BLACK, WHITE.Pointer())
 }
 
-// fg: RED(is_light: false) bg: BLACK style: nil
+// fg: red, bg: black, style: nil
 func PRedBgBlack(txt string) string {
 	return P(txt, RED, BLACK.Pointer())
 }
 
-// fg: RED(is_light: false) bg: RED style: nil
+// fg: red, bg: nil, style: nil
 func PRed(txt string) string {
 	return P(txt, RED, nil)
 }
 
-// fg: RED(is_light: false) bg: GREEN style: nil
+// fg: red, bg: green, style: nil
 func PRedBgGreen(txt string) string {
 	return P(txt, RED, GREEN.Pointer())
 }
 
-// fg: RED(is_light: false) bg: YELLOW style: nil
+// fg: red, bg: yellow, style: nil
 func PRedBgYellow(txt string) string {
 	return P(txt, RED, YELLOW.Pointer())
 }
 
-// fg: RED(is_light: false) bg: BLUE style: nil
+// fg: red, bg: blue, style: nil
 func PRedBgBlue(txt string) string {
 	return P(txt, RED, BLUE.Pointer())
 }
 
-// fg: RED(is_light: false) bg: MAGENTA style: nil
+// fg: red, bg: magenta, style: nil
 func PRedBgMagenta(txt string) string {
 	return P(txt, RED, MAGENTA.Pointer())
 }
 
-// fg: RED(is_light: false) bg: CYAN style: nil
+// fg: red, bg: cyan, style: nil
 func PRedBgCyan(txt string) string {
 	return P(txt, RED, CYAN.Pointer())
 }
 
-// fg: RED(is_light: false) bg: WHITE style: nil
+// fg: red, bg: white, style: nil
 func PRedBgWhite(txt string) string {
 	return P(txt, RED, WHITE.Pointer())
 }
 
-// fg: GREEN(is_light: false) bg: BLACK style: nil
+// fg: green, bg: black, style: nil
 func PGreenBgBlack(txt string) string {
 	return P(txt, GREEN, BLACK.Pointer())
 }
 
-// fg: GREEN(is_light: false) bg: RED style: nil
+// fg: green, bg: red, style: nil
 func PGreenBgRed(txt string) string {
 	return P(txt, GREEN, RED.Pointer())
 }
 
-// fg: GREEN(is_light: false) bg: GREEN style: nil
+// fg: green, bg: nil, style: nil
 func PGreen(txt string) string {
 	return P(txt, GREEN, nil)
 }
 
-// fg: GREEN(is_light: false) bg: YELLOW style: nil
+// fg: green, bg: yellow, style: nil
 func PGreenBgYellow(txt string) string {
 	return P(txt, GREEN, YELLOW.Pointer())
 }
 
-// fg: GREEN(is_light: false) bg: BLUE style: nil
+// fg: green, bg: blue, style: nil
 func PGreenBgBlue(txt string) string {
 	return P(txt, GREEN, BLUE.Pointer())
 }
 
-// fg: GREEN(is_light: false) bg: MAGENTA style: nil
+// fg: green, bg: magenta, style: nil
 func PGreenBgMagenta(txt string) string {
 	return P(txt, GREEN, MAGENTA.Pointer())
 }
 
-// fg: GREEN(is_light: false) bg: CYAN style: nil
+// fg: green, bg: cyan, style: nil
 func PGreenBgCyan(txt string) string {
 	return P(txt, GREEN, CYAN.Pointer())
 }
 
-// fg: GREEN(is_light: false) bg: WHITE style: nil
+// fg: green, bg: white, style: nil
 func PGreenBgWhite(txt string) string {
 	return P(txt, GREEN, WHITE.Pointer())
 }
 
-// fg: YELLOW(is_light: false) bg: BLACK style: nil
+// fg: yellow, bg: black, style: nil
 func PYellowBgBlack(txt string) string {
 	return P(txt, YELLOW, BLACK.Pointer())
 }
 
-// fg: YELLOW(is_light: false) bg: RED style: nil
+// fg: yellow, bg: red, style: nil
 func PYellowBgRed(txt string) string {
 	return P(txt, YELLOW, RED.Pointer())
 }
 
-// fg: YELLOW(is_light: false) bg: GREEN style: nil
+// fg: yellow, bg: green, style: nil
 func PYellowBgGreen(txt string) string {
 	return P(txt, YELLOW, GREEN.Pointer())
 }
 
-// fg: YELLOW(is_light: false) bg: YELLOW style: nil
+// fg: yellow, bg: nil, style: nil
 func PYellow(txt string) string {
 	return P(txt, YELLOW, nil)
 }
 
-// fg: YELLOW(is_light: false) bg: BLUE style: nil
+// fg: yellow, bg: blue, style: nil
 func PYellowBgBlue(txt string) string {
 	return P(txt, YELLOW, BLUE.Pointer())
 }
 
-// fg: YELLOW(is_light: false) bg: MAGENTA style: nil
+// fg: yellow, bg: magenta, style: nil
 func PYellowBgMagenta(txt string) string {
 	return P(txt, YELLOW, MAGENTA.Pointer())
 }
 
-// fg: YELLOW(is_light: false) bg: CYAN style: nil
+// fg: yellow, bg: cyan, style: nil
 func PYellowBgCyan(txt string) string {
 	return P(txt, YELLOW, CYAN.Pointer())
 }
 
-// fg: YELLOW(is_light: false) bg: WHITE style: nil
+// fg: yellow, bg: white, style: nil
 func PYellowBgWhite(txt string) string {
 	return P(txt, YELLOW, WHITE.Pointer())
 }
 
-// fg: BLUE(is_light: false) bg: BLACK style: nil
+// fg: blue, bg: black, style: nil
 func PBlueBgBlack(txt string) string {
 	return P(txt, BLUE, BLACK.Pointer())
 }
 
-// fg: BLUE(is_light: false) bg: RED style: nil
+// fg: blue, bg: red, style: nil
 func PBlueBgRed(txt string) string {
 	return P(txt, BLUE, RED.Pointer())
 }
 
-// fg: BLUE(is_light: false) bg: GREEN style: nil
+// fg: blue, bg: green, style: nil
 func PBlueBgGreen(txt string) string {
 	return P(txt, BLUE, GREEN.Pointer())
 }
 
-// fg: BLUE(is_light: false) bg: YELLOW style: nil
+// fg: blue, bg: yellow, style: nil
 func PBlueBgYellow(txt string) string {
 	return P(txt, BLUE, YELLOW.Pointer())
 }
 
-// fg: BLUE(is_light: false) bg: BLUE style: nil
+// fg: blue, bg: nil, style: nil
 func PBlue(txt string) string {
 	return P(txt, BLUE, nil)
 }
 
-// fg: BLUE(is_light: false) bg: MAGENTA style: nil
+// fg: blue, bg: magenta, style: nil
 func PBlueBgMagenta(txt string) string {
 	return P(txt, BLUE, MAGENTA.Pointer())
 }
 
-// fg: BLUE(is_light: false) bg: CYAN style: nil
+// fg: blue, bg: cyan, style: nil
 func PBlueBgCyan(txt string) string {
 	return P(txt, BLUE, CYAN.Pointer())
 }
 
-// fg: BLUE(is_light: false) bg: WHITE style: nil
+// fg: blue, bg: white, style: nil
 func PBlueBgWhite(txt string) string {
 	return P(txt, BLUE, WHITE.Pointer())
 }
 
-// fg: MAGENTA(is_light: false) bg: BLACK style: nil
+// fg: magenta, bg: black, style: nil
 func PMagentaBgBlack(txt string) string {
 	return P(txt, MAGENTA, BLACK.Pointer())
 }
 
-// fg: MAGENTA(is_light: false) bg: RED style: nil
+// fg: magenta, bg: red, style: nil
 func PMagentaBgRed(txt string) string {
 	return P(txt, MAGENTA, RED.Pointer())
 }
 
-// fg: MAGENTA(is_light: false) bg: GREEN style: nil
+// fg: magenta, bg: green, style: nil
 func PMagentaBgGreen(txt string) string {
 	return P(txt, MAGENTA, GREEN.Pointer())
 }
 
-// fg: MAGENTA(is_light: false) bg: YELLOW style: nil
+// fg: magenta, bg: yellow, style: nil
 func PMagentaBgYellow(txt string) string {
 	return P(txt, MAGENTA, YELLOW.Pointer())
 }
 
-// fg: MAGENTA(is_light: false) bg: BLUE style: nil
+// fg: magenta, bg: blue, style: nil
 func PMagentaBgBlue(txt string) string {
 	return P(txt, MAGENTA, BLUE.Pointer())
 }
 
-// fg: MAGENTA(is_light: false) bg: MAGENTA style: nil
+// fg: magenta, bg: nil, style: nil
 func PMagenta(txt string) string {
 	return P(txt, MAGENTA, nil)
 }
 
-// fg: MAGENTA(is_light: false) bg: CYAN style: nil
+// fg: magenta, bg: cyan, style: nil
 func PMagentaBgCyan(txt string) string {
 	return P(txt, MAGENTA, CYAN.Pointer())
 }
 
-// fg: MAGENTA(is_light: false) bg: WHITE style: nil
+// fg: magenta, bg: white, style: nil
 func PMagentaBgWhite(txt string) string {
 	return P(txt, MAGENTA, WHITE.Pointer())
 }
 
-// fg: CYAN(is_light: false) bg: BLACK style: nil
+// fg: cyan, bg: black, style: nil
 func PCyanBgBlack(txt string) string {
 	return P(txt, CYAN, BLACK.Pointer())
 }
 
-// fg: CYAN(is_light: false) bg: RED style: nil
+// fg: cyan, bg: red, style: nil
 func PCyanBgRed(txt string) string {
 	return P(txt, CYAN, RED.Pointer())
 }
 
-// fg: CYAN(is_light: false) bg: GREEN style: nil
+// fg: cyan, bg: green, style: nil
 func PCyanBgGreen(txt string) string {
 	return P(txt, CYAN, GREEN.Pointer())
 }
 
-// fg: CYAN(is_light: false) bg: YELLOW style: nil
+// fg: cyan, bg: yellow, style: nil
 func PCyanBgYellow(txt string) string {
 	return P(txt, CYAN, YELLOW.Pointer())
 }
 
-// fg: CYAN(is_light: false) bg: BLUE style: nil
+// fg: cyan, bg: blue, style: nil
 func PCyanBgBlue(txt string) string {
 	return P(txt, CYAN, BLUE.Pointer())
 }
 
-// fg: CYAN(is_light: false) bg: MAGENTA style: nil
+// fg: cyan, bg: magenta, style: nil
 func PCyanBgMagenta(txt string) string {
 	return P(txt, CYAN, MAGENTA.Pointer())
 }
 
-// fg: CYAN(is_light: false) bg: CYAN style: nil
+// fg: cyan, bg: nil, style: nil
 func PCyan(txt string) string {
 	return P(txt, CYAN, nil)
 }
 
-// fg: CYAN(is_light: false) bg: WHITE style: nil
+// fg: cyan, bg: white, style: nil
 func PCyanBgWhite(txt string) string {
 	return P(txt, CYAN, WHITE.Pointer())
 }
 
-// fg: WHITE(is_light: false) bg: BLACK style: nil
+// fg: white, bg: black, style: nil
 func PWhiteBgBlack(txt string) string {
 	return P(txt, WHITE, BLACK.Pointer())
 }
 
-// fg: WHITE(is_light: false) bg: RED style: nil
+// fg: white, bg: red, style: nil
 func PWhiteBgRed(txt string) string {
 	return P(txt, WHITE, RED.Pointer())
 }
 
-// fg: WHITE(is_light: false) bg: GREEN style: nil
+// fg: white, bg: green, style: nil
 func PWhiteBgGreen(txt string) string {
 	return P(txt, WHITE, GREEN.Pointer())
 }
 
-// fg: WHITE(is_light: false) bg: YELLOW style: nil
+// fg: white, bg: yellow, style: nil
 func PWhiteBgYellow(txt string) string {
 	return P(txt, WHITE, YELLOW.Pointer())
 }
 
-// fg: WHITE(is_light: false) bg: BLUE style: nil
+// fg: white, bg: blue, style: nil
 func PWhiteBgBlue(txt string) string {
 	return P(txt, WHITE, BLUE.Pointer())
 }
 
-// fg: WHITE(is_light: false) bg: MAGENTA style: nil
+// fg: white, bg: magenta, style: nil
 func PWhiteBgMagenta(txt string) string {
 	return P(txt, WHITE, MAGENTA.Pointer())
 }
 
-// fg: WHITE(is_light: false) bg: CYAN style: nil
+// fg: white, bg: cyan, style: nil
 func PWhiteBgCyan(txt string) string {
 	return P(txt, WHITE, CYAN.Pointer())
 }
 
-// fg: WHITE(is_light: false) bg: WHITE style: nil
+// fg: white, bg: nil, style: nil
 func PWhite(txt string) string {
 	return P(txt, WHITE, nil)
 }
 
-// fg: BLACK(is_light: false) bg: BLACK style: BOLD
+// fg: black, bg: nil, style: bold
 func PBlackBold(txt string) string {
 	return P(txt, BLACK, nil, BOLD)
 }
 
-// fg: BLACK(is_light: false) bg: RED style: BOLD
+// fg: black, bg: red, style: bold
 func PBlackBgRedBold(txt string) string {
 	return P(txt, BLACK, RED.Pointer(), BOLD)
 }
 
-// fg: BLACK(is_light: false) bg: GREEN style: BOLD
+// fg: black, bg: green, style: bold
 func PBlackBgGreenBold(txt string) string {
 	return P(txt, BLACK, GREEN.Pointer(), BOLD)
 }
 
-// fg: BLACK(is_light: false) bg: YELLOW style: BOLD
+// fg: black, bg: yellow, style: bold
 func PBlackBgYellowBold(txt string) string {
 	return P(txt, BLACK, YELLOW.Pointer(), BOLD)
 }
 
-// fg: BLACK(is_light: false) bg: BLUE style: BOLD
+// fg: black, bg: blue, style: bold
 func PBlackBgBlueBold(txt string) string {
 	return P(txt, BLACK, BLUE.Pointer(), BOLD)
 }
 
-// fg: BLACK(is_light: false) bg: MAGENTA style: BOLD
+// fg: black, bg: magenta, style: bold
 func PBlackBgMagentaBold(txt string) string {
 	return P(txt, BLACK, MAGENTA.Pointer(), BOLD)
 }
 
-// fg: BLACK(is_light: false) bg: CYAN style: BOLD
+// fg: black, bg: cyan, style: bold
 func PBlackBgCyanBold(txt string) string {
 	return P(txt, BLACK, CYAN.Pointer(), BOLD)
 }
 
-// fg: BLACK(is_light: false) bg: WHITE style: BOLD
+// fg: black, bg: white, style: bold
 func PBlackBgWhiteBold(txt string) string {
 	return P(txt, BLACK, WHITE.Pointer(), BOLD)
 }
 
-// fg: RED(is_light: false) bg: BLACK style: BOLD
+// fg: red, bg: black, style: bold
 func PRedBgBlackBold(txt string) string {
 	return P(txt, RED, BLACK.Pointer(), BOLD)
 }
 
-// fg: RED(is_light: false) bg: RED style: BOLD
+// fg: red, bg: nil, style: bold
 func PRedBold(txt string) string {
 	return P(txt, RED, nil, BOLD)
 }
 
-// fg: RED(is_light: false) bg: GREEN style: BOLD
+// fg: red, bg: green, style: bold
 func PRedBgGreenBold(txt string) string {
 	return P(txt, RED, GREEN.Pointer(), BOLD)
 }
 
-// fg: RED(is_light: false) bg: YELLOW style: BOLD
+// fg: red, bg: yellow, style: bold
 func PRedBgYellowBold(txt string) string {
 	return P(txt, RED, YELLOW.Pointer(), BOLD)
 }
 
-// fg: RED(is_light: false) bg: BLUE style: BOLD
+// fg: red, bg: blue, style: bold
 func PRedBgBlueBold(txt string) string {
 	return P(txt, RED, BLUE.Pointer(), BOLD)
 }
 
-// fg: RED(is_light: false) bg: MAGENTA style: BOLD
+// fg: red, bg: magenta, style: bold
 func PRedBgMagentaBold(txt string) string {
 	return P(txt, RED, MAGENTA.Pointer(), BOLD)
 }
 
-// fg: RED(is_light: false) bg: CYAN style: BOLD
+// fg: red, bg: cyan, style: bold
 func PRedBgCyanBold(txt string) string {
 	return P(txt, RED, CYAN.Pointer(), BOLD)
 }
 
-// fg: RED(is_light: false) bg: WHITE style: BOLD
+// fg: red, bg: white, style: bold
 func PRedBgWhiteBold(txt string) string {
 	return P(txt, RED, WHITE.Pointer(), BOLD)
 }
 
-// fg: GREEN(is_light: false) bg: BLACK style: BOLD
+// fg: green, bg: black, style: bold
 func PGreenBgBlackBold(txt string) string {
 	return P(txt, GREEN, BLACK.Pointer(), BOLD)
 }
 
-// fg: GREEN(is_light: false) bg: RED style: BOLD
+// fg: green, bg: red, style: bold
 func PGreenBgRedBold(txt string) string {
 	return P(txt, GREEN, RED.Pointer(), BOLD)
 }
 
-// fg: GREEN(is_light: false) bg: GREEN style: BOLD
+// fg: green, bg: nil, style: bold
 func PGreenBold(txt string) string {
 	return P(txt, GREEN, nil, BOLD)
 }
 
-// fg: GREEN(is_light: false) bg: YELLOW style: BOLD
+// fg: green, bg: yellow, style: bold
 func PGreenBgYellowBold(txt string) string {
 	return P(txt, GREEN, YELLOW.Pointer(), BOLD)
 }
 
-// fg: GREEN(is_light: false) bg: BLUE style: BOLD
+// fg: green, bg: blue, style: bold
 func PGreenBgBlueBold(txt string) string {
 	return P(txt, GREEN, BLUE.Pointer(), BOLD)
 }
 
-// fg: GREEN(is_light: false) bg: MAGENTA style: BOLD
+// fg: green, bg: magenta, style: bold
 func PGreenBgMagentaBold(txt string) string {
 	return P(txt, GREEN, MAGENTA.Pointer(), BOLD)
 }
 
-// fg: GREEN(is_light: false) bg: CYAN style: BOLD
+// fg: green, bg: cyan, style: bold
 func PGreenBgCyanBold(txt string) string {
 	return P(txt, GREEN, CYAN.Pointer(), BOLD)
 }
 
-// fg: GREEN(is_light: false) bg: WHITE style: BOLD
+// fg: green, bg: white, style: bold
 func PGreenBgWhiteBold(txt string) string {
 	return P(txt, GREEN, WHITE.Pointer(), BOLD)
 }
 
-// fg: YELLOW(is_light: false) bg: BLACK style: BOLD
+// fg: yellow, bg: black, style: bold
 func PYellowBgBlackBold(txt string) string {
 	return P(txt, YELLOW, BLACK.Pointer(), BOLD)
 }
 
-// fg: YELLOW(is_light: false) bg: RED style: BOLD
+// fg: yellow, bg: red, style: bold
 func PYellowBgRedBold(txt string) string {
 	return P(txt, YELLOW, RED.Pointer(), BOLD)
 }
 
-// fg: YELLOW(is_light: false) bg: GREEN style: BOLD
+// fg: yellow, bg: green, style: bold
 func PYellowBgGreenBold(txt string) string {
 	return P(txt, YELLOW, GREEN.Pointer(), BOLD)
 }
 
-// fg: YELLOW(is_light: false) bg: YELLOW style: BOLD
+// fg: yellow, bg: nil, style: bold
 func PYellowBold(txt string) string {
 	return P(txt, YELLOW, nil, BOLD)
 }
 
-// fg: YELLOW(is_light: false) bg: BLUE style: BOLD
+// fg: yellow, bg: blue, style: bold
 func PYellowBgBlueBold(txt string) string {
 	return P(txt, YELLOW, BLUE.Pointer(), BOLD)
 }
 
-// fg: YELLOW(is_light: false) bg: MAGENTA style: BOLD
+// fg: yellow, bg: magenta, style: bold
 func PYellowBgMagentaBold(txt string) string {
 	return P(txt, YELLOW, MAGENTA.Pointer(), BOLD)
 }
 
-// fg: YELLOW(is_light: false) bg: CYAN style: BOLD
+// fg: yellow, bg: cyan, style: bold
 func PYellowBgCyanBold(txt string) string {
 	return P(txt, YELLOW, CYAN.Pointer(), BOLD)
 }
 
-// fg: YELLOW(is_light: false) bg: WHITE style: BOLD
+// fg: yellow, bg: white, style: bold
 func PYellowBgWhiteBold(txt string) string {
 	return P(txt, YELLOW, WHITE.Pointer(), BOLD)
 }
 
-// fg: BLUE(is_light: false) bg: BLACK style: BOLD
+// fg: blue, bg: black, style: bold
 func PBlueBgBlackBold(txt string) string {
 	return P(txt, BLUE, BLACK.Pointer(), BOLD)
 }
 
-// fg: BLUE(is_light: false) bg: RED style: BOLD
+// fg: blue, bg: red, style: bold
 func PBlueBgRedBold(txt string) string {
 	return P(txt, BLUE, RED.Pointer(), BOLD)
 }
 
-// fg: BLUE(is_light: false) bg: GREEN style: BOLD
+// fg: blue, bg: green, style: bold
 func PBlueBgGreenBold(txt string) string {
 	return P(txt, BLUE, GREEN.Pointer(), BOLD)
 }
 
-// fg: BLUE(is_light: false) bg: YELLOW style: BOLD
+// fg: blue, bg: yellow, style: bold
 func PBlueBgYellowBold(txt string) string {
 	return P(txt, BLUE, YELLOW.Pointer(), BOLD)
 }
 
-// fg: BLUE(is_light: false) bg: BLUE style: BOLD
+// fg: blue, bg: nil, style: bold
 func PBlueBold(txt string) string {
 	return P(txt, BLUE, nil, BOLD)
 }
 
-// fg: BLUE(is_light: false) bg: MAGENTA style: BOLD
+// fg: blue, bg: magenta, style: bold
 func PBlueBgMagentaBold(txt string) string {
 	return P(txt, BLUE, MAGENTA.Pointer(), BOLD)
 }
 
-// fg: BLUE(is_light: false) bg: CYAN style: BOLD
+// fg: blue, bg: cyan, style: bold
 func PBlueBgCyanBold(txt string) string {
 	return P(txt, BLUE, CYAN.Pointer(), BOLD)
 }
 
-// fg: BLUE(is_light: false) bg: WHITE style: BOLD
+// fg: blue, bg: white, style: bold
 func PBlueBgWhiteBold(txt string) string {
 	return P(txt, BLUE, WHITE.Pointer(), BOLD)
 }
 
-// fg: MAGENTA(is_light: false) bg: BLACK style: BOLD
+// fg: magenta, bg: black, style: bold
 func PMagentaBgBlackBold(txt string) string {
 	return P(txt, MAGENTA, BLACK.Pointer(), BOLD)
 }
 
-// fg: MAGENTA(is_light: false) bg: RED style: BOLD
+// fg: magenta, bg: red, style: bold
 func PMagentaBgRedBold(txt string) string {
 	return P(txt, MAGENTA, RED.Pointer(), BOLD)
 }
 
-// fg: MAGENTA(is_light: false) bg: GREEN style: BOLD
+// fg: magenta, bg: green, style: bold
 func PMagentaBgGreenBold(txt string) string {
 	return P(txt, MAGENTA, GREEN.Pointer(), BOLD)
 }
 
-// fg: MAGENTA(is_light: false) bg: YELLOW style: BOLD
+// fg: magenta, bg: yellow, style: bold
 func PMagentaBgYellowBold(txt string) string {
 	return P(txt, MAGENTA, YELLOW.Pointer(), BOLD)
 }
 
-// fg: MAGENTA(is_light: false) bg: BLUE style: BOLD
+// fg: magenta, bg: blue, style: bold
 func PMagentaBgBlueBold(txt string) string {
 	return P(txt, MAGENTA, BLUE.Pointer(), BOLD)
 }
 
-// fg: MAGENTA(is_light: false) bg: MAGENTA style: BOLD
+// fg: magenta, bg: nil, style: bold
 func PMagentaBold(txt string) string {
 	return P(txt, MAGENTA, nil, BOLD)
 }
 
-// fg: MAGENTA(is_light: false) bg: CYAN style: BOLD
+// fg: magenta, bg: cyan, style: bold
 func PMagentaBgCyanBold(txt string) string {
 	return P(txt, MAGENTA, CYAN.Pointer(), BOLD)
 }
 
-// fg: MAGENTA(is_light: false) bg: WHITE style: BOLD
+// fg: magenta, bg: white, style: bold
 func PMagentaBgWhiteBold(txt string) string {
 	return P(txt, MAGENTA, WHITE.Pointer(), BOLD)
 }
 
-// fg: CYAN(is_light: false) bg: BLACK style: BOLD
+// fg: cyan, bg: black, style: bold
 func PCyanBgBlackBold(txt string) string {
 	return P(txt, CYAN, BLACK.Pointer(), BOLD)
 }
 
-// fg: CYAN(is_light: false) bg: RED style: BOLD
+// fg: cyan, bg: red, style: bold
 func PCyanBgRedBold(txt string) string {
 	return P(txt, CYAN, RED.Pointer(), BOLD)
 }
 
-// fg: CYAN(is_light: false) bg: GREEN style: BOLD
+// fg: cyan, bg: green, style: bold
 func PCyanBgGreenBold(txt string) string {
 	return P(txt, CYAN, GREEN.Pointer(), BOLD)
 }
 
-// fg: CYAN(is_light: false) bg: YELLOW style: BOLD
+// fg: cyan, bg: yellow, style: bold
 func PCyanBgYellowBold(txt string) string {
 	return P(txt, CYAN, YELLOW.Pointer(), BOLD)
 }
 
-// fg: CYAN(is_light: false) bg: BLUE style: BOLD
+// fg: cyan, bg: blue, style: bold
 func PCyanBgBlueBold(txt string) string {
 	return P(txt, CYAN, BLUE.Pointer(), BOLD)
 }
 
-// fg: CYAN(is_light: false) bg: MAGENTA style: BOLD
+// fg: cyan, bg: magenta, style: bold
 func PCyanBgMagentaBold(txt string) string {
 	return P(txt, CYAN, MAGENTA.Pointer(), BOLD)
 }
 
-// fg: CYAN(is_light: false) bg: CYAN style: BOLD
+// fg: cyan, bg: nil, style: bold
 func PCyanBold(txt string) string {
 	return P(txt, CYAN, nil, BOLD)
 }
 
-// fg: CYAN(is_light: false) bg: WHITE style: BOLD
+// fg: cyan, bg: white, style: bold
 func PCyanBgWhiteBold(txt string) string {
 	return P(txt, CYAN, WHITE.Pointer(), BOLD)
 }
 
-// fg: WHITE(is_light: false) bg: BLACK style: BOLD
+// fg: white, bg: black, style: bold
 func PWhiteBgBlackBold(txt string) string {
 	return P(txt, WHITE, BLACK.Pointer(), BOLD)
 }
 
-// fg: WHITE(is_light: false) bg: RED style: BOLD
+// fg: white, bg: red, style: bold
 func PWhiteBgRedBold(txt string) string {
 	return P(txt, WHITE, RED.Pointer(), BOLD)
 }
 
-// fg: WHITE(is_light: false) bg: GREEN style: BOLD
+// fg: white, bg: green, style: bold
 func PWhiteBgGreenBold(txt string) string {
 	return P(txt, WHITE, GREEN.Pointer(), BOLD)
 }
 
-// fg: WHITE(is_light: false) bg: YELLOW style: BOLD
+// fg: white, bg: yellow, style: bold
 func PWhiteBgYellowBold(txt string) string {
 	return P(txt, WHITE, YELLOW.Pointer(), BOLD)
 }
 
-// fg: WHITE(is_light: false) bg: BLUE style: BOLD
+// fg: white, bg: blue, style: bold
 func PWhiteBgBlueBold(txt string) string {
 	return P(txt, WHITE, BLUE.Pointer(), BOLD)
 }
 
-// fg: WHITE(is_light: false) bg: MAGENTA style: BOLD
+// fg: white, bg: magenta, style: bold
 func PWhiteBgMagentaBold(txt string) string {
 	return P(txt, WHITE, MAGENTA.Pointer(), BOLD)
 }
 
-// fg: WHITE(is_light: false) bg: CYAN style: BOLD
+// fg: white, bg: cyan, style: bold
 func PWhiteBgCyanBold(txt string) string {
 	return P(txt, WHITE, CYAN.Pointer(), BOLD)
 }
 
-// fg: WHITE(is_light: false) bg: WHITE style: BOLD
+// fg: white, bg: nil, style: bold
 func PWhiteBold(txt string) string {
 	return P(txt, WHITE, nil, BOLD)
 }
 
-// fg: BLACK(is_light: false) bg: BLACK style: FAINT
+// fg: black, bg: nil, style: faint
 func PBlackFaint(txt string) string {
 	return P(txt, BLACK, nil, FAINT)
 }
 
-// fg: BLACK(is_light: false) bg: RED style: FAINT
+// fg: black, bg: red, style: faint
 func PBlackBgRedFaint(txt string) string {
 	return P(txt, BLACK, RED.Pointer(), FAINT)
 }
 
-// fg: BLACK(is_light: false) bg: GREEN style: FAINT
+// fg: black, bg: green, style: faint
 func PBlackBgGreenFaint(txt string) string {
 	return P(txt, BLACK, GREEN.Pointer(), FAINT)
 }
 
-// fg: BLACK(is_light: false) bg: YELLOW style: FAINT
+// fg: black, bg: yellow, style: faint
 func PBlackBgYellowFaint(txt string) string {
 	return P(txt, BLACK, YELLOW.Pointer(), FAINT)
 }
 
-// fg: BLACK(is_light: false) bg: BLUE style: FAINT
+// fg: black, bg: blue, style: faint
 func PBlackBgBlueFaint(txt string) string {
 	return P(txt, BLACK, BLUE.Pointer(), FAINT)
 }
 
-// fg: BLACK(is_light: false) bg: MAGENTA style: FAINT
+// fg: black, bg: magenta, style: faint
 func PBlackBgMagentaFaint(txt string) string {
 	return P(txt, BLACK, MAGENTA.Pointer(), FAINT)
 }
 
-// fg: BLACK(is_light: false) bg: CYAN style: FAINT
+// fg: black, bg: cyan, style: faint
 func PBlackBgCyanFaint(txt string) string {
 	return P(txt, BLACK, CYAN.Pointer(), FAINT)
 }
 
-// fg: BLACK(is_light: false) bg: WHITE style: FAINT
+// fg: black, bg: white, style: faint
 func PBlackBgWhiteFaint(txt string) string {
 	return P(txt, BLACK, WHITE.Pointer(), FAINT)
 }
 
-// fg: RED(is_light: false) bg: BLACK style: FAINT
+// fg: red, bg: black, style: faint
 func PRedBgBlackFaint(txt string) string {
 	return P(txt, RED, BLACK.Pointer(), FAINT)
 }
 
-// fg: RED(is_light: false) bg: RED style: FAINT
+// fg: red, bg: nil, style: faint
 func PRedFaint(txt string) string {
 	return P(txt, RED, nil, FAINT)
 }
 
-// fg: RED(is_light: false) bg: GREEN style: FAINT
+// fg: red, bg: green, style: faint
 func PRedBgGreenFaint(txt string) string {
 	return P(txt, RED, GREEN.Pointer(), FAINT)
 }
 
-// fg: RED(is_light: false) bg: YELLOW style: FAINT
+// fg: red, bg: yellow, style: faint
 func PRedBgYellowFaint(txt string) string {
 	return P(txt, RED, YELLOW.Pointer(), FAINT)
 }
 
-// fg: RED(is_light: false) bg: BLUE style: FAINT
+// fg: red, bg: blue, style: faint
 func PRedBgBlueFaint(txt string) string {
 	return P(txt, RED, BLUE.Pointer(), FAINT)
 }
 
-// fg: RED(is_light: false) bg: MAGENTA style: FAINT
+// fg: red, bg: magenta, style: faint
 func PRedBgMagentaFaint(txt string) string {
 	return P(txt, RED, MAGENTA.Pointer(), FAINT)
 }
 
-// fg: RED(is_light: false) bg: CYAN style: FAINT
+// fg: red, bg: cyan, style: faint
 func PRedBgCyanFaint(txt string) string {
 	return P(txt, RED, CYAN.Pointer(), FAINT)
 }
 
-// fg: RED(is_light: false) bg: WHITE style: FAINT
+// fg: red, bg: white, style: faint
 func PRedBgWhiteFaint(txt string) string {
 	return P(txt, RED, WHITE.Pointer(), FAINT)
 }
 
-// fg: GREEN(is_light: false) bg: BLACK style: FAINT
+// fg: green, bg: black, style: faint
 func PGreenBgBlackFaint(txt string) string {
 	return P(txt, GREEN, BLACK.Pointer(), FAINT)
 }
 
-// fg: GREEN(is_light: false) bg: RED style: FAINT
+// fg: green, bg: red, style: faint
 func PGreenBgRedFaint(txt string) string {
 	return P(txt, GREEN, RED.Pointer(), FAINT)
 }
 
-// fg: GREEN(is_light: false) bg: GREEN style: FAINT
+// fg: green, bg: nil, style: faint
 func PGreenFaint(txt string) string {
 	return P(txt, GREEN, nil, FAINT)
 }
 
-// fg: GREEN(is_light: false) bg: YELLOW style: FAINT
+// fg: green, bg: yellow, style: faint
 func PGreenBgYellowFaint(txt string) string {
 	return P(txt, GREEN, YELLOW.Pointer(), FAINT)
 }
 
-// fg: GREEN(is_light: false) bg: BLUE style: FAINT
+// fg: green, bg: blue, style: faint
 func PGreenBgBlueFaint(txt string) string {
 	return P(txt, GREEN, BLUE.Pointer(), FAINT)
 }
 
-// fg: GREEN(is_light: false) bg: MAGENTA style: FAINT
+// fg: green, bg: magenta, style: faint
 func PGreenBgMagentaFaint(txt string) string {
 	return P(txt, GREEN, MAGENTA.Pointer(), FAINT)
 }
 
-// fg: GREEN(is_light: false) bg: CYAN style: FAINT
+// fg: green, bg: cyan, style: faint
 func PGreenBgCyanFaint(txt string) string {
 	return P(txt, GREEN, CYAN.Pointer(), FAINT)
 }
 
-// fg: GREEN(is_light: false) bg: WHITE style: FAINT
+// fg: green, bg: white, style: faint
 func PGreenBgWhiteFaint(txt string) string {
 	return P(txt, GREEN, WHITE.Pointer(), FAINT)
 }
 
-// fg: YELLOW(is_light: false) bg: BLACK style: FAINT
+// fg: yellow, bg: black, style: faint
 func PYellowBgBlackFaint(txt string) string {
 	return P(txt, YELLOW, BLACK.Pointer(), FAINT)
 }
 
-// fg: YELLOW(is_light: false) bg: RED style: FAINT
+// fg: yellow, bg: red, style: faint
 func PYellowBgRedFaint(txt string) string {
 	return P(txt, YELLOW, RED.Pointer(), FAINT)
 }
 
-// fg: YELLOW(is_light: false) bg: GREEN style: FAINT
+// fg: yellow, bg: green, style: faint
 func PYellowBgGreenFaint(txt string) string {
 	return P(txt, YELLOW, GREEN.Pointer(), FAINT)
 }
 
-// fg: YELLOW(is_light: false) bg: YELLOW style: FAINT
+// fg: yellow, bg: nil, style: faint
 func PYellowFaint(txt string) string {
 	return P(txt, YELLOW, nil, FAINT)
 }
 
-// fg: YELLOW(is_light: false) bg: BLUE style: FAINT
+// fg: yellow, bg: blue, style: faint
 func PYellowBgBlueFaint(txt string) string {
 	return P(txt, YELLOW, BLUE.Pointer(), FAINT)
 }
 
-// fg: YELLOW(is_light: false) bg: MAGENTA style: FAINT
+// fg: yellow, bg: magenta, style: faint
 func PYellowBgMagentaFaint(txt string) string {
 	return P(txt, YELLOW, MAGENTA.Pointer(), FAINT)
 }
 
-// fg: YELLOW(is_light: false) bg: CYAN style: FAINT
+// fg: yellow, bg: cyan, style: faint
 func PYellowBgCyanFaint(txt string) string {
 	return P(txt, YELLOW, CYAN.Pointer(), FAINT)
 }
 
-// fg: YELLOW(is_light: false) bg: WHITE style: FAINT
+// fg: yellow, bg: white, style: faint
 func PYellowBgWhiteFaint(txt string) string {
 	return P(txt, YELLOW, WHITE.Pointer(), FAINT)
 }
 
-// fg: BLUE(is_light: false) bg: BLACK style: FAINT
+// fg: blue, bg: black, style: faint
 func PBlueBgBlackFaint(txt string) string {
 	return P(txt, BLUE, BLACK.Pointer(), FAINT)
 }
 
-// fg: BLUE(is_light: false) bg: RED style: FAINT
+// fg: blue, bg: red, style: faint
 func PBlueBgRedFaint(txt string) string {
 	return P(txt, BLUE, RED.Pointer(), FAINT)
 }
 
-// fg: BLUE(is_light: false) bg: GREEN style: FAINT
+// fg: blue, bg: green, style: faint
 func PBlueBgGreenFaint(txt string) string {
 	return P(txt, BLUE, GREEN.Pointer(), FAINT)
 }
 
-// fg: BLUE(is_light: false) bg: YELLOW style: FAINT
+// fg: blue, bg: yellow, style: faint
 func PBlueBgYellowFaint(txt string) string {
 	return P(txt, BLUE, YELLOW.Pointer(), FAINT)
 }
 
-// fg: BLUE(is_light: false) bg: BLUE style: FAINT
+// fg: blue, bg: nil, style: faint
 func PBlueFaint(txt string) string {
 	return P(txt, BLUE, nil, FAINT)
 }
 
-// fg: BLUE(is_light: false) bg: MAGENTA style: FAINT
+// fg: blue, bg: magenta, style: faint
 func PBlueBgMagentaFaint(txt string) string {
 	return P(txt, BLUE, MAGENTA.Pointer(), FAINT)
 }
 
-// fg: BLUE(is_light: false) bg: CYAN style: FAINT
+// fg: blue, bg: cyan, style: faint
 func PBlueBgCyanFaint(txt string) string {
 	return P(txt, BLUE, CYAN.Pointer(), FAINT)
 }
 
-// fg: BLUE(is_light: false) bg: WHITE style: FAINT
+// fg: blue, bg: white, style: faint
 func PBlueBgWhiteFaint(txt string) string {
 	return P(txt, BLUE, WHITE.Pointer(), FAINT)
 }
 
-// fg: MAGENTA(is_light: false) bg: BLACK style: FAINT
+// fg: magenta, bg: black, style: faint
 func PMagentaBgBlackFaint(txt string) string {
 	return P(txt, MAGENTA, BLACK.Pointer(), FAINT)
 }
 
-// fg: MAGENTA(is_light: false) bg: RED style: FAINT
+// fg: magenta, bg: red, style: faint
 func PMagentaBgRedFaint(txt string) string {
 	return P(txt, MAGENTA, RED.Pointer(), FAINT)
 }
 
-// fg: MAGENTA(is_light: false) bg: GREEN style: FAINT
+// fg: magenta, bg: green, style: faint
 func PMagentaBgGreenFaint(txt string) string {
 	return P(txt, MAGENTA, GREEN.Pointer(), FAINT)
 }
 
-// fg: MAGENTA(is_light: false) bg: YELLOW style: FAINT
+// fg: magenta, bg: yellow, style: faint
 func PMagentaBgYellowFaint(txt string) string {
 	return P(txt, MAGENTA, YELLOW.Pointer(), FAINT)
 }
 
-// fg: MAGENTA(is_light: false) bg: BLUE style: FAINT
+// fg: magenta, bg: blue, style: faint
 func PMagentaBgBlueFaint(txt string) string {
 	return P(txt, MAGENTA, BLUE.Pointer(), FAINT)
 }
 
-// fg: MAGENTA(is_light: false) bg: MAGENTA style: FAINT
+// fg: magenta, bg: nil, style: faint
 func PMagentaFaint(txt string) string {
 	return P(txt, MAGENTA, nil, FAINT)
 }
 
-// fg: MAGENTA(is_light: false) bg: CYAN style: FAINT
+// fg: magenta, bg: cyan, style: faint
 func PMagentaBgCyanFaint(txt string) string {
 	return P(txt, MAGENTA, CYAN.Pointer(), FAINT)
 }
 
-// fg: MAGENTA(is_light: false) bg: WHITE style: FAINT
+// fg: magenta, bg: white, style: faint
 func PMagentaBgWhiteFaint(txt string) string {
 	return P(txt, MAGENTA, WHITE.Pointer(), FAINT)
 }
 
-// fg: CYAN(is_light: false) bg: BLACK style: FAINT
+// fg: cyan, bg: black, style: faint
 func PCyanBgBlackFaint(txt string) string {
 	return P(txt, CYAN, BLACK.Pointer(), FAINT)
 }
 
-// fg: CYAN(is_light: false) bg: RED style: FAINT
+// fg: cyan, bg: red, style: faint
 func PCyanBgRedFaint(txt string) string {
 	return P(txt, CYAN, RED.Pointer(), FAINT)
 }
 
-// fg: CYAN(is_light: false) bg: GREEN style: FAINT
+// fg: cyan, bg: green, style: faint
 func PCyanBgGreenFaint(txt string) string {
 	return P(txt, CYAN, GREEN.Pointer(), FAINT)
 }
 
-// fg: CYAN(is_light: false) bg: YELLOW style: FAINT
+// fg: cyan, bg: yellow, style: faint
 func PCyanBgYellowFaint(txt string) string {
 	return P(txt, CYAN, YELLOW.Pointer(), FAINT)
 }
 
-// fg: CYAN(is_light: false) bg: BLUE style: FAINT
+// fg: cyan, bg: blue, style: faint
 func PCyanBgBlueFaint(txt string) string {
 	return P(txt, CYAN, BLUE.Pointer(), FAINT)
 }
 
-// fg: CYAN(is_light: false) bg: MAGENTA style: FAINT
+// fg: cyan, bg: magenta, style: faint
 func PCyanBgMagentaFaint(txt string) string {
 	return P(txt, CYAN, MAGENTA.Pointer(), FAINT)
 }
 
-// fg: CYAN(is_light: false) bg: CYAN style: FAINT
+// fg: cyan, bg: nil, style: faint
 func PCyanFaint(txt string) string {
 	return P(txt, CYAN, nil, FAINT)
 }
 
-// fg: CYAN(is_light: false) bg: WHITE style: FAINT
+// fg: cyan, bg: white, style: faint
 func PCyanBgWhiteFaint(txt string) string {
 	return P(txt, CYAN, WHITE.Pointer(), FAINT)
 }
 
-// fg: WHITE(is_light: false) bg: BLACK style: FAINT
+// fg: white, bg: black, style: faint
 func PWhiteBgBlackFaint(txt string) string {
 	return P(txt, WHITE, BLACK.Pointer(), FAINT)
 }
 
-// fg: WHITE(is_light: false) bg: RED style: FAINT
+// fg: white, bg: red, style: faint
 func PWhiteBgRedFaint(txt string) string {
 	return P(txt, WHITE, RED.Pointer(), FAINT)
 }
 
-// fg: WHITE(is_light: false) bg: GREEN style: FAINT
+// fg: white, bg: green, style: faint
 func PWhiteBgGreenFaint(txt string) string {
 	return P(txt, WHITE, GREEN.Pointer(), FAINT)
 }
 
-// fg: WHITE(is_light: false) bg: YELLOW style: FAINT
+// fg: white, bg: yellow, style: faint
 func PWhiteBgYellowFaint(txt string) string {
 	return P(txt, WHITE, YELLOW.Pointer(), FAINT)
 }
 
-// fg: WHITE(is_light: false) bg: BLUE style: FAINT
+// fg: white, bg: blue, style: faint
 func PWhiteBgBlueFaint(txt string) string {
 	return P(txt, WHITE, BLUE.Pointer(), FAINT)
 }
 
-// fg: WHITE(is_light: false) bg: MAGENTA style: FAINT
+// fg: white, bg: magenta, style: faint
 func PWhiteBgMagentaFaint(txt string) string {
 	return P(txt, WHITE, MAGENTA.Pointer(), FAINT)
 }
 
-// fg: WHITE(is_light: false) bg: CYAN style: FAINT
+// fg: white, bg: cyan, style: faint
 func PWhiteBgCyanFaint(txt string) string {
 	return P(txt, WHITE, CYAN.Pointer(), FAINT)
 }
 
-// fg: WHITE(is_light: false) bg: WHITE style: FAINT
+// fg: white, bg: nil, style: faint
 func PWhiteFaint(txt string) string {
 	return P(txt, WHITE, nil, FAINT)
 }
 
-// fg: BLACK(is_light: false) bg: BLACK style: ITALIC
+// fg: black, bg: nil, style: italic
 func PBlackItalic(txt string) string {
 	return P(txt, BLACK, nil, ITALIC)
 }
 
-// fg: BLACK(is_light: false) bg: RED style: ITALIC
+// fg: black, bg: red, style: italic
 func PBlackBgRedItalic(txt string) string {
 	return P(txt, BLACK, RED.Pointer(), ITALIC)
 }
 
-// fg: BLACK(is_light: false) bg: GREEN style: ITALIC
+// fg: black, bg: green, style: italic
 func PBlackBgGreenItalic(txt string) string {
 	return P(txt, BLACK, GREEN.Pointer(), ITALIC)
 }
 
-// fg: BLACK(is_light: false) bg: YELLOW style: ITALIC
+// fg: black, bg: yellow, style: italic
 func PBlackBgYellowItalic(txt string) string {
 	return P(txt, BLACK, YELLOW.Pointer(), ITALIC)
 }
 
-// fg: BLACK(is_light: false) bg: BLUE style: ITALIC
+// fg: black, bg: blue, style: italic
 func PBlackBgBlueItalic(txt string) string {
 	return P(txt, BLACK, BLUE.Pointer(), ITALIC)
 }
 
-// fg: BLACK(is_light: false) bg: MAGENTA style: ITALIC
+// fg: black, bg: magenta, style: italic
 func PBlackBgMagentaItalic(txt string) string {
 	return P(txt, BLACK, MAGENTA.Pointer(), ITALIC)
 }
 
-// fg: BLACK(is_light: false) bg: CYAN style: ITALIC
+// fg: black, bg: cyan, style: italic
 func PBlackBgCyanItalic(txt string) string {
 	return P(txt, BLACK, CYAN.Pointer(), ITALIC)
 }
 
-// fg: BLACK(is_light: false) bg: WHITE style: ITALIC
+// fg: black, bg: white, style: italic
 func PBlackBgWhiteItalic(txt string) string {
 	return P(txt, BLACK, WHITE.Pointer(), ITALIC)
 }
 
-// fg: RED(is_light: false) bg: BLACK style: ITALIC
+// fg: red, bg: black, style: italic
 func PRedBgBlackItalic(txt string) string {
 	return P(txt, RED, BLACK.Pointer(), ITALIC)
 }
 
-// fg: RED(is_light: false) bg: RED style: ITALIC
+// fg: red, bg: nil, style: italic
 func PRedItalic(txt string) string {
 	return P(txt, RED, nil, ITALIC)
 }
 
-// fg: RED(is_light: false) bg: GREEN style: ITALIC
+// fg: red, bg: green, style: italic
 func PRedBgGreenItalic(txt string) string {
 	return P(txt, RED, GREEN.Pointer(), ITALIC)
 }
 
-// fg: RED(is_light: false) bg: YELLOW style: ITALIC
+// fg: red, bg: yellow, style: italic
 func PRedBgYellowItalic(txt string) string {
 	return P(txt, RED, YELLOW.Pointer(), ITALIC)
 }
 
-// fg: RED(is_light: false) bg: BLUE style: ITALIC
+// fg: red, bg: blue, style: italic
 func PRedBgBlueItalic(txt string) string {
 	return P(txt, RED, BLUE.Pointer(), ITALIC)
 }
 
-// fg: RED(is_light: false) bg: MAGENTA style: ITALIC
+// fg: red, bg: magenta, style: italic
 func PRedBgMagentaItalic(txt string) string {
 	return P(txt, RED, MAGENTA.Pointer(), ITALIC)
 }
 
-// fg: RED(is_light: false) bg: CYAN style: ITALIC
+// fg: red, bg: cyan, style: italic
 func PRedBgCyanItalic(txt string) string {
 	return P(txt, RED, CYAN.Pointer(), ITALIC)
 }
 
-// fg: RED(is_light: false) bg: WHITE style: ITALIC
+// fg: red, bg: white, style: italic
 func PRedBgWhiteItalic(txt string) string {
 	return P(txt, RED, WHITE.Pointer(), ITALIC)
 }
 
-// fg: GREEN(is_light: false) bg: BLACK style: ITALIC
+// fg: green, bg: black, style: italic
 func PGreenBgBlackItalic(txt string) string {
 	return P(txt, GREEN, BLACK.Pointer(), ITALIC)
 }
 
-// fg: GREEN(is_light: false) bg: RED style: ITALIC
+// fg: green, bg: red, style: italic
 func PGreenBgRedItalic(txt string) string {
 	return P(txt, GREEN, RED.Pointer(), ITALIC)
 }
 
-// fg: GREEN(is_light: false) bg: GREEN style: ITALIC
+// fg: green, bg: nil, style: italic
 func PGreenItalic(txt string) string {
 	return P(txt, GREEN, nil, ITALIC)
 }
 
-// fg: GREEN(is_light: false) bg: YELLOW style: ITALIC
+// fg: green, bg: yellow, style: italic
 func PGreenBgYellowItalic(txt string) string {
 	return P(txt, GREEN, YELLOW.Pointer(), ITALIC)
 }
 
-// fg: GREEN(is_light: false) bg: BLUE style: ITALIC
+// fg: green, bg: blue, style: italic
 func PGreenBgBlueItalic(txt string) string {
 	return P(txt, GREEN, BLUE.Pointer(), ITALIC)
 }
 
-// fg: GREEN(is_light: false) bg: MAGENTA style: ITALIC
+// fg: green, bg: magenta, style: italic
 func PGreenBgMagentaItalic(txt string) string {
 	return P(txt, GREEN, MAGENTA.Pointer(), ITALIC)
 }
 
-// fg: GREEN(is_light: false) bg: CYAN style: ITALIC
+// fg: green, bg: cyan, style: italic
 func PGreenBgCyanItalic(txt string) string {
 	return P(txt, GREEN, CYAN.Pointer(), ITALIC)
 }
 
-// fg: GREEN(is_light: false) bg: WHITE style: ITALIC
+// fg: green, bg: white, style: italic
 func PGreenBgWhiteItalic(txt string) string {
 	return P(txt, GREEN, WHITE.Pointer(), ITALIC)
 }
 
-// fg: YELLOW(is_light: false) bg: BLACK style: ITALIC
+// fg: yellow, bg: black, style: italic
 func PYellowBgBlackItalic(txt string) string {
 	return P(txt, YELLOW, BLACK.Pointer(), ITALIC)
 }
 
-// fg: YELLOW(is_light: false) bg: RED style: ITALIC
+// fg: yellow, bg: red, style: italic
 func PYellowBgRedItalic(txt string) string {
 	return P(txt, YELLOW, RED.Pointer(), ITALIC)
 }
 
-// fg: YELLOW(is_light: false) bg: GREEN style: ITALIC
+// fg: yellow, bg: green, style: italic
 func PYellowBgGreenItalic(txt string) string {
 	return P(txt, YELLOW, GREEN.Pointer(), ITALIC)
 }
 
-// fg: YELLOW(is_light: false) bg: YELLOW style: ITALIC
+// fg: yellow, bg: nil, style: italic
 func PYellowItalic(txt string) string {
 	return P(txt, YELLOW, nil, ITALIC)
 }
 
-// fg: YELLOW(is_light: false) bg: BLUE style: ITALIC
+// fg: yellow, bg: blue, style: italic
 func PYellowBgBlueItalic(txt string) string {
 	return P(txt, YELLOW, BLUE.Pointer(), ITALIC)
 }
 
-// fg: YELLOW(is_light: false) bg: MAGENTA style: ITALIC
+// fg: yellow, bg: magenta, style: italic
 func PYellowBgMagentaItalic(txt string) string {
 	return P(txt, YELLOW, MAGENTA.Pointer(), ITALIC)
 }
 
-// fg: YELLOW(is_light: false) bg: CYAN style: ITALIC
+// fg: yellow, bg: cyan, style: italic
 func PYellowBgCyanItalic(txt string) string {
 	return P(txt, YELLOW, CYAN.Pointer(), ITALIC)
 }
 
-// fg: YELLOW(is_light: false) bg: WHITE style: ITALIC
+// fg: yellow, bg: white, style: italic
 func PYellowBgWhiteItalic(txt string) string {
 	return P(txt, YELLOW, WHITE.Pointer(), ITALIC)
 }
 
-// fg: BLUE(is_light: false) bg: BLACK style: ITALIC
+// fg: blue, bg: black, style: italic
 func PBlueBgBlackItalic(txt string) string {
 	return P(txt, BLUE, BLACK.Pointer(), ITALIC)
 }
 
-// fg: BLUE(is_light: false) bg: RED style: ITALIC
+// fg: blue, bg: red, style: italic
 func PBlueBgRedItalic(txt string) string {
 	return P(txt, BLUE, RED.Pointer(), ITALIC)
 }
 
-// fg: BLUE(is_light: false) bg: GREEN style: ITALIC
+// fg: blue, bg: green, style: italic
 func PBlueBgGreenItalic(txt string) string {
 	return P(txt, BLUE, GREEN.Pointer(), ITALIC)
 }
 
-// fg: BLUE(is_light: false) bg: YELLOW style: ITALIC
+// fg: blue, bg: yellow, style: italic
 func PBlueBgYellowItalic(txt string) string {
 	return P(txt, BLUE, YELLOW.Pointer(), ITALIC)
 }
 
-// fg: BLUE(is_light: false) bg: BLUE style: ITALIC
+// fg: blue, bg: nil, style: italic
 func PBlueItalic(txt string) string {
 	return P(txt, BLUE, nil, ITALIC)
 }
 
-// fg: BLUE(is_light: false) bg: MAGENTA style: ITALIC
+// fg: blue, bg: magenta, style: italic
 func PBlueBgMagentaItalic(txt string) string {
 	return P(txt, BLUE, MAGENTA.Pointer(), ITALIC)
 }
 
-// fg: BLUE(is_light: false) bg: CYAN style: ITALIC
+// fg: blue, bg: cyan, style: italic
 func PBlueBgCyanItalic(txt string) string {
 	return P(txt, BLUE, CYAN.Pointer(), ITALIC)
 }
 
-// fg: BLUE(is_light: false) bg: WHITE style: ITALIC
+// fg: blue, bg: white, style: italic
 func PBlueBgWhiteItalic(txt string) string {
 	return P(txt, BLUE, WHITE.Pointer(), ITALIC)
 }
 
-// fg: MAGENTA(is_light: false) bg: BLACK style: ITALIC
+// fg: magenta, bg: black, style: italic
 func PMagentaBgBlackItalic(txt string) string {
 	return P(txt, MAGENTA, BLACK.Pointer(), ITALIC)
 }
 
-// fg: MAGENTA(is_light: false) bg: RED style: ITALIC
+// fg: magenta, bg: red, style: italic
 func PMagentaBgRedItalic(txt string) string {
 	return P(txt, MAGENTA, RED.Pointer(), ITALIC)
 }
 
-// fg: MAGENTA(is_light: false) bg: GREEN style: ITALIC
+// fg: magenta, bg: green, style: italic
 func PMagentaBgGreenItalic(txt string) string {
 	return P(txt, MAGENTA, GREEN.Pointer(), ITALIC)
 }
 
-// fg: MAGENTA(is_light: false) bg: YELLOW style: ITALIC
+// fg: magenta, bg: yellow, style: italic
 func PMagentaBgYellowItalic(txt string) string {
 	return P(txt, MAGENTA, YELLOW.Pointer(), ITALIC)
 }
 
-// fg: MAGENTA(is_light: false) bg: BLUE style: ITALIC
+// fg: magenta, bg: blue, style: italic
 func PMagentaBgBlueItalic(txt string) string {
 	return P(txt, MAGENTA, BLUE.Pointer(), ITALIC)
 }
 
-// fg: MAGENTA(is_light: false) bg: MAGENTA style: ITALIC
+// fg: magenta, bg: nil, style: italic
 func PMagentaItalic(txt string) string {
 	return P(txt, MAGENTA, nil, ITALIC)
 }
 
-// fg: MAGENTA(is_light: false) bg: CYAN style: ITALIC
+// fg: magenta, bg: cyan, style: italic
 func PMagentaBgCyanItalic(txt string) string {
 	return P(txt, MAGENTA, CYAN.Pointer(), ITALIC)
 }
 
-// fg: MAGENTA(is_light: false) bg: WHITE style: ITALIC
+// fg: magenta, bg: white, style: italic
 func PMagentaBgWhiteItalic(txt string) string {
 	return P(txt, MAGENTA, WHITE.Pointer(), ITALIC)
 }
 
-// fg: CYAN(is_light: false) bg: BLACK style: ITALIC
+// fg: cyan, bg: black, style: italic
 func PCyanBgBlackItalic(txt string) string {
 	return P(txt, CYAN, BLACK.Pointer(), ITALIC)
 }
 
-// fg: CYAN(is_light: false) bg: RED style: ITALIC
+// fg: cyan, bg: red, style: italic
 func PCyanBgRedItalic(txt string) string {
 	return P(txt, CYAN, RED.Pointer(), ITALIC)
 }
 
-// fg: CYAN(is_light: false) bg: GREEN style: ITALIC
+// fg: cyan, bg: green, style: italic
 func PCyanBgGreenItalic(txt string) string {
 	return P(txt, CYAN, GREEN.Pointer(), ITALIC)
 }
 
-// fg: CYAN(is_light: false) bg: YELLOW style: ITALIC
+// fg: cyan, bg: yellow, style: italic
 func PCyanBgYellowItalic(txt string) string {
 	return P(txt, CYAN, YELLOW.Pointer(), ITALIC)
 }
 
-// fg: CYAN(is_light: false) bg: BLUE style: ITALIC
+// fg: cyan, bg: blue, style: italic
 func PCyanBgBlueItalic(txt string) string {
 	return P(txt, CYAN, BLUE.Pointer(), ITALIC)
 }
 
-// fg: CYAN(is_light: false) bg: MAGENTA style: ITALIC
+// fg: cyan, bg: magenta, style: italic
 func PCyanBgMagentaItalic(txt string) string {
 	return P(txt, CYAN, MAGENTA.Pointer(), ITALIC)
 }
 
-// fg: CYAN(is_light: false) bg: CYAN style: ITALIC
+// fg: cyan, bg: nil, style: italic
 func PCyanItalic(txt string) string {
 	return P(txt, CYAN, nil, ITALIC)
 }
 
-// fg: CYAN(is_light: false) bg: WHITE style: ITALIC
+// fg: cyan, bg: white, style: italic
 func PCyanBgWhiteItalic(txt string) string {
 	return P(txt, CYAN, WHITE.Pointer(), ITALIC)
 }
 
-// fg: WHITE(is_light: false) bg: BLACK style: ITALIC
+// fg: white, bg: black, style: italic
 func PWhiteBgBlackItalic(txt string) string {
 	return P(txt, WHITE, BLACK.Pointer(), ITALIC)
 }
 
-// fg: WHITE(is_light: false) bg: RED style: ITALIC
+// fg: white, bg: red, style: italic
 func PWhiteBgRedItalic(txt string) string {
 	return P(txt, WHITE, RED.Pointer(), ITALIC)
 }
 
-// fg: WHITE(is_light: false) bg: GREEN style: ITALIC
+// fg: white, bg: green, style: italic
 func PWhiteBgGreenItalic(txt string) string {
 	return P(txt, WHITE, GREEN.Pointer(), ITALIC)
 }
 
-// fg: WHITE(is_light: false) bg: YELLOW style: ITALIC
+// fg: white, bg: yellow, style: italic
 func PWhiteBgYellowItalic(txt string) string {
 	return P(txt, WHITE, YELLOW.Pointer(), ITALIC)
 }
 
-// fg: WHITE(is_light: false) bg: BLUE style: ITALIC
+// fg: white, bg: blue, style: italic
 func PWhiteBgBlueItalic(txt string) string {
 	return P(txt, WHITE, BLUE.Pointer(), ITALIC)
 }
 
-// fg: WHITE(is_light: false) bg: MAGENTA style: ITALIC
+// fg: white, bg: magenta, style: italic
 func PWhiteBgMagentaItalic(txt string) string {
 	return P(txt, WHITE, MAGENTA.Pointer(), ITALIC)
 }
 
-// fg: WHITE(is_light: false) bg: CYAN style: ITALIC
+// fg: white, bg: cyan, style: italic
 func PWhiteBgCyanItalic(txt string) string {
 	return P(txt, WHITE, CYAN.Pointer(), ITALIC)
 }
 
-// fg: WHITE(is_light: false) bg: WHITE style: ITALIC
+// fg: white, bg: nil, style: italic
 func PWhiteItalic(txt string) string {
 	return P(txt, WHITE, nil, ITALIC)
 }
 
-// fg: BLACK(is_light: false) bg: BLACK style: UNDERLINE
+// fg: black, bg: nil, style: underline
 func PBlackUnderline(txt string) string {
 	return P(txt, BLACK, nil, UNDERLINE)
 }
 
-// fg: BLACK(is_light: false) bg: RED style: UNDERLINE
+// fg: black, bg: red, style: underline
 func PBlackBgRedUnderline(txt string) string {
 	return P(txt, BLACK, RED.Pointer(), UNDERLINE)
 }
 
-// fg: BLACK(is_light: false) bg: GREEN style: UNDERLINE
+// fg: black, bg: green, style: underline
 func PBlackBgGreenUnderline(txt string) string {
 	return P(txt, BLACK, GREEN.Pointer(), UNDERLINE)
 }
 
-// fg: BLACK(is_light: false) bg: YELLOW style: UNDERLINE
+// fg: black, bg: yellow, style: underline
 func PBlackBgYellowUnderline(txt string) string {
 	return P(txt, BLACK, YELLOW.Pointer(), UNDERLINE)
 }
 
-// fg: BLACK(is_light: false) bg: BLUE style: UNDERLINE
+// fg: black, bg: blue, style: underline
 func PBlackBgBlueUnderline(txt string) string {
 	return P(txt, BLACK, BLUE.Pointer(), UNDERLINE)
 }
 
-// fg: BLACK(is_light: false) bg: MAGENTA style: UNDERLINE
+// fg: black, bg: magenta, style: underline
 func PBlackBgMagentaUnderline(txt string) string {
 	return P(txt, BLACK, MAGENTA.Pointer(), UNDERLINE)
 }
 
-// fg: BLACK(is_light: false) bg: CYAN style: UNDERLINE
+// fg: black, bg: cyan, style: underline
 func PBlackBgCyanUnderline(txt string) string {
 	return P(txt, BLACK, CYAN.Pointer(), UNDERLINE)
 }
 
-// fg: BLACK(is_light: false) bg: WHITE style: UNDERLINE
+// fg: black, bg: white, style: underline
 func PBlackBgWhiteUnderline(txt string) string {
 	return P(txt, BLACK, WHITE.Pointer(), UNDERLINE)
 }
 
-// fg: RED(is_light: false) bg: BLACK style: UNDERLINE
+// fg: red, bg: black, style: underline
 func PRedBgBlackUnderline(txt string) string {
 	return P(txt, RED, BLACK.Pointer(), UNDERLINE)
 }
 
-// fg: RED(is_light: false) bg: RED style: UNDERLINE
+// fg: red, bg: nil, style: underline
 func PRedUnderline(txt string) string {
 	return P(txt, RED, nil, UNDERLINE)
 }
 
-// fg: RED(is_light: false) bg: GREEN style: UNDERLINE
+// fg: red, bg: green, style: underline
 func PRedBgGreenUnderline(txt string) string {
 	return P(txt, RED, GREEN.Pointer(), UNDERLINE)
 }
 
-// fg: RED(is_light: false) bg: YELLOW style: UNDERLINE
+// fg: red, bg: yellow, style: underline
 func PRedBgYellowUnderline(txt string) string {
 	return P(txt, RED, YELLOW.Pointer(), UNDERLINE)
 }
 
-// fg: RED(is_light: false) bg: BLUE style: UNDERLINE
+// fg: red, bg: blue, style: underline
 func PRedBgBlueUnderline(txt string) string {
 	return P(txt, RED, BLUE.Pointer(), UNDERLINE)
 }
 
-// fg: RED(is_light: false) bg: MAGENTA style: UNDERLINE
+// fg: red, bg: magenta, style: underline
 func PRedBgMagentaUnderline(txt string) string {
 	return P(txt, RED, MAGENTA.Pointer(), UNDERLINE)
 }
 
-// fg: RED(is_light: false) bg: CYAN style: UNDERLINE
+// fg: red, bg: cyan, style: underline
 func PRedBgCyanUnderline(txt string) string {
 	return P(txt, RED, CYAN.Pointer(), UNDERLINE)
 }
 
-// fg: RED(is_light: false) bg: WHITE style: UNDERLINE
+// fg: red, bg: white, style: underline
 func PRedBgWhiteUnderline(txt string) string {
 	return P(txt, RED, WHITE.Pointer(), UNDERLINE)
 }
 
-// fg: GREEN(is_light: false) bg: BLACK style: UNDERLINE
+// fg: green, bg: black, style: underline
 func PGreenBgBlackUnderline(txt string) string {
 	return P(txt, GREEN, BLACK.Pointer(), UNDERLINE)
 }
 
-// fg: GREEN(is_light: false) bg: RED style: UNDERLINE
+// fg: green, bg: red, style: underline
 func PGreenBgRedUnderline(txt string) string {
 	return P(txt, GREEN, RED.Pointer(), UNDERLINE)
 }
 
-// fg: GREEN(is_light: false) bg: GREEN style: UNDERLINE
+// fg: green, bg: nil, style: underline
 func PGreenUnderline(txt string) string {
 	return P(txt, GREEN, nil, UNDERLINE)
 }
 
-// fg: GREEN(is_light: false) bg: YELLOW style: UNDERLINE
+// fg: green, bg: yellow, style: underline
 func PGreenBgYellowUnderline(txt string) string {
 	return P(txt, GREEN, YELLOW.Pointer(), UNDERLINE)
 }
 
-// fg: GREEN(is_light: false) bg: BLUE style: UNDERLINE
+// fg: green, bg: blue, style: underline
 func PGreenBgBlueUnderline(txt string) string {
 	return P(txt, GREEN, BLUE.Pointer(), UNDERLINE)
 }
 
-// fg: GREEN(is_light: false) bg: MAGENTA style: UNDERLINE
+// fg: green, bg: magenta, style: underline
 func PGreenBgMagentaUnderline(txt string) string {
 	return P(txt, GREEN, MAGENTA.Pointer(), UNDERLINE)
 }
 
-// fg: GREEN(is_light: false) bg: CYAN style: UNDERLINE
+// fg: green, bg: cyan, style: underline
 func PGreenBgCyanUnderline(txt string) string {
 	return P(txt, GREEN, CYAN.Pointer(), UNDERLINE)
 }
 
-// fg: GREEN(is_light: false) bg: WHITE style: UNDERLINE
+// fg: green, bg: white, style: underline
 func PGreenBgWhiteUnderline(txt string) string {
 	return P(txt, GREEN, WHITE.Pointer(), UNDERLINE)
 }
 
-// fg: YELLOW(is_light: false) bg: BLACK style: UNDERLINE
+// fg: yellow, bg: black, style: underline
 func PYellowBgBlackUnderline(txt string) string {
 	return P(txt, YELLOW, BLACK.Pointer(), UNDERLINE)
 }
 
-// fg: YELLOW(is_light: false) bg: RED style: UNDERLINE
+// fg: yellow, bg: red, style: underline
 func PYellowBgRedUnderline(txt string) string {
 	return P(txt, YELLOW, RED.Pointer(), UNDERLINE)
 }
 
-// fg: YELLOW(is_light: false) bg: GREEN style: UNDERLINE
+// fg: yellow, bg: green, style: underline
 func PYellowBgGreenUnderline(txt string) string {
 	return P(txt, YELLOW, GREEN.Pointer(), UNDERLINE)
 }
 
-// fg: YELLOW(is_light: false) bg: YELLOW style: UNDERLINE
+// fg: yellow, bg: nil, style: underline
 func PYellowUnderline(txt string) string {
 	return P(txt, YELLOW, nil, UNDERLINE)
 }
 
-// fg: YELLOW(is_light: false) bg: BLUE style: UNDERLINE
+// fg: yellow, bg: blue, style: underline
 func PYellowBgBlueUnderline(txt string) string {
 	return P(txt, YELLOW, BLUE.Pointer(), UNDERLINE)
 }
 
-// fg: YELLOW(is_light: false) bg: MAGENTA style: UNDERLINE
+// fg: yellow, bg: magenta, style: underline
 func PYellowBgMagentaUnderline(txt string) string {
 	return P(txt, YELLOW, MAGENTA.Pointer(), UNDERLINE)
 }
 
-// fg: YELLOW(is_light: false) bg: CYAN style: UNDERLINE
+// fg: yellow, bg: cyan, style: underline
 func PYellowBgCyanUnderline(txt string) string {
 	return P(txt, YELLOW, CYAN.Pointer(), UNDERLINE)
 }
 
-// fg: YELLOW(is_light: false) bg: WHITE style: UNDERLINE
+// fg: yellow, bg: white, style: underline
 func PYellowBgWhiteUnderline(txt string) string {
 	return P(txt, YELLOW, WHITE.Pointer(), UNDERLINE)
 }
 
-// fg: BLUE(is_light: false) bg: BLACK style: UNDERLINE
+// fg: blue, bg: black, style: underline
 func PBlueBgBlackUnderline(txt string) string {
 	return P(txt, BLUE, BLACK.Pointer(), UNDERLINE)
 }
 
-// fg: BLUE(is_light: false) bg: RED style: UNDERLINE
+// fg: blue, bg: red, style: underline
 func PBlueBgRedUnderline(txt string) string {
 	return P(txt, BLUE, RED.Pointer(), UNDERLINE)
 }
 
-// fg: BLUE(is_light: false) bg: GREEN style: UNDERLINE
+// fg: blue, bg: green, style: underline
 func PBlueBgGreenUnderline(txt string) string {
 	return P(txt, BLUE, GREEN.Pointer(), UNDERLINE)
 }
 
-// fg: BLUE(is_light: false) bg: YELLOW style: UNDERLINE
+// fg: blue, bg: yellow, style: underline
 func PBlueBgYellowUnderline(txt string) string {
 	return P(txt, BLUE, YELLOW.Pointer(), UNDERLINE)
 }
 
-// fg: BLUE(is_light: false) bg: BLUE style: UNDERLINE
+// fg: blue, bg: nil, style: underline
 func PBlueUnderline(txt string) string {
 	return P(txt, BLUE, nil, UNDERLINE)
 }
 
-// fg: BLUE(is_light: false) bg: MAGENTA style: UNDERLINE
+// fg: blue, bg: magenta, style: underline
 func PBlueBgMagentaUnderline(txt string) string {
 	return P(txt, BLUE, MAGENTA.Pointer(), UNDERLINE)
 }
 
-// fg: BLUE(is_light: false) bg: CYAN style: UNDERLINE
+// fg: blue, bg: cyan, style: underline
 func PBlueBgCyanUnderline(txt string) string {
 	return P(txt, BLUE, CYAN.Pointer(), UNDERLINE)
 }
 
-// fg: BLUE(is_light: false) bg: WHITE style: UNDERLINE
+// fg: blue, bg: white, style: underline
 func PBlueBgWhiteUnderline(txt string) string {
 	return P(txt, BLUE, WHITE.Pointer(), UNDERLINE)
 }
 
-// fg: MAGENTA(is_light: false) bg: BLACK style: UNDERLINE
+// fg: magenta, bg: black, style: underline
 func PMagentaBgBlackUnderline(txt string) string {
 	return P(txt, MAGENTA, BLACK.Pointer(), UNDERLINE)
 }
 
-// fg: MAGENTA(is_light: false) bg: RED style: UNDERLINE
+// fg: magenta, bg: red, style: underline
 func PMagentaBgRedUnderline(txt string) string {
 	return P(txt, MAGENTA, RED.Pointer(), UNDERLINE)
 }
 
-// fg: MAGENTA(is_light: false) bg: GREEN style: UNDERLINE
+// fg: magenta, bg: green, style: underline
 func PMagentaBgGreenUnderline(txt string) string {
 	return P(txt, MAGENTA, GREEN.Pointer(), UNDERLINE)
 }
 
-// fg: MAGENTA(is_light: false) bg: YELLOW style: UNDERLINE
+// fg: magenta, bg: yellow, style: underline
 func PMagentaBgYellowUnderline(txt string) string {
 	return P(txt, MAGENTA, YELLOW.Pointer(), UNDERLINE)
 }
 
-// fg: MAGENTA(is_light: false) bg: BLUE style: UNDERLINE
+// fg: magenta, bg: blue, style: underline
 func PMagentaBgBlueUnderline(txt string) string {
 	return P(txt, MAGENTA, BLUE.Pointer(), UNDERLINE)
 }
 
-// fg: MAGENTA(is_light: false) bg: MAGENTA style: UNDERLINE
+// fg: magenta, bg: nil, style: underline
 func PMagentaUnderline(txt string) string {
 	return P(txt, MAGENTA, nil, UNDERLINE)
 }
 
-// fg: MAGENTA(is_light: false) bg: CYAN style: UNDERLINE
+// fg: magenta, bg: cyan, style: underline
 func PMagentaBgCyanUnderline(txt string) string {
 	return P(txt, MAGENTA, CYAN.Pointer(), UNDERLINE)
 }
 
-// fg: MAGENTA(is_light: false) bg: WHITE style: UNDERLINE
+// fg: magenta, bg: white, style: underline
 func PMagentaBgWhiteUnderline(txt string) string {
 	return P(txt, MAGENTA, WHITE.Pointer(), UNDERLINE)
 }
 
-// fg: CYAN(is_light: false) bg: BLACK style: UNDERLINE
+// fg: cyan, bg: black, style: underline
 func PCyanBgBlackUnderline(txt string) string {
 	return P(txt, CYAN, BLACK.Pointer(), UNDERLINE)
 }
 
-// fg: CYAN(is_light: false) bg: RED style: UNDERLINE
+// fg: cyan, bg: red, style: underline
 func PCyanBgRedUnderline(txt string) string {
 	return P(txt, CYAN, RED.Pointer(), UNDERLINE)
 }
 
-// fg: CYAN(is_light: false) bg: GREEN style: UNDERLINE
+// fg: cyan, bg: green, style: underline
 func PCyanBgGreenUnderline(txt string) string {
 	return P(txt, CYAN, GREEN.Pointer(), UNDERLINE)
 }
 
-// fg: CYAN(is_light: false) bg: YELLOW style: UNDERLINE
+// fg: cyan, bg: yellow, style: underline
 func PCyanBgYellowUnderline(txt string) string {
 	return P(txt, CYAN, YELLOW.Pointer(), UNDERLINE)
 }
 
-// fg: CYAN(is_light: false) bg: BLUE style: UNDERLINE
+// fg: cyan, bg: blue, style: underline
 func PCyanBgBlueUnderline(txt string) string {
 	return P(txt, CYAN, BLUE.Pointer(), UNDERLINE)
 }
 
-// fg: CYAN(is_light: false) bg: MAGENTA style: UNDERLINE
+// fg: cyan, bg: magenta, style: underline
 func PCyanBgMagentaUnderline(txt string) string {
 	return P(txt, CYAN, MAGENTA.Pointer(), UNDERLINE)
 }
 
-// fg: CYAN(is_light: false) bg: CYAN style: UNDERLINE
+// fg: cyan, bg: nil, style: underline
 func PCyanUnderline(txt string) string {
 	return P(txt, CYAN, nil, UNDERLINE)
 }
 
-// fg: CYAN(is_light: false) bg: WHITE style: UNDERLINE
+// fg: cyan, bg: white, style: underline
 func PCyanBgWhiteUnderline(txt string) string {
 	return P(txt, CYAN, WHITE.Pointer(), UNDERLINE)
 }
 
-// fg: WHITE(is_light: false) bg: BLACK style: UNDERLINE
+// fg: white, bg: black, style: underline
 func PWhiteBgBlackUnderline(txt string) string {
 	return P(txt, WHITE, BLACK.Pointer(), UNDERLINE)
 }
 
-// fg: WHITE(is_light: false) bg: RED style: UNDERLINE
+// fg: white, bg: red, style: underline
 func PWhiteBgRedUnderline(txt string) string {
 	return P(txt, WHITE, RED.Pointer(), UNDERLINE)
 }
 
-// fg: WHITE(is_light: false) bg: GREEN style: UNDERLINE
+// fg: white, bg: green, style: underline
 func PWhiteBgGreenUnderline(txt string) string {
 	return P(txt, WHITE, GREEN.Pointer(), UNDERLINE)
 }
 
-// fg: WHITE(is_light: false) bg: YELLOW style: UNDERLINE
+// fg: white, bg: yellow, style: underline
 func PWhiteBgYellowUnderline(txt string) string {
 	return P(txt, WHITE, YELLOW.Pointer(), UNDERLINE)
 }
 
-// fg: WHITE(is_light: false) bg: BLUE style: UNDERLINE
+// fg: white, bg: blue, style: underline
 func PWhiteBgBlueUnderline(txt string) string {
 	return P(txt, WHITE, BLUE.Pointer(), UNDERLINE)
 }
 
-// fg: WHITE(is_light: false) bg: MAGENTA style: UNDERLINE
+// fg: white, bg: magenta, style: underline
 func PWhiteBgMagentaUnderline(txt string) string {
 	return P(txt, WHITE, MAGENTA.Pointer(), UNDERLINE)
 }
 
-// fg: WHITE(is_light: false) bg: CYAN style: UNDERLINE
+// fg: white, bg: cyan, style: underline
 func PWhiteBgCyanUnderline(txt string) string {
 	return P(txt, WHITE, CYAN.Pointer(), UNDERLINE)
 }
 
-// fg: WHITE(is_light: false) bg: WHITE style: UNDERLINE
+// fg: white, bg: nil, style: underline
 func PWhiteUnderline(txt string) string {
 	return P(txt, WHITE, nil, UNDERLINE)
 }
 
-// fg: BLACK(is_light: false) bg: BLACK style: BLINK
+// fg: black, bg: nil, style: blink
 func PBlackBlink(txt string) string {
 	return P(txt, BLACK, nil, BLINK)
 }
 
-// fg: BLACK(is_light: false) bg: RED style: BLINK
+// fg: black, bg: red, style: blink
 func PBlackBgRedBlink(txt string) string {
 	return P(txt, BLACK, RED.Pointer(), BLINK)
 }
 
-// fg: BLACK(is_light: false) bg: GREEN style: BLINK
+// fg: black, bg: green, style: blink
 func PBlackBgGreenBlink(txt string) string {
 	return P(txt, BLACK, GREEN.Pointer(), BLINK)
 }
 
-// fg: BLACK(is_light: false) bg: YELLOW style: BLINK
+// fg: black, bg: yellow, style: blink
 func PBlackBgYellowBlink(txt string) string {
 	return P(txt, BLACK, YELLOW.Pointer(), BLINK)
 }
 
-// fg: BLACK(is_light: false) bg: BLUE style: BLINK
+// fg: black, bg: blue, style: blink
 func PBlackBgBlueBlink(txt string) string {
 	return P(txt, BLACK, BLUE.Pointer(), BLINK)
 }
 
-// fg: BLACK(is_light: false) bg: MAGENTA style: BLINK
+// fg: black, bg: magenta, style: blink
 func PBlackBgMagentaBlink(txt string) string {
 	return P(txt, BLACK, MAGENTA.Pointer(), BLINK)
 }
 
-// fg: BLACK(is_light: false) bg: CYAN style: BLINK
+// fg: black, bg: cyan, style: blink
 func PBlackBgCyanBlink(txt string) string {
 	return P(txt, BLACK, CYAN.Pointer(), BLINK)
 }
 
-// fg: BLACK(is_light: false) bg: WHITE style: BLINK
+// fg: black, bg: white, style: blink
 func PBlackBgWhiteBlink(txt string) string {
 	return P(txt, BLACK, WHITE.Pointer(), BLINK)
 }
 
-// fg: RED(is_light: false) bg: BLACK style: BLINK
+// fg: red, bg: black, style: blink
 func PRedBgBlackBlink(txt string) string {
 	return P(txt, RED, BLACK.Pointer(), BLINK)
 }
 
-// fg: RED(is_light: false) bg: RED style: BLINK
+// fg: red, bg: nil, style: blink
 func PRedBlink(txt string) string {
 	return P(txt, RED, nil, BLINK)
 }
 
-// fg: RED(is_light: false) bg: GREEN style: BLINK
+// fg: red, bg: green, style: blink
 func PRedBgGreenBlink(txt string) string {
 	return P(txt, RED, GREEN.Pointer(), BLINK)
 }
 
-// fg: RED(is_light: false) bg: YELLOW style: BLINK
+// fg: red, bg: yellow, style: blink
 func PRedBgYellowBlink(txt string) string {
 	return P(txt, RED, YELLOW.Pointer(), BLINK)
 }
 
-// fg: RED(is_light: false) bg: BLUE style: BLINK
+// fg: red, bg: blue, style: blink
 func PRedBgBlueBlink(txt string) string {
 	return P(txt, RED, BLUE.Pointer(), BLINK)
 }
 
-// fg: RED(is_light: false) bg: MAGENTA style: BLINK
+// fg: red, bg: magenta, style: blink
 func PRedBgMagentaBlink(txt string) string {
 	return P(txt, RED, MAGENTA.Pointer(), BLINK)
 }
 
-// fg: RED(is_light: false) bg: CYAN style: BLINK
+// fg: red, bg: cyan, style: blink
 func PRedBgCyanBlink(txt string) string {
 	return P(txt, RED, CYAN.Pointer(), BLINK)
 }
 
-// fg: RED(is_light: false) bg: WHITE style: BLINK
+// fg: red, bg: white, style: blink
 func PRedBgWhiteBlink(txt string) string {
 	return P(txt, RED, WHITE.Pointer(), BLINK)
 }
 
-// fg: GREEN(is_light: false) bg: BLACK style: BLINK
+// fg: green, bg: black, style: blink
 func PGreenBgBlackBlink(txt string) string {
 	return P(txt, GREEN, BLACK.Pointer(), BLINK)
 }
 
-// fg: GREEN(is_light: false) bg: RED style: BLINK
+// fg: green, bg: red, style: blink
 func PGreenBgRedBlink(txt string) string {
 	return P(txt, GREEN, RED.Pointer(), BLINK)
 }
 
-// fg: GREEN(is_light: false) bg: GREEN style: BLINK
+// fg: green, bg: nil, style: blink
 func PGreenBlink(txt string) string {
 	return P(txt, GREEN, nil, BLINK)
 }
 
-// fg: GREEN(is_light: false) bg: YELLOW style: BLINK
+// fg: green, bg: yellow, style: blink
 func PGreenBgYellowBlink(txt string) string {
 	return P(txt, GREEN, YELLOW.Pointer(), BLINK)
 }
 
-// fg: GREEN(is_light: false) bg: BLUE style: BLINK
+// fg: green, bg: blue, style: blink
 func PGreenBgBlueBlink(txt string) string {
 	return P(txt, GREEN, BLUE.Pointer(), BLINK)
 }
 
-// fg: GREEN(is_light: false) bg: MAGENTA style: BLINK
+// fg: green, bg: magenta, style: blink
 func PGreenBgMagentaBlink(txt string) string {
 	return P(txt, GREEN, MAGENTA.Pointer(), BLINK)
 }
 
-// fg: GREEN(is_light: false) bg: CYAN style: BLINK
+// fg: green, bg: cyan, style: blink
 func PGreenBgCyanBlink(txt string) string {
 	return P(txt, GREEN, CYAN.Pointer(), BLINK)
 }
 
-// fg: GREEN(is_light: false) bg: WHITE style: BLINK
+// fg: green, bg: white, style: blink
 func PGreenBgWhiteBlink(txt string) string {
 	return P(txt, GREEN, WHITE.Pointer(), BLINK)
 }
 
-// fg: YELLOW(is_light: false) bg: BLACK style: BLINK
+// fg: yellow, bg: black, style: blink
 func PYellowBgBlackBlink(txt string) string {
 	return P(txt, YELLOW, BLACK.Pointer(), BLINK)
 }
 
-// fg: YELLOW(is_light: false) bg: RED style: BLINK
+// fg: yellow, bg: red, style: blink
 func PYellowBgRedBlink(txt string) string {
 	return P(txt, YELLOW, RED.Pointer(), BLINK)
 }
 
-// fg: YELLOW(is_light: false) bg: GREEN style: BLINK
+// fg: yellow, bg: green, style: blink
 func PYellowBgGreenBlink(txt string) string {
 	return P(txt, YELLOW, GREEN.Pointer(), BLINK)
 }
 
-// fg: YELLOW(is_light: false) bg: YELLOW style: BLINK
+// fg: yellow, bg: nil, style: blink
 func PYellowBlink(txt string) string {
 	return P(txt, YELLOW, nil, BLINK)
 }
 
-// fg: YELLOW(is_light: false) bg: BLUE style: BLINK
+// fg: yellow, bg: blue, style: blink
 func PYellowBgBlueBlink(txt string) string {
 	return P(txt, YELLOW, BLUE.Pointer(), BLINK)
 }
 
-// fg: YELLOW(is_light: false) bg: MAGENTA style: BLINK
+// fg: yellow, bg: magenta, style: blink
 func PYellowBgMagentaBlink(txt string) string {
 	return P(txt, YELLOW, MAGENTA.Pointer(), BLINK)
 }
 
-// fg: YELLOW(is_light: false) bg: CYAN style: BLINK
+// fg: yellow, bg: cyan, style: blink
 func PYellowBgCyanBlink(txt string) string {
 	return P(txt, YELLOW, CYAN.Pointer(), BLINK)
 }
 
-// fg: YELLOW(is_light: false) bg: WHITE style: BLINK
+// fg: yellow, bg: white, style: blink
 func PYellowBgWhiteBlink(txt string) string {
 	return P(txt, YELLOW, WHITE.Pointer(), BLINK)
 }
 
-// fg: BLUE(is_light: false) bg: BLACK style: BLINK
+// fg: blue, bg: black, style: blink
 func PBlueBgBlackBlink(txt string) string {
 	return P(txt, BLUE, BLACK.Pointer(), BLINK)
 }
 
-// fg: BLUE(is_light: false) bg: RED style: BLINK
+// fg: blue, bg: red, style: blink
 func PBlueBgRedBlink(txt string) string {
 	return P(txt, BLUE, RED.Pointer(), BLINK)
 }
 
-// fg: BLUE(is_light: false) bg: GREEN style: BLINK
+// fg: blue, bg: green, style: blink
 func PBlueBgGreenBlink(txt string) string {
 	return P(txt, BLUE, GREEN.Pointer(), BLINK)
 }
 
-// fg: BLUE(is_light: false) bg: YELLOW style: BLINK
+// fg: blue, bg: yellow, style: blink
 func PBlueBgYellowBlink(txt string) string {
 	return P(txt, BLUE, YELLOW.Pointer(), BLINK)
 }
 
-// fg: BLUE(is_light: false) bg: BLUE style: BLINK
+// fg: blue, bg: nil, style: blink
 func PBlueBlink(txt string) string {
 	return P(txt, BLUE, nil, BLINK)
 }
 
-// fg: BLUE(is_light: false) bg: MAGENTA style: BLINK
+// fg: blue, bg: magenta, style: blink
 func PBlueBgMagentaBlink(txt string) string {
 	return P(txt, BLUE, MAGENTA.Pointer(), BLINK)
 }
 
-// fg: BLUE(is_light: false) bg: CYAN style: BLINK
+// fg: blue, bg: cyan, style: blink
 func PBlueBgCyanBlink(txt string) string {
 	return P(txt, BLUE, CYAN.Pointer(), BLINK)
 }
 
-// fg: BLUE(is_light: false) bg: WHITE style: BLINK
+// fg: blue, bg: white, style: blink
 func PBlueBgWhiteBlink(txt string) string {
 	return P(txt, BLUE, WHITE.Pointer(), BLINK)
 }
 
-// fg: MAGENTA(is_light: false) bg: BLACK style: BLINK
+// fg: magenta, bg: black, style: blink
 func PMagentaBgBlackBlink(txt string) string {
 	return P(txt, MAGENTA, BLACK.Pointer(), BLINK)
 }
 
-// fg: MAGENTA(is_light: false) bg: RED style: BLINK
+// fg: magenta, bg: red, style: blink
 func PMagentaBgRedBlink(txt string) string {
 	return P(txt, MAGENTA, RED.Pointer(), BLINK)
 }
 
-// fg: MAGENTA(is_light: false) bg: GREEN style: BLINK
+// fg: magenta, bg: green, style: blink
 func PMagentaBgGreenBlink(txt string) string {
 	return P(txt, MAGENTA, GREEN.Pointer(), BLINK)
 }
 
-// fg: MAGENTA(is_light: false) bg: YELLOW style: BLINK
+// fg: magenta, bg: yellow, style: blink
 func PMagentaBgYellowBlink(txt string) string {
 	return P(txt, MAGENTA, YELLOW.Pointer(), BLINK)
 }
 
-// fg: MAGENTA(is_light: false) bg: BLUE style: BLINK
+// fg: magenta, bg: blue, style: blink
 func PMagentaBgBlueBlink(txt string) string {
 	return P(txt, MAGENTA, BLUE.Pointer(), BLINK)
 }
 
-// fg: MAGENTA(is_light: false) bg: MAGENTA style: BLINK
+// fg: magenta, bg: nil, style: blink
 func PMagentaBlink(txt string) string {
 	return P(txt, MAGENTA, nil, BLINK)
 }
 
-// fg: MAGENTA(is_light: false) bg: CYAN style: BLINK
+// fg: magenta, bg: cyan, style: blink
 func PMagentaBgCyanBlink(txt string) string {
 	return P(txt, MAGENTA, CYAN.Pointer(), BLINK)
 }
 
-// fg: MAGENTA(is_light: false) bg: WHITE style: BLINK
+// fg: magenta, bg: white, style: blink
 func PMagentaBgWhiteBlink(txt string) string {
 	return P(txt, MAGENTA, WHITE.Pointer(), BLINK)
 }
 
-// fg: CYAN(is_light: false) bg: BLACK style: BLINK
+// fg: cyan, bg: black, style: blink
 func PCyanBgBlackBlink(txt string) string {
 	return P(txt, CYAN, BLACK.Pointer(), BLINK)
 }
 
-// fg: CYAN(is_light: false) bg: RED style: BLINK
+// fg: cyan, bg: red, style: blink
 func PCyanBgRedBlink(txt string) string {
 	return P(txt, CYAN, RED.Pointer(), BLINK)
 }
 
-// fg: CYAN(is_light: false) bg: GREEN style: BLINK
+// fg: cyan, bg: green, style: blink
 func PCyanBgGreenBlink(txt string) string {
 	return P(txt, CYAN, GREEN.Pointer(), BLINK)
 }
 
-// fg: CYAN(is_light: false) bg: YELLOW style: BLINK
+// fg: cyan, bg: yellow, style: blink
 func PCyanBgYellowBlink(txt string) string {
 	return P(txt, CYAN, YELLOW.Pointer(), BLINK)
 }
 
-// fg: CYAN(is_light: false) bg: BLUE style: BLINK
+// fg: cyan, bg: blue, style: blink
 func PCyanBgBlueBlink(txt string) string {
 	return P(txt, CYAN, BLUE.Pointer(), BLINK)
 }
 
-// fg: CYAN(is_light: false) bg: MAGENTA style: BLINK
+// fg: cyan, bg: magenta, style: blink
 func PCyanBgMagentaBlink(txt string) string {
 	return P(txt, CYAN, MAGENTA.Pointer(), BLINK)
 }
 
-// fg: CYAN(is_light: false) bg: CYAN style: BLINK
+// fg: cyan, bg: nil, style: blink
 func PCyanBlink(txt string) string {
 	return P(txt, CYAN, nil, BLINK)
 }
 
-// fg: CYAN(is_light: false) bg: WHITE style: BLINK
+// fg: cyan, bg: white, style: blink
 func PCyanBgWhiteBlink(txt string) string {
 	return P(txt, CYAN, WHITE.Pointer(), BLINK)
 }
 
-// fg: WHITE(is_light: false) bg: BLACK style: BLINK
+// fg: white, bg: black, style: blink
 func PWhiteBgBlackBlink(txt string) string {
 	return P(txt, WHITE, BLACK.Pointer(), BLINK)
 }
 
-// fg: WHITE(is_light: false) bg: RED style: BLINK
+// fg: white, bg: red, style: blink
 func PWhiteBgRedBlink(txt string) string {
 	return P(txt, WHITE, RED.Pointer(), BLINK)
 }
 
-// fg: WHITE(is_light: false) bg: GREEN style: BLINK
+// fg: white, bg: green, style: blink
 func PWhiteBgGreenBlink(txt string) string {
 	return P(txt, WHITE, GREEN.Pointer(), BLINK)
 }
 
-// fg: WHITE(is_light: false) bg: YELLOW style: BLINK
+// fg: white, bg: yellow, style: blink
 func PWhiteBgYellowBlink(txt string) string {
 	return P(txt, WHITE, YELLOW.Pointer(), BLINK)
 }
 
-// fg: WHITE(is_light: false) bg: BLUE style: BLINK
+// fg: white, bg: blue, style: blink
 func PWhiteBgBlueBlink(txt string) string {
 	return P(txt, WHITE, BLUE.Pointer(), BLINK)
 }
 
-// fg: WHITE(is_light: false) bg: MAGENTA style: BLINK
+// fg: white, bg: magenta, style: blink
 func PWhiteBgMagentaBlink(txt string) string {
 	return P(txt, WHITE, MAGENTA.Pointer(), BLINK)
 }
 
-// fg: WHITE(is_light: false) bg: CYAN style: BLINK
+// fg: white, bg: cyan, style: blink
 func PWhiteBgCyanBlink(txt string) string {
 	return P(txt, WHITE, CYAN.Pointer(), BLINK)
 }
 
-// fg: WHITE(is_light: false) bg: WHITE style: BLINK
+// fg: white, bg: nil, style: blink
 func PWhiteBlink(txt string) string {
 	return P(txt, WHITE, nil, BLINK)
 }
 
-// fg: BLACK(is_light: true) bg: BLACK style: nil
+// fg: light black, bg: nil, style: nil
 func PLBlack(txt string) string {
 	return P(txt, BLACK.L(), nil)
 }
 
-// fg: BLACK(is_light: true) bg: RED style: nil
+// fg: light black, bg: red, style: nil
 func PLBlackBgRed(txt string) string {
 	return P(txt, BLACK.L(), RED.Pointer())
 }
 
-// fg: BLACK(is_light: true) bg: GREEN style: nil
+// fg: light black, bg: green, style: nil
 func PLBlackBgGreen(txt string) string {
 	return P(txt, BLACK.L(), GREEN.Pointer())
 }
 
-// fg: BLACK(is_light: true) bg: YELLOW style: nil
+// fg: light black, bg: yellow, style: nil
 func PLBlackBgYellow(txt string) string {
 	return P(txt, BLACK.L(), YELLOW.Pointer())
 }
 
-// fg: BLACK(is_light: true) bg: BLUE style: nil
+// fg: light black, bg: blue, style: nil
 func PLBlackBgBlue(txt string) string {
 	return P(txt, BLACK.L(), BLUE.Pointer())
 }
 
-// fg: BLACK(is_light: true) bg: MAGENTA style: nil
+// fg: light black, bg: magenta, style: nil
 func PLBlackBgMagenta(txt string) string {
 	return P(txt, BLACK.L(), MAGENTA.Pointer())
 }
 
-// fg: BLACK(is_light: true) bg: CYAN style: nil
+// fg: light black, bg: cyan, style: nil
 func PLBlackBgCyan(txt string) string {
 	return P(txt, BLACK.L(), CYAN.Pointer())
 }
 
-// fg: BLACK(is_light: true) bg: WHITE style: nil
+// fg: light black, bg: white, style: nil
 func PLBlackBgWhite(txt string) string {
 	return P(txt, BLACK.L(), WHITE.Pointer())
 }
 
-// fg: RED(is_light: true) bg: BLACK style: nil
+// fg: light red, bg: black, style: nil
 func PLRedBgBlack(txt string) string {
 	return P(txt, RED.L(), BLACK.Pointer())
 }
 
-// fg: RED(is_light: true) bg: RED style: nil
+// fg: light red, bg: nil, style: nil
 func PLRed(txt string) string {
 	return P(txt, RED.L(), nil)
 }
 
-// fg: RED(is_light: true) bg: GREEN style: nil
+// fg: light red, bg: green, style: nil
 func PLRedBgGreen(txt string) string {
 	return P(txt, RED.L(), GREEN.Pointer())
 }
 
-// fg: RED(is_light: true) bg: YELLOW style: nil
+// fg: light red, bg: yellow, style: nil
 func PLRedBgYellow(txt string) string {
 	return P(txt, RED.L(), YELLOW.Pointer())
 }
 
-// fg: RED(is_light: true) bg: BLUE style: nil
+// fg: light red, bg: blue, style: nil
 func PLRedBgBlue(txt string) string {
 	return P(txt, RED.L(), BLUE.Pointer())
 }
 
-// fg: RED(is_light: true) bg: MAGENTA style: nil
+// fg: light red, bg: magenta, style: nil
 func PLRedBgMagenta(txt string) string {
 	return P(txt, RED.L(), MAGENTA.Pointer())
 }
 
-// fg: RED(is_light: true) bg: CYAN style: nil
+// fg: light red, bg: cyan, style: nil
 func PLRedBgCyan(txt string) string {
 	return P(txt, RED.L(), CYAN.Pointer())
 }
 
-// fg: RED(is_light: true) bg: WHITE style: nil
+// fg: light red, bg: white, style: nil
 func PLRedBgWhite(txt string) string {
 	return P(txt, RED.L(), WHITE.Pointer())
 }
 
-// fg: GREEN(is_light: true) bg: BLACK style: nil
+// fg: light green, bg: black, style: nil
 func PLGreenBgBlack(txt string) string {
 	return P(txt, GREEN.L(), BLACK.Pointer())
 }
 
-// fg: GREEN(is_light: true) bg: RED style: nil
+// fg: light green, bg: red, style: nil
 func PLGreenBgRed(txt string) string {
 	return P(txt, GREEN.L(), RED.Pointer())
 }
 
-// fg: GREEN(is_light: true) bg: GREEN style: nil
+// fg: light green, bg: nil, style: nil
 func PLGreen(txt string) string {
 	return P(txt, GREEN.L(), nil)
 }
 
-// fg: GREEN(is_light: true) bg: YELLOW style: nil
+// fg: light green, bg: yellow, style: nil
 func PLGreenBgYellow(txt string) string {
 	return P(txt, GREEN.L(), YELLOW.Pointer())
 }
 
-// fg: GREEN(is_light: true) bg: BLUE style: nil
+// fg: light green, bg: blue, style: nil
 func PLGreenBgBlue(txt string) string {
 	return P(txt, GREEN.L(), BLUE.Pointer())
 }
 
-// fg: GREEN(is_light: true) bg: MAGENTA style: nil
+// fg: light green, bg: magenta, style: nil
 func PLGreenBgMagenta(txt string) string {
 	return P(txt, GREEN.L(), MAGENTA.Pointer())
 }
 
-// fg: GREEN(is_light: true) bg: CYAN style: nil
+// fg: light green, bg: cyan, style: nil
 func PLGreenBgCyan(txt string) string {
 	return P(txt, GREEN.L(), CYAN.Pointer())
 }
 
-// fg: GREEN(is_light: true) bg: WHITE style: nil
+// fg: light green, bg: white, style: nil
 func PLGreenBgWhite(txt string) string {
 	return P(txt, GREEN.L(), WHITE.Pointer())
 }
 
-// fg: YELLOW(is_light: true) bg: BLACK style: nil
+// fg: light yellow, bg: black, style: nil
 func PLYellowBgBlack(txt string) string {
 	return P(txt, YELLOW.L(), BLACK.Pointer())
 }
 
-// fg: YELLOW(is_light: true) bg: RED style: nil
+// fg: light yellow, bg: red, style: nil
 func PLYellowBgRed(txt string) string {
 	return P(txt, YELLOW.L(), RED.Pointer())
 }
 
-// fg: YELLOW(is_light: true) bg: GREEN style: nil
+// fg: light yellow, bg: green, style: nil
 func PLYellowBgGreen(txt string) string {
 	return P(txt, YELLOW.L(), GREEN.Pointer())
 }
 
-// fg: YELLOW(is_light: true) bg: YELLOW style: nil
+// fg: light yellow, bg: nil, style: nil
 func PLYellow(txt string) string {
 	return P(txt, YELLOW.L(), nil)
 }
 
-// fg: YELLOW(is_light: true) bg: BLUE style: nil
+// fg: light yellow, bg: blue, style: nil
 func PLYellowBgBlue(txt string) string {
 	return P(txt, YELLOW.L(), BLUE.Pointer())
 }
 
-// fg: YELLOW(is_light: true) bg: MAGENTA style: nil
+// fg: light yellow, bg: magenta, style: nil
 func PLYellowBgMagenta(txt string) string {
 	return P(txt, YELLOW.L(), MAGENTA.Pointer())
 }
 
-// fg: YELLOW(is_light: true) bg: CYAN style: nil
+// fg: light yellow, bg: cyan, style: nil
 func PLYellowBgCyan(txt string) string {
 	return P(txt, YELLOW.L(), CYAN.Pointer())
 }
 
-// fg: YELLOW(is_light: true) bg: WHITE style: nil
+// fg: light yellow, bg: white, style: nil
 func PLYellowBgWhite(txt string) string {
 	return P(txt, YELLOW.L(), WHITE.Pointer())
 }
 
-// fg: BLUE(is_light: true) bg: BLACK style: nil
+// fg: light blue, bg: black, style: nil
 func PLBlueBgBlack(txt string) string {
 	return P(txt, BLUE.L(), BLACK.Pointer())
 }
 
-// fg: BLUE(is_light: true) bg: RED style: nil
+// fg: light blue, bg: red, style: nil
 func PLBlueBgRed(txt string) string {
 	return P(txt, BLUE.L(), RED.Pointer())
 }
 
-// fg: BLUE(is_light: true) bg: GREEN style: nil
+// fg: light blue, bg: green, style: nil
 func PLBlueBgGreen(txt string) string {
 	return P(txt, BLUE.L(), GREEN.Pointer())
 }
 
-// fg: BLUE(is_light: true) bg: YELLOW style: nil
+// fg: light blue, bg: yellow, style: nil
 func PLBlueBgYellow(txt string) string {
 	return P(txt, BLUE.L(), YELLOW.Pointer())
 }
 
-// fg: BLUE(is_light: true) bg: BLUE style: nil
+// fg: light blue, bg: nil, style: nil
 func PLBlue(txt string) string {
 	return P(txt, BLUE.L(), nil)
 }
 
-// fg: BLUE(is_light: true) bg: MAGENTA style: nil
+// fg: light blue, bg: magenta, style: nil
 func PLBlueBgMagenta(txt string) string {
 	return P(txt, BLUE.L(), MAGENTA.Pointer())
 }
 
-// fg: BLUE(is_light: true) bg: CYAN style: nil
+// fg: light blue, bg: cyan, style: nil
 func PLBlueBgCyan(txt string) string {
 	return P(txt, BLUE.L(), CYAN.Pointer())
 }
 
-// fg: BLUE(is_light: true) bg: WHITE style: nil
+// fg: light blue, bg: white, style: nil
 func PLBlueBgWhite(txt string) string {
 	return P(txt, BLUE.L(), WHITE.Pointer())
 }
 
-// fg: MAGENTA(is_light: true) bg: BLACK style: nil
+// fg: light magenta, bg: black, style: nil
 func PLMagentaBgBlack(txt string) string {
 	return P(txt, MAGENTA.L(), BLACK.Pointer())
 }
 
-// fg: MAGENTA(is_light: true) bg: RED style: nil
+// fg: light magenta, bg: red, style: nil
 func PLMagentaBgRed(txt string) string {
 	return P(txt, MAGENTA.L(), RED.Pointer())
 }
 
-// fg: MAGENTA(is_light: true) bg: GREEN style: nil
+// fg: light magenta, bg: green, style: nil
 func PLMagentaBgGreen(txt string) string {
 	return P(txt, MAGENTA.L(), GREEN.Pointer())
 }
 
-// fg: MAGENTA(is_light: true) bg: YELLOW style: nil
+// fg: light magenta, bg: yellow, style: nil
 func PLMagentaBgYellow(txt string) string {
 	return P(txt, MAGENTA.L(), YELLOW.Pointer())
 }
 
-// fg: MAGENTA(is_light: true) bg: BLUE style: nil
+// fg: light magenta, bg: blue, style: nil
 func PLMagentaBgBlue(txt string) string {
 	return P(txt, MAGENTA.L(), BLUE.Pointer())
 }
 
-// fg: MAGENTA(is_light: true) bg: MAGENTA style: nil
+// fg: light magenta, bg: nil, style: nil
 func PLMagenta(txt string) string {
 	return P(txt, MAGENTA.L(), nil)
 }
 
-// fg: MAGENTA(is_light: true) bg: CYAN style: nil
+// fg: light magenta, bg: cyan, style: nil
 func PLMagentaBgCyan(txt string) string {
 	return P(txt, MAGENTA.L(), CYAN.Pointer())
 }
 
-// fg: MAGENTA(is_light: true) bg: WHITE style: nil
+// fg: light magenta, bg: white, style: nil
 func PLMagentaBgWhite(txt string) string {
 	return P(txt, MAGENTA.L(), WHITE.Pointer())
 }
 
-// fg: CYAN(is_light: true) bg: BLACK style: nil
+// fg: light cyan, bg: black, style: nil
 func PLCyanBgBlack(txt string) string {
 	return P(txt, CYAN.L(), BLACK.Pointer())
 }
 
-// fg: CYAN(is_light: true) bg: RED style: nil
+// fg: light cyan, bg: red, style: nil
 func PLCyanBgRed(txt string) string {
 	return P(txt, CYAN.L(), RED.Pointer())
 }
 
-// fg: CYAN(is_light: true) bg: GREEN style: nil
+// fg: light cyan, bg: green, style: nil
 func PLCyanBgGreen(txt string) string {
 	return P(txt, CYAN.L(), GREEN.Pointer())
 }
 
-// fg: CYAN(is_light: true) bg: YELLOW style: nil
+// fg: light cyan, bg: yellow, style: nil
 func PLCyanBgYellow(txt string) string {
 	return P(txt, CYAN.L(), YELLOW.Pointer())
 }
 
-// fg: CYAN(is_light: true) bg: BLUE style: nil
+// fg: light cyan, bg: blue, style: nil
 func PLCyanBgBlue(txt string) string {
 	return P(txt, CYAN.L(), BLUE.Pointer())
 }
 
-// fg: CYAN(is_light: true) bg: MAGENTA style: nil
+// fg: light cyan, bg: magenta, style: nil
 func PLCyanBgMagenta(txt string) string {
 	return P(txt, CYAN.L(), MAGENTA.Pointer())
 }
 
-// fg: CYAN(is_light: true) bg: CYAN style: nil
+// fg: light cyan, bg: nil, style: nil
 func PLCyan(txt string) string {
 	return P(txt, CYAN.L(), nil)
 }
 
-// fg: CYAN(is_light: true) bg: WHITE style: nil
+// fg: light cyan, bg: white, style: nil
 func PLCyanBgWhite(txt string) string {
 	return P(txt, CYAN.L(), WHITE.Pointer())
 }
 
-// fg: WHITE(is_light: true) bg: BLACK style: nil
+// fg: light white, bg: black, style: nil
 func PLWhiteBgBlack(txt string) string {
 	return P(txt, WHITE.L(), BLACK.Pointer())
 }
 
-// fg: WHITE(is_light: true) bg: RED style: nil
+// fg: light white, bg: red, style: nil
 func PLWhiteBgRed(txt string) string {
 	return P(txt, WHITE.L(), RED.Pointer())
 }
 
-// fg: WHITE(is_light: true) bg: GREEN style: nil
+// fg: light white, bg: green, style: nil
 func PLWhiteBgGreen(txt string) string {
 	return P(txt, WHITE.L(), GREEN.Pointer())
 }
 
-// fg: WHITE(is_light: true) bg: YELLOW style: nil
+// fg: light white, bg: yellow, style: nil
 func PLWhiteBgYellow(txt string) string {
 	return P(txt, WHITE.L(), YELLOW.Pointer())
 }
 
-// fg: WHITE(is_light: true) bg: BLUE style: nil
+// fg: light white, bg: blue, style: nil
 func PLWhiteBgBlue(txt string) string {
 	return P(txt, WHITE.L(), BLUE.Pointer())
 }
 
-// fg: WHITE(is_light: true) bg: MAGENTA style: nil
+// fg: light white, bg: magenta, style: nil
 func PLWhiteBgMagenta(txt string) string {
 	return P(txt, WHITE.L(), MAGENTA.Pointer())
 }
 
-// fg: WHITE(is_light: true) bg: CYAN style: nil
+// fg: light white, bg: cyan, style: nil
 func PLWhiteBgCyan(txt string) string {
 	return P(txt, WHITE.L(), CYAN.Pointer())
 }
 
-// fg: WHITE(is_light: true) bg: WHITE style: nil
+// fg: light white, bg: nil, style: nil
 func PLWhite(txt string) string {
 	return P(txt, WHITE.L(), nil)
 }
 
-// fg: BLACK(is_light: true) bg: BLACK style: BOLD
+// fg: light black, bg: nil, style: bold
 func PLBlackBold(txt string) string {
 	return P(txt, BLACK.L(), nil, BOLD)
 }
 
-// fg: BLACK(is_light: true) bg: RED style: BOLD
+// fg: light black, bg: red, style: bold
 func PLBlackBgRedBold(txt string) string {
 	return P(txt, BLACK.L(), RED.Pointer(), BOLD)
 }
 
-// fg: BLACK(is_light: true) bg: GREEN style: BOLD
+// fg: light black, bg: green, style: bold
 func PLBlackBgGreenBold(txt string) string {
 	return P(txt, BLACK.L(), GREEN.Pointer(), BOLD)
 }
 
-// fg: BLACK(is_light: true) bg: YELLOW style: BOLD
+// fg: light black, bg: yellow, style: bold
 func PLBlackBgYellowBold(txt string) string {
 	return P(txt, BLACK.L(), YELLOW.Pointer(), BOLD)
 }
 
-// fg: BLACK(is_light: true) bg: BLUE style: BOLD
+// fg: light black, bg: blue, style: bold
 func PLBlackBgBlueBold(txt string) string {
 	return P(txt, BLACK.L(), BLUE.Pointer(), BOLD)
 }
 
-// fg: BLACK(is_light: true) bg: MAGENTA style: BOLD
+// fg: light black, bg: magenta, style: bold
 func PLBlackBgMagentaBold(txt string) string {
 	return P(txt, BLACK.L(), MAGENTA.Pointer(), BOLD)
 }
 
-// fg: BLACK(is_light: true) bg: CYAN style: BOLD
+// fg: light black, bg: cyan, style: bold
 func PLBlackBgCyanBold(txt string) string {
 	return P(txt, BLACK.L(), CYAN.Pointer(), BOLD)
 }
 
-// fg: BLACK(is_light: true) bg: WHITE style: BOLD
+// fg: light black, bg: white, style: bold
 func PLBlackBgWhiteBold(txt string) string {
 	return P(txt, BLACK.L(), WHITE.Pointer(), BOLD)
 }
 
-// fg: RED(is_light: true) bg: BLACK style: BOLD
+// fg: light red, bg: black, style: bold
 func PLRedBgBlackBold(txt string) string {
 	return P(txt, RED.L(), BLACK.Pointer(), BOLD)
 }
 
-// fg: RED(is_light: true) bg: RED style: BOLD
+// fg: light red, bg: nil, style: bold
 func PLRedBold(txt string) string {
 	return P(txt, RED.L(), nil, BOLD)
 }
 
-// fg: RED(is_light: true) bg: GREEN style: BOLD
+// fg: light red, bg: green, style: bold
 func PLRedBgGreenBold(txt string) string {
 	return P(txt, RED.L(), GREEN.Pointer(), BOLD)
 }
 
-// fg: RED(is_light: true) bg: YELLOW style: BOLD
+// fg: light red, bg: yellow, style: bold
 func PLRedBgYellowBold(txt string) string {
 	return P(txt, RED.L(), YELLOW.Pointer(), BOLD)
 }
 
-// fg: RED(is_light: true) bg: BLUE style: BOLD
+// fg: light red, bg: blue, style: bold
 func PLRedBgBlueBold(txt string) string {
 	return P(txt, RED.L(), BLUE.Pointer(), BOLD)
 }
 
-// fg: RED(is_light: true) bg: MAGENTA style: BOLD
+// fg: light red, bg: magenta, style: bold
 func PLRedBgMagentaBold(txt string) string {
 	return P(txt, RED.L(), MAGENTA.Pointer(), BOLD)
 }
 
-// fg: RED(is_light: true) bg: CYAN style: BOLD
+// fg: light red, bg: cyan, style: bold
 func PLRedBgCyanBold(txt string) string {
 	return P(txt, RED.L(), CYAN.Pointer(), BOLD)
 }
 
-// fg: RED(is_light: true) bg: WHITE style: BOLD
+// fg: light red, bg: white, style: bold
 func PLRedBgWhiteBold(txt string) string {
 	return P(txt, RED.L(), WHITE.Pointer(), BOLD)
 }
 
-// fg: GREEN(is_light: true) bg: BLACK style: BOLD
+// fg: light green, bg: black, style: bold
 func PLGreenBgBlackBold(txt string) string {
 	return P(txt, GREEN.L(), BLACK.Pointer(), BOLD)
 }
 
-// fg: GREEN(is_light: true) bg: RED style: BOLD
+// fg: light green, bg: red, style: bold
 func PLGreenBgRedBold(txt string) string {
 	return P(txt, GREEN.L(), RED.Pointer(), BOLD)
 }
 
-// fg: GREEN(is_light: true) bg: GREEN style: BOLD
+// fg: light green, bg: nil, style: bold
 func PLGreenBold(txt string) string {
 	return P(txt, GREEN.L(), nil, BOLD)
 }
 
-// fg: GREEN(is_light: true) bg: YELLOW style: BOLD
+// fg: light green, bg: yellow, style: bold
 func PLGreenBgYellowBold(txt string) string {
 	return P(txt, GREEN.L(), YELLOW.Pointer(), BOLD)
 }
 
-// fg: GREEN(is_light: true) bg: BLUE style: BOLD
+// fg: light green, bg: blue, style: bold
 func PLGreenBgBlueBold(txt string) string {
 	return P(txt, GREEN.L(), BLUE.Pointer(), BOLD)
 }
 
-// fg: GREEN(is_light: true) bg: MAGENTA style: BOLD
+// fg: light green, bg: magenta, style: bold
 func PLGreenBgMagentaBold(txt string) string {
 	return P(txt, GREEN.L(), MAGENTA.Pointer(), BOLD)
 }
 
-// fg: GREEN(is_light: true) bg: CYAN style: BOLD
+// fg: light green, bg: cyan, style: bold
 func PLGreenBgCyanBold(txt string) string {
 	return P(txt, GREEN.L(), CYAN.Pointer(), BOLD)
 }
 
-// fg: GREEN(is_light: true) bg: WHITE style: BOLD
+// fg: light green, bg: white, style: bold
 func PLGreenBgWhiteBold(txt string) string {
 	return P(txt, GREEN.L(), WHITE.Pointer(), BOLD)
 }
 
-// fg: YELLOW(is_light: true) bg: BLACK style: BOLD
+// fg: light yellow, bg: black, style: bold
 func PLYellowBgBlackBold(txt string) string {
 	return P(txt, YELLOW.L(), BLACK.Pointer(), BOLD)
 }
 
-// fg: YELLOW(is_light: true) bg: RED style: BOLD
+// fg: light yellow, bg: red, style: bold
 func PLYellowBgRedBold(txt string) string {
 	return P(txt, YELLOW.L(), RED.Pointer(), BOLD)
 }
 
-// fg: YELLOW(is_light: true) bg: GREEN style: BOLD
+// fg: light yellow, bg: green, style: bold
 func PLYellowBgGreenBold(txt string) string {
 	return P(txt, YELLOW.L(), GREEN.Pointer(), BOLD)
 }
 
-// fg: YELLOW(is_light: true) bg: YELLOW style: BOLD
+// fg: light yellow, bg: nil, style: bold
 func PLYellowBold(txt string) string {
 	return P(txt, YELLOW.L(), nil, BOLD)
 }
 
-// fg: YELLOW(is_light: true) bg: BLUE style: BOLD
+// fg: light yellow, bg: blue, style: bold
 func PLYellowBgBlueBold(txt string) string {
 	return P(txt, YELLOW.L(), BLUE.Pointer(), BOLD)
 }
 
-// fg: YELLOW(is_light: true) bg: MAGENTA style: BOLD
+// fg: light yellow, bg: magenta, style: bold
 func PLYellowBgMagentaBold(txt string) string {
 	return P(txt, YELLOW.L(), MAGENTA.Pointer(), BOLD)
 }
 
-// fg: YELLOW(is_light: true) bg: CYAN style: BOLD
+// fg: light yellow, bg: cyan, style: bold
 func PLYellowBgCyanBold(txt string) string {
 	return P(txt, YELLOW.L(), CYAN.Pointer(), BOLD)
 }
 
-// fg: YELLOW(is_light: true) bg: WHITE style: BOLD
+// fg: light yellow, bg: white, style: bold
 func PLYellowBgWhiteBold(txt string) string {
 	return P(txt, YELLOW.L(), WHITE.Pointer(), BOLD)
 }
 
-// fg: BLUE(is_light: true) bg: BLACK style: BOLD
+// fg: light blue, bg: black, style: bold
 func PLBlueBgBlackBold(txt string) string {
 	return P(txt, BLUE.L(), BLACK.Pointer(), BOLD)
 }
 
-// fg: BLUE(is_light: true) bg: RED style: BOLD
+// fg: light blue, bg: red, style: bold
 func PLBlueBgRedBold(txt string) string {
 	return P(txt, BLUE.L(), RED.Pointer(), BOLD)
 }
 
-// fg: BLUE(is_light: true) bg: GREEN style: BOLD
+// fg: light blue, bg: green, style: bold
 func PLBlueBgGreenBold(txt string) string {
 	return P(txt, BLUE.L(), GREEN.Pointer(), BOLD)
 }
 
-// fg: BLUE(is_light: true) bg: YELLOW style: BOLD
+// fg: light blue, bg: yellow, style: bold
 func PLBlueBgYellowBold(txt string) string {
 	return P(txt, BLUE.L(), YELLOW.Pointer(), BOLD)
 }
 
-// fg: BLUE(is_light: true) bg: BLUE style: BOLD
+// fg: light blue, bg: nil, style: bold
 func PLBlueBold(txt string) string {
 	return P(txt, BLUE.L(), nil, BOLD)
 }
 
-// fg: BLUE(is_light: true) bg: MAGENTA style: BOLD
+// fg: light blue, bg: magenta, style: bold
 func PLBlueBgMagentaBold(txt string) string {
 	return P(txt, BLUE.L(), MAGENTA.Pointer(), BOLD)
 }
 
-// fg: BLUE(is_light: true) bg: CYAN style: BOLD
+// fg: light blue, bg: cyan, style: bold
 func PLBlueBgCyanBold(txt string) string {
 	return P(txt, BLUE.L(), CYAN.Pointer(), BOLD)
 }
 
-// fg: BLUE(is_light: true) bg: WHITE style: BOLD
+// fg: light blue, bg: white, style: bold
 func PLBlueBgWhiteBold(txt string) string {
 	return P(txt, BLUE.L(), WHITE.Pointer(), BOLD)
 }
 
-// fg: MAGENTA(is_light: true) bg: BLACK style: BOLD
+// fg: light magenta, bg: black, style: bold
 func PLMagentaBgBlackBold(txt string) string {
 	return P(txt, MAGENTA.L(), BLACK.Pointer(), BOLD)
 }
 
-// fg: MAGENTA(is_light: true) bg: RED style: BOLD
+// fg: light magenta, bg: red, style: bold
 func PLMagentaBgRedBold(txt string) string {
 	return P(txt, MAGENTA.L(), RED.Pointer(), BOLD)
 }
 
-// fg: MAGENTA(is_light: true) bg: GREEN style: BOLD
+// fg: light magenta, bg: green, style: bold
 func PLMagentaBgGreenBold(txt string) string {
 	return P(txt, MAGENTA.L(), GREEN.Pointer(), BOLD)
 }
 
-// fg: MAGENTA(is_light: true) bg: YELLOW style: BOLD
+// fg: light magenta, bg: yellow, style: bold
 func PLMagentaBgYellowBold(txt string) string {
 	return P(txt, MAGENTA.L(), YELLOW.Pointer(), BOLD)
 }
 
-// fg: MAGENTA(is_light: true) bg: BLUE style: BOLD
+// fg: light magenta, bg: blue, style: bold
 func PLMagentaBgBlueBold(txt string) string {
 	return P(txt, MAGENTA.L(), BLUE.Pointer(), BOLD)
 }
 
-// fg: MAGENTA(is_light: true) bg: MAGENTA style: BOLD
+// fg: light magenta, bg: nil, style: bold
 func PLMagentaBold(txt string) string {
 	return P(txt, MAGENTA.L(), nil, BOLD)
 }
 
-// fg: MAGENTA(is_light: true) bg: CYAN style: BOLD
+// fg: light magenta, bg: cyan, style: bold
 func PLMagentaBgCyanBold(txt string) string {
 	return P(txt, MAGENTA.L(), CYAN.Pointer(), BOLD)
 }
 
-// fg: MAGENTA(is_light: true) bg: WHITE style: BOLD
+// fg: light magenta, bg: white, style: bold
 func PLMagentaBgWhiteBold(txt string) string {
 	return P(txt, MAGENTA.L(), WHITE.Pointer(), BOLD)
 }
 
-// fg: CYAN(is_light: true) bg: BLACK style: BOLD
+// fg: light cyan, bg: black, style: bold
 func PLCyanBgBlackBold(txt string) string {
 	return P(txt, CYAN.L(), BLACK.Pointer(), BOLD)
 }
 
-// fg: CYAN(is_light: true) bg: RED style: BOLD
+// fg: light cyan, bg: red, style: bold
 func PLCyanBgRedBold(txt string) string {
 	return P(txt, CYAN.L(), RED.Pointer(), BOLD)
 }
 
-// fg: CYAN(is_light: true) bg: GREEN style: BOLD
+// fg: light cyan, bg: green, style: bold
 func PLCyanBgGreenBold(txt string) string {
 	return P(txt, CYAN.L(), GREEN.Pointer(), BOLD)
 }
 
-// fg: CYAN(is_light: true) bg: YELLOW style: BOLD
+// fg: light cyan, bg: yellow, style: bold
 func PLCyanBgYellowBold(txt string) string {
 	return P(txt, CYAN.L(), YELLOW.Pointer(), BOLD)
 }
 
-// fg: CYAN(is_light: true) bg: BLUE style: BOLD
+// fg: light cyan, bg: blue, style: bold
 func PLCyanBgBlueBold(txt string) string {
 	return P(txt, CYAN.L(), BLUE.Pointer(), BOLD)
 }
 
-// fg: CYAN(is_light: true) bg: MAGENTA style: BOLD
+// fg: light cyan, bg: magenta, style: bold
 func PLCyanBgMagentaBold(txt string) string {
 	return P(txt, CYAN.L(), MAGENTA.Pointer(), BOLD)
 }
 
-// fg: CYAN(is_light: true) bg: CYAN style: BOLD
+// fg: light cyan, bg: nil, style: bold
 func PLCyanBold(txt string) string {
 	return P(txt, CYAN.L(), nil, BOLD)
 }
 
-// fg: CYAN(is_light: true) bg: WHITE style: BOLD
+// fg: light cyan, bg: white, style: bold
 func PLCyanBgWhiteBold(txt string) string {
 	return P(txt, CYAN.L(), WHITE.Pointer(), BOLD)
 }
 
-// fg: WHITE(is_light: true) bg: BLACK style: BOLD
+// fg: light white, bg: black, style: bold
 func PLWhiteBgBlackBold(txt string) string {
 	return P(txt, WHITE.L(), BLACK.Pointer(), BOLD)
 }
 
-// fg: WHITE(is_light: true) bg: RED style: BOLD
+// fg: light white, bg: red, style: bold
 func PLWhiteBgRedBold(txt string) string {
 	return P(txt, WHITE.L(), RED.Pointer(), BOLD)
 }
 
-// fg: WHITE(is_light: true) bg: GREEN style: BOLD
+// fg: light white, bg: green, style: bold
 func PLWhiteBgGreenBold(txt string) string {
 	return P(txt, WHITE.L(), GREEN.Pointer(), BOLD)
 }
 
-// fg: WHITE(is_light: true) bg: YELLOW style: BOLD
+// fg: light white, bg: yellow, style: bold
 func PLWhiteBgYellowBold(txt string) string {
 	return P(txt, WHITE.L(), YELLOW.Pointer(), BOLD)
 }
 
-// fg: WHITE(is_light: true) bg: BLUE style: BOLD
+// fg: light white, bg: blue, style: bold
 func PLWhiteBgBlueBold(txt string) string {
 	return P(txt, WHITE.L(), BLUE.Pointer(), BOLD)
 }
 
-// fg: WHITE(is_light: true) bg: MAGENTA style: BOLD
+// fg: light white, bg: magenta, style: bold
 func PLWhiteBgMagentaBold(txt string) string {
 	return P(txt, WHITE.L(), MAGENTA.Pointer(), BOLD)
 }
 
-// fg: WHITE(is_light: true) bg: CYAN style: BOLD
+// fg: light white, bg: cyan, style: bold
 func PLWhiteBgCyanBold(txt string) string {
 	return P(txt, WHITE.L(), CYAN.Pointer(), BOLD)
 }
 
-// fg: WHITE(is_light: true) bg: WHITE style: BOLD
+// fg: light white, bg: nil, style: bold
 func PLWhiteBold(txt string) string {
 	return P(txt, WHITE.L(), nil, BOLD)
 }
 
-// fg: BLACK(is_light: true) bg: BLACK style: FAINT
+// fg: light black, bg: nil, style: faint
 func PLBlackFaint(txt string) string {
 	return P(txt, BLACK.L(), nil, FAINT)
 }
 
-// fg: BLACK(is_light: true) bg: RED style: FAINT
+// fg: light black, bg: red, style: faint
 func PLBlackBgRedFaint(txt string) string {
 	return P(txt, BLACK.L(), RED.Pointer(), FAINT)
 }
 
-// fg: BLACK(is_light: true) bg: GREEN style: FAINT
+// fg: light black, bg: green, style: faint
 func PLBlackBgGreenFaint(txt string) string {
 	return P(txt, BLACK.L(), GREEN.Pointer(), FAINT)
 }
 
-// fg: BLACK(is_light: true) bg: YELLOW style: FAINT
+// fg: light black, bg: yellow, style: faint
 func PLBlackBgYellowFaint(txt string) string {
 	return P(txt, BLACK.L(), YELLOW.Pointer(), FAINT)
 }
 
-// fg: BLACK(is_light: true) bg: BLUE style: FAINT
+// fg: light black, bg: blue, style: faint
 func PLBlackBgBlueFaint(txt string) string {
 	return P(txt, BLACK.L(), BLUE.Pointer(), FAINT)
 }
 
-// fg: BLACK(is_light: true) bg: MAGENTA style: FAINT
+// fg: light black, bg: magenta, style: faint
 func PLBlackBgMagentaFaint(txt string) string {
 	return P(txt, BLACK.L(), MAGENTA.Pointer(), FAINT)
 }
 
-// fg: BLACK(is_light: true) bg: CYAN style: FAINT
+// fg: light black, bg: cyan, style: faint
 func PLBlackBgCyanFaint(txt string) string {
 	return P(txt, BLACK.L(), CYAN.Pointer(), FAINT)
 }
 
-// fg: BLACK(is_light: true) bg: WHITE style: FAINT
+// fg: light black, bg: white, style: faint
 func PLBlackBgWhiteFaint(txt string) string {
 	return P(txt, BLACK.L(), WHITE.Pointer(), FAINT)
 }
 
-// fg: RED(is_light: true) bg: BLACK style: FAINT
+// fg: light red, bg: black, style: faint
 func PLRedBgBlackFaint(txt string) string {
 	return P(txt, RED.L(), BLACK.Pointer(), FAINT)
 }
 
-// fg: RED(is_light: true) bg: RED style: FAINT
+// fg: light red, bg: nil, style: faint
 func PLRedFaint(txt string) string {
 	return P(txt, RED.L(), nil, FAINT)
 }
 
-// fg: RED(is_light: true) bg: GREEN style: FAINT
+// fg: light red, bg: green, style: faint
 func PLRedBgGreenFaint(txt string) string {
 	return P(txt, RED.L(), GREEN.Pointer(), FAINT)
 }
 
-// fg: RED(is_light: true) bg: YELLOW style: FAINT
+// fg: light red, bg: yellow, style: faint
 func PLRedBgYellowFaint(txt string) string {
 	return P(txt, RED.L(), YELLOW.Pointer(), FAINT)
 }
 
-// fg: RED(is_light: true) bg: BLUE style: FAINT
+// fg: light red, bg: blue, style: faint
 func PLRedBgBlueFaint(txt string) string {
 	return P(txt, RED.L(), BLUE.Pointer(), FAINT)
 }
 
-// fg: RED(is_light: true) bg: MAGENTA style: FAINT
+// fg: light red, bg: magenta, style: faint
 func PLRedBgMagentaFaint(txt string) string {
 	return P(txt, RED.L(), MAGENTA.Pointer(), FAINT)
 }
 
-// fg: RED(is_light: true) bg: CYAN style: FAINT
+// fg: light red, bg: cyan, style: faint
 func PLRedBgCyanFaint(txt string) string {
 	return P(txt, RED.L(), CYAN.Pointer(), FAINT)
 }
 
-// fg: RED(is_light: true) bg: WHITE style: FAINT
+// fg: light red, bg: white, style: faint
 func PLRedBgWhiteFaint(txt string) string {
 	return P(txt, RED.L(), WHITE.Pointer(), FAINT)
 }
 
-// fg: GREEN(is_light: true) bg: BLACK style: FAINT
+// fg: light green, bg: black, style: faint
 func PLGreenBgBlackFaint(txt string) string {
 	return P(txt, GREEN.L(), BLACK.Pointer(), FAINT)
 }
 
-// fg: GREEN(is_light: true) bg: RED style: FAINT
+// fg: light green, bg: red, style: faint
 func PLGreenBgRedFaint(txt string) string {
 	return P(txt, GREEN.L(), RED.Pointer(), FAINT)
 }
 
-// fg: GREEN(is_light: true) bg: GREEN style: FAINT
+// fg: light green, bg: nil, style: faint
 func PLGreenFaint(txt string) string {
 	return P(txt, GREEN.L(), nil, FAINT)
 }
 
-// fg: GREEN(is_light: true) bg: YELLOW style: FAINT
+// fg: light green, bg: yellow, style: faint
 func PLGreenBgYellowFaint(txt string) string {
 	return P(txt, GREEN.L(), YELLOW.Pointer(), FAINT)
 }
 
-// fg: GREEN(is_light: true) bg: BLUE style: FAINT
+// fg: light green, bg: blue, style: faint
 func PLGreenBgBlueFaint(txt string) string {
 	return P(txt, GREEN.L(), BLUE.Pointer(), FAINT)
 }
 
-// fg: GREEN(is_light: true) bg: MAGENTA style: FAINT
+// fg: light green, bg: magenta, style: faint
 func PLGreenBgMagentaFaint(txt string) string {
 	return P(txt, GREEN.L(), MAGENTA.Pointer(), FAINT)
 }
 
-// fg: GREEN(is_light: true) bg: CYAN style: FAINT
+// fg: light green, bg: cyan, style: faint
 func PLGreenBgCyanFaint(txt string) string {
 	return P(txt, GREEN.L(), CYAN.Pointer(), FAINT)
 }
 
-// fg: GREEN(is_light: true) bg: WHITE style: FAINT
+// fg: light green, bg: white, style: faint
 func PLGreenBgWhiteFaint(txt string) string {
 	return P(txt, GREEN.L(), WHITE.Pointer(), FAINT)
 }
 
-// fg: YELLOW(is_light: true) bg: BLACK style: FAINT
+// fg: light yellow, bg: black, style: faint
 func PLYellowBgBlackFaint(txt string) string {
 	return P(txt, YELLOW.L(), BLACK.Pointer(), FAINT)
 }
 
-// fg: YELLOW(is_light: true) bg: RED style: FAINT
+// fg: light yellow, bg: red, style: faint
 func PLYellowBgRedFaint(txt string) string {
 	return P(txt, YELLOW.L(), RED.Pointer(), FAINT)
 }
 
-// fg: YELLOW(is_light: true) bg: GREEN style: FAINT
+// fg: light yellow, bg: green, style: faint
 func PLYellowBgGreenFaint(txt string) string {
 	return P(txt, YELLOW.L(), GREEN.Pointer(), FAINT)
 }
 
-// fg: YELLOW(is_light: true) bg: YELLOW style: FAINT
+// fg: light yellow, bg: nil, style: faint
 func PLYellowFaint(txt string) string {
 	return P(txt, YELLOW.L(), nil, FAINT)
 }
 
-// fg: YELLOW(is_light: true) bg: BLUE style: FAINT
+// fg: light yellow, bg: blue, style: faint
 func PLYellowBgBlueFaint(txt string) string {
 	return P(txt, YELLOW.L(), BLUE.Pointer(), FAINT)
 }
 
-// fg: YELLOW(is_light: true) bg: MAGENTA style: FAINT
+// fg: light yellow, bg: magenta, style: faint
 func PLYellowBgMagentaFaint(txt string) string {
 	return P(txt, YELLOW.L(), MAGENTA.Pointer(), FAINT)
 }
 
-// fg: YELLOW(is_light: true) bg: CYAN style: FAINT
+// fg: light yellow, bg: cyan, style: faint
 func PLYellowBgCyanFaint(txt string) string {
 	return P(txt, YELLOW.L(), CYAN.Pointer(), FAINT)
 }
 
-// fg: YELLOW(is_light: true) bg: WHITE style: FAINT
+// fg: light yellow, bg: white, style: faint
 func PLYellowBgWhiteFaint(txt string) string {
 	return P(txt, YELLOW.L(), WHITE.Pointer(), FAINT)
 }
 
-// fg: BLUE(is_light: true) bg: BLACK style: FAINT
+// fg: light blue, bg: black, style: faint
 func PLBlueBgBlackFaint(txt string) string {
 	return P(txt, BLUE.L(), BLACK.Pointer(), FAINT)
 }
 
-// fg: BLUE(is_light: true) bg: RED style: FAINT
+// fg: light blue, bg: red, style: faint
 func PLBlueBgRedFaint(txt string) string {
 	return P(txt, BLUE.L(), RED.Pointer(), FAINT)
 }
 
-// fg: BLUE(is_light: true) bg: GREEN style: FAINT
+// fg: light blue, bg: green, style: faint
 func PLBlueBgGreenFaint(txt string) string {
 	return P(txt, BLUE.L(), GREEN.Pointer(), FAINT)
 }
 
-// fg: BLUE(is_light: true) bg: YELLOW style: FAINT
+// fg: light blue, bg: yellow, style: faint
 func PLBlueBgYellowFaint(txt string) string {
 	return P(txt, BLUE.L(), YELLOW.Pointer(), FAINT)
 }
 
-// fg: BLUE(is_light: true) bg: BLUE style: FAINT
+// fg: light blue, bg: nil, style: faint
 func PLBlueFaint(txt string) string {
 	return P(txt, BLUE.L(), nil, FAINT)
 }
 
-// fg: BLUE(is_light: true) bg: MAGENTA style: FAINT
+// fg: light blue, bg: magenta, style: faint
 func PLBlueBgMagentaFaint(txt string) string {
 	return P(txt, BLUE.L(), MAGENTA.Pointer(), FAINT)
 }
 
-// fg: BLUE(is_light: true) bg: CYAN style: FAINT
+// fg: light blue, bg: cyan, style: faint
 func PLBlueBgCyanFaint(txt string) string {
 	return P(txt, BLUE.L(), CYAN.Pointer(), FAINT)
 }
 
-// fg: BLUE(is_light: true) bg: WHITE style: FAINT
+// fg: light blue, bg: white, style: faint
 func PLBlueBgWhiteFaint(txt string) string {
 	return P(txt, BLUE.L(), WHITE.Pointer(), FAINT)
 }
 
-// fg: MAGENTA(is_light: true) bg: BLACK style: FAINT
+// fg: light magenta, bg: black, style: faint
 func PLMagentaBgBlackFaint(txt string) string {
 	return P(txt, MAGENTA.L(), BLACK.Pointer(), FAINT)
 }
 
-// fg: MAGENTA(is_light: true) bg: RED style: FAINT
+// fg: light magenta, bg: red, style: faint
 func PLMagentaBgRedFaint(txt string) string {
 	return P(txt, MAGENTA.L(), RED.Pointer(), FAINT)
 }
 
-// fg: MAGENTA(is_light: true) bg: GREEN style: FAINT
+// fg: light magenta, bg: green, style: faint
 func PLMagentaBgGreenFaint(txt string) string {
 	return P(txt, MAGENTA.L(), GREEN.Pointer(), FAINT)
 }
 
-// fg: MAGENTA(is_light: true) bg: YELLOW style: FAINT
+// fg: light magenta, bg: yellow, style: faint
 func PLMagentaBgYellowFaint(txt string) string {
 	return P(txt, MAGENTA.L(), YELLOW.Pointer(), FAINT)
 }
 
-// fg: MAGENTA(is_light: true) bg: BLUE style: FAINT
+// fg: light magenta, bg: blue, style: faint
 func PLMagentaBgBlueFaint(txt string) string {
 	return P(txt, MAGENTA.L(), BLUE.Pointer(), FAINT)
 }
 
-// fg: MAGENTA(is_light: true) bg: MAGENTA style: FAINT
+// fg: light magenta, bg: nil, style: faint
 func PLMagentaFaint(txt string) string {
 	return P(txt, MAGENTA.L(), nil, FAINT)
 }
 
-// fg: MAGENTA(is_light: true) bg: CYAN style: FAINT
+// fg: light magenta, bg: cyan, style: faint
 func PLMagentaBgCyanFaint(txt string) string {
 	return P(txt, MAGENTA.L(), CYAN.Pointer(), FAINT)
 }
 
-// fg: MAGENTA(is_light: true) bg: WHITE style: FAINT
+// fg: light magenta, bg: white, style: faint
 func PLMagentaBgWhiteFaint(txt string) string {
 	return P(txt, MAGENTA.L(), WHITE.Pointer(), FAINT)
 }
 
-// fg: CYAN(is_light: true) bg: BLACK style: FAINT
+// fg: light cyan, bg: black, style: faint
 func PLCyanBgBlackFaint(txt string) string {
 	return P(txt, CYAN.L(), BLACK.Pointer(), FAINT)
 }
 
-// fg: CYAN(is_light: true) bg: RED style: FAINT
+// fg: light cyan, bg: red, style: faint
 func PLCyanBgRedFaint(txt string) string {
 	return P(txt, CYAN.L(), RED.Pointer(), FAINT)
 }
 
-// fg: CYAN(is_light: true) bg: GREEN style: FAINT
+// fg: light cyan, bg: green, style: faint
 func PLCyanBgGreenFaint(txt string) string {
 	return P(txt, CYAN.L(), GREEN.Pointer(), FAINT)
 }
 
-// fg: CYAN(is_light: true) bg: YELLOW style: FAINT
+// fg: light cyan, bg: yellow, style: faint
 func PLCyanBgYellowFaint(txt string) string {
 	return P(txt, CYAN.L(), YELLOW.Pointer(), FAINT)
 }
 
-// fg: CYAN(is_light: true) bg: BLUE style: FAINT
+// fg: light cyan, bg: blue, style: faint
 func PLCyanBgBlueFaint(txt string) string {
 	return P(txt, CYAN.L(), BLUE.Pointer(), FAINT)
 }
 
-// fg: CYAN(is_light: true) bg: MAGENTA style: FAINT
+// fg: light cyan, bg: magenta, style: faint
 func PLCyanBgMagentaFaint(txt string) string {
 	return P(txt, CYAN.L(), MAGENTA.Pointer(), FAINT)
 }
 
-// fg: CYAN(is_light: true) bg: CYAN style: FAINT
+// fg: light cyan, bg: nil, style: faint
 func PLCyanFaint(txt string) string {
 	return P(txt, CYAN.L(), nil, FAINT)
 }
 
-// fg: CYAN(is_light: true) bg: WHITE style: FAINT
+// fg: light cyan, bg: white, style: faint
 func PLCyanBgWhiteFaint(txt string) string {
 	return P(txt, CYAN.L(), WHITE.Pointer(), FAINT)
 }
 
-// fg: WHITE(is_light: true) bg: BLACK style: FAINT
+// fg: light white, bg: black, style: faint
 func PLWhiteBgBlackFaint(txt string) string {
 	return P(txt, WHITE.L(), BLACK.Pointer(), FAINT)
 }
 
-// fg: WHITE(is_light: true) bg: RED style: FAINT
+// fg: light white, bg: red, style: faint
 func PLWhiteBgRedFaint(txt string) string {
 	return P(txt, WHITE.L(), RED.Pointer(), FAINT)
 }
 
-// fg: WHITE(is_light: true) bg: GREEN style: FAINT
+// fg: light white, bg: green, style: faint
 func PLWhiteBgGreenFaint(txt string) string {
 	return P(txt, WHITE.L(), GREEN.Pointer(), FAINT)
 }
 
-// fg: WHITE(is_light: true) bg: YELLOW style: FAINT
+// fg: light white, bg: yellow, style: faint
 func PLWhiteBgYellowFaint(txt string) string {
 	return P(txt, WHITE.L(), YELLOW.Pointer(), FAINT)
 }
 
-// fg: WHITE(is_light: true) bg: BLUE style: FAINT
+// fg: light white, bg: blue, style: faint
 func PLWhiteBgBlueFaint(txt string) string {
 	return P(txt, WHITE.L(), BLUE.Pointer(), FAINT)
 }
 
-// fg: WHITE(is_light: true) bg: MAGENTA style: FAINT
+// fg: light white, bg: magenta, style: faint
 func PLWhiteBgMagentaFaint(txt string) string {
 	return P(txt, WHITE.L(), MAGENTA.Pointer(), FAINT)
 }
 
-// fg: WHITE(is_light: true) bg: CYAN style: FAINT
+// fg: light white, bg: cyan, style: faint
 func PLWhiteBgCyanFaint(txt string) string {
 	return P(txt, WHITE.L(), CYAN.Pointer(), FAINT)
 }
 
-// fg: WHITE(is_light: true) bg: WHITE style: FAINT
+// fg: light white, bg: nil, style: faint
 func PLWhiteFaint(txt string) string {
 	return P(txt, WHITE.L(), nil, FAINT)
 }
 
-// fg: BLACK(is_light: true) bg: BLACK style: ITALIC
+// fg: light black, bg: nil, style: italic
 func PLBlackItalic(txt string) string {
 	return P(txt, BLACK.L(), nil, ITALIC)
 }
 
-// fg: BLACK(is_light: true) bg: RED style: ITALIC
+// fg: light black, bg: red, style: italic
 func PLBlackBgRedItalic(txt string) string {
 	return P(txt, BLACK.L(), RED.Pointer(), ITALIC)
 }
 
-// fg: BLACK(is_light: true) bg: GREEN style: ITALIC
+// fg: light black, bg: green, style: italic
 func PLBlackBgGreenItalic(txt string) string {
 	return P(txt, BLACK.L(), GREEN.Pointer(), ITALIC)
 }
 
-// fg: BLACK(is_light: true) bg: YELLOW style: ITALIC
+// fg: light black, bg: yellow, style: italic
 func PLBlackBgYellowItalic(txt string) string {
 	return P(txt, BLACK.L(), YELLOW.Pointer(), ITALIC)
 }
 
-// fg: BLACK(is_light: true) bg: BLUE style: ITALIC
+// fg: light black, bg: blue, style: italic
 func PLBlackBgBlueItalic(txt string) string {
 	return P(txt, BLACK.L(), BLUE.Pointer(), ITALIC)
 }
 
-// fg: BLACK(is_light: true) bg: MAGENTA style: ITALIC
+// fg: light black, bg: magenta, style: italic
 func PLBlackBgMagentaItalic(txt string) string {
 	return P(txt, BLACK.L(), MAGENTA.Pointer(), ITALIC)
 }
 
-// fg: BLACK(is_light: true) bg: CYAN style: ITALIC
+// fg: light black, bg: cyan, style: italic
 func PLBlackBgCyanItalic(txt string) string {
 	return P(txt, BLACK.L(), CYAN.Pointer(), ITALIC)
 }
 
-// fg: BLACK(is_light: true) bg: WHITE style: ITALIC
+// fg: light black, bg: white, style: italic
 func PLBlackBgWhiteItalic(txt string) string {
 	return P(txt, BLACK.L(), WHITE.Pointer(), ITALIC)
 }
 
-// fg: RED(is_light: true) bg: BLACK style: ITALIC
+// fg: light red, bg: black, style: italic
 func PLRedBgBlackItalic(txt string) string {
 	return P(txt, RED.L(), BLACK.Pointer(), ITALIC)
 }
 
-// fg: RED(is_light: true) bg: RED style: ITALIC
+// fg: light red, bg: nil, style: italic
 func PLRedItalic(txt string) string {
 	return P(txt, RED.L(), nil, ITALIC)
 }
 
-// fg: RED(is_light: true) bg: GREEN style: ITALIC
+// fg: light red, bg: green, style: italic
 func PLRedBgGreenItalic(txt string) string {
 	return P(txt, RED.L(), GREEN.Pointer(), ITALIC)
 }
 
-// fg: RED(is_light: true) bg: YELLOW style: ITALIC
+// fg: light red, bg: yellow, style: italic
 func PLRedBgYellowItalic(txt string) string {
 	return P(txt, RED.L(), YELLOW.Pointer(), ITALIC)
 }
 
-// fg: RED(is_light: true) bg: BLUE style: ITALIC
+// fg: light red, bg: blue, style: italic
 func PLRedBgBlueItalic(txt string) string {
 	return P(txt, RED.L(), BLUE.Pointer(), ITALIC)
 }
 
-// fg: RED(is_light: true) bg: MAGENTA style: ITALIC
+// fg: light red, bg: magenta, style: italic
 func PLRedBgMagentaItalic(txt string) string {
 	return P(txt, RED.L(), MAGENTA.Pointer(), ITALIC)
 }
 
-// fg: RED(is_light: true) bg: CYAN style: ITALIC
+// fg: light red, bg: cyan, style: italic
 func PLRedBgCyanItalic(txt string) string {
 	return P(txt, RED.L(), CYAN.Pointer(), ITALIC)
 }
 
-// fg: RED(is_light: true) bg: WHITE style: ITALIC
+// fg: light red, bg: white, style: italic
 func PLRedBgWhiteItalic(txt string) string {
 	return P(txt, RED.L(), WHITE.Pointer(), ITALIC)
 }
 
-// fg: GREEN(is_light: true) bg: BLACK style: ITALIC
+// fg: light green, bg: black, style: italic
 func PLGreenBgBlackItalic(txt string) string {
 	return P(txt, GREEN.L(), BLACK.Pointer(), ITALIC)
 }
 
-// fg: GREEN(is_light: true) bg: RED style: ITALIC
+// fg: light green, bg: red, style: italic
 func PLGreenBgRedItalic(txt string) string {
 	return P(txt, GREEN.L(), RED.Pointer(), ITALIC)
 }
 
-// fg: GREEN(is_light: true) bg: GREEN style: ITALIC
+// fg: light green, bg: nil, style: italic
 func PLGreenItalic(txt string) string {
 	return P(txt, GREEN.L(), nil, ITALIC)
 }
 
-// fg: GREEN(is_light: true) bg: YELLOW style: ITALIC
+// fg: light green, bg: yellow, style: italic
 func PLGreenBgYellowItalic(txt string) string {
 	return P(txt, GREEN.L(), YELLOW.Pointer(), ITALIC)
 }
 
-// fg: GREEN(is_light: true) bg: BLUE style: ITALIC
+// fg: light green, bg: blue, style: italic
 func PLGreenBgBlueItalic(txt string) string {
 	return P(txt, GREEN.L(), BLUE.Pointer(), ITALIC)
 }
 
-// fg: GREEN(is_light: true) bg: MAGENTA style: ITALIC
+// fg: light green, bg: magenta, style: italic
 func PLGreenBgMagentaItalic(txt string) string {
 	return P(txt, GREEN.L(), MAGENTA.Pointer(), ITALIC)
 }
 
-// fg: GREEN(is_light: true) bg: CYAN style: ITALIC
+// fg: light green, bg: cyan, style: italic
 func PLGreenBgCyanItalic(txt string) string {
 	return P(txt, GREEN.L(), CYAN.Pointer(), ITALIC)
 }
 
-// fg: GREEN(is_light: true) bg: WHITE style: ITALIC
+// fg: light green, bg: white, style: italic
 func PLGreenBgWhiteItalic(txt string) string {
 	return P(txt, GREEN.L(), WHITE.Pointer(), ITALIC)
 }
 
-// fg: YELLOW(is_light: true) bg: BLACK style: ITALIC
+// fg: light yellow, bg: black, style: italic
 func PLYellowBgBlackItalic(txt string) string {
 	return P(txt, YELLOW.L(), BLACK.Pointer(), ITALIC)
 }
 
-// fg: YELLOW(is_light: true) bg: RED style: ITALIC
+// fg: light yellow, bg: red, style: italic
 func PLYellowBgRedItalic(txt string) string {
 	return P(txt, YELLOW.L(), RED.Pointer(), ITALIC)
 }
 
-// fg: YELLOW(is_light: true) bg: GREEN style: ITALIC
+// fg: light yellow, bg: green, style: italic
 func PLYellowBgGreenItalic(txt string) string {
 	return P(txt, YELLOW.L(), GREEN.Pointer(), ITALIC)
 }
 
-// fg: YELLOW(is_light: true) bg: YELLOW style: ITALIC
+// fg: light yellow, bg: nil, style: italic
 func PLYellowItalic(txt string) string {
 	return P(txt, YELLOW.L(), nil, ITALIC)
 }
 
-// fg: YELLOW(is_light: true) bg: BLUE style: ITALIC
+// fg: light yellow, bg: blue, style: italic
 func PLYellowBgBlueItalic(txt string) string {
 	return P(txt, YELLOW.L(), BLUE.Pointer(), ITALIC)
 }
 
-// fg: YELLOW(is_light: true) bg: MAGENTA style: ITALIC
+// fg: light yellow, bg: magenta, style: italic
 func PLYellowBgMagentaItalic(txt string) string {
 	return P(txt, YELLOW.L(), MAGENTA.Pointer(), ITALIC)
 }
 
-// fg: YELLOW(is_light: true) bg: CYAN style: ITALIC
+// fg: light yellow, bg: cyan, style: italic
 func PLYellowBgCyanItalic(txt string) string {
 	return P(txt, YELLOW.L(), CYAN.Pointer(), ITALIC)
 }
 
-// fg: YELLOW(is_light: true) bg: WHITE style: ITALIC
+// fg: light yellow, bg: white, style: italic
 func PLYellowBgWhiteItalic(txt string) string {
 	return P(txt, YELLOW.L(), WHITE.Pointer(), ITALIC)
 }
 
-// fg: BLUE(is_light: true) bg: BLACK style: ITALIC
+// fg: light blue, bg: black, style: italic
 func PLBlueBgBlackItalic(txt string) string {
 	return P(txt, BLUE.L(), BLACK.Pointer(), ITALIC)
 }
 
-// fg: BLUE(is_light: true) bg: RED style: ITALIC
+// fg: light blue, bg: red, style: italic
 func PLBlueBgRedItalic(txt string) string {
 	return P(txt, BLUE.L(), RED.Pointer(), ITALIC)
 }
 
-// fg: BLUE(is_light: true) bg: GREEN style: ITALIC
+// fg: light blue, bg: green, style: italic
 func PLBlueBgGreenItalic(txt string) string {
 	return P(txt, BLUE.L(), GREEN.Pointer(), ITALIC)
 }
 
-// fg: BLUE(is_light: true) bg: YELLOW style: ITALIC
+// fg: light blue, bg: yellow, style: italic
 func PLBlueBgYellowItalic(txt string) string {
 	return P(txt, BLUE.L(), YELLOW.Pointer(), ITALIC)
 }
 
-// fg: BLUE(is_light: true) bg: BLUE style: ITALIC
+// fg: light blue, bg: nil, style: italic
 func PLBlueItalic(txt string) string {
 	return P(txt, BLUE.L(), nil, ITALIC)
 }
 
-// fg: BLUE(is_light: true) bg: MAGENTA style: ITALIC
+// fg: light blue, bg: magenta, style: italic
 func PLBlueBgMagentaItalic(txt string) string {
 	return P(txt, BLUE.L(), MAGENTA.Pointer(), ITALIC)
 }
 
-// fg: BLUE(is_light: true) bg: CYAN style: ITALIC
+// fg: light blue, bg: cyan, style: italic
 func PLBlueBgCyanItalic(txt string) string {
 	return P(txt, BLUE.L(), CYAN.Pointer(), ITALIC)
 }
 
-// fg: BLUE(is_light: true) bg: WHITE style: ITALIC
+// fg: light blue, bg: white, style: italic
 func PLBlueBgWhiteItalic(txt string) string {
 	return P(txt, BLUE.L(), WHITE.Pointer(), ITALIC)
 }
 
-// fg: MAGENTA(is_light: true) bg: BLACK style: ITALIC
+// fg: light magenta, bg: black, style: italic
 func PLMagentaBgBlackItalic(txt string) string {
 	return P(txt, MAGENTA.L(), BLACK.Pointer(), ITALIC)
 }
 
-// fg: MAGENTA(is_light: true) bg: RED style: ITALIC
+// fg: light magenta, bg: red, style: italic
 func PLMagentaBgRedItalic(txt string) string {
 	return P(txt, MAGENTA.L(), RED.Pointer(), ITALIC)
 }
 
-// fg: MAGENTA(is_light: true) bg: GREEN style: ITALIC
+// fg: light magenta, bg: green, style: italic
 func PLMagentaBgGreenItalic(txt string) string {
 	return P(txt, MAGENTA.L(), GREEN.Pointer(), ITALIC)
 }
 
-// fg: MAGENTA(is_light: true) bg: YELLOW style: ITALIC
+// fg: light magenta, bg: yellow, style: italic
 func PLMagentaBgYellowItalic(txt string) string {
 	return P(txt, MAGENTA.L(), YELLOW.Pointer(), ITALIC)
 }
 
-// fg: MAGENTA(is_light: true) bg: BLUE style: ITALIC
+// fg: light magenta, bg: blue, style: italic
 func PLMagentaBgBlueItalic(txt string) string {
 	return P(txt, MAGENTA.L(), BLUE.Pointer(), ITALIC)
 }
 
-// fg: MAGENTA(is_light: true) bg: MAGENTA style: ITALIC
+// fg: light magenta, bg: nil, style: italic
 func PLMagentaItalic(txt string) string {
 	return P(txt, MAGENTA.L(), nil, ITALIC)
 }
 
-// fg: MAGENTA(is_light: true) bg: CYAN style: ITALIC
+// fg: light magenta, bg: cyan, style: italic
 func PLMagentaBgCyanItalic(txt string) string {
 	return P(txt, MAGENTA.L(), CYAN.Pointer(), ITALIC)
 }
 
-// fg: MAGENTA(is_light: true) bg: WHITE style: ITALIC
+// fg: light magenta, bg: white, style: italic
 func PLMagentaBgWhiteItalic(txt string) string {
 	return P(txt, MAGENTA.L(), WHITE.Pointer(), ITALIC)
 }
 
-// fg: CYAN(is_light: true) bg: BLACK style: ITALIC
+// fg: light cyan, bg: black, style: italic
 func PLCyanBgBlackItalic(txt string) string {
 	return P(txt, CYAN.L(), BLACK.Pointer(), ITALIC)
 }
 
-// fg: CYAN(is_light: true) bg: RED style: ITALIC
+// fg: light cyan, bg: red, style: italic
 func PLCyanBgRedItalic(txt string) string {
 	return P(txt, CYAN.L(), RED.Pointer(), ITALIC)
 }
 
-// fg: CYAN(is_light: true) bg: GREEN style: ITALIC
+// fg: light cyan, bg: green, style: italic
 func PLCyanBgGreenItalic(txt string) string {
 	return P(txt, CYAN.L(), GREEN.Pointer(), ITALIC)
 }
 
-// fg: CYAN(is_light: true) bg: YELLOW style: ITALIC
+// fg: light cyan, bg: yellow, style: italic
 func PLCyanBgYellowItalic(txt string) string {
 	return P(txt, CYAN.L(), YELLOW.Pointer(), ITALIC)
 }
 
-// fg: CYAN(is_light: true) bg: BLUE style: ITALIC
+// fg: light cyan, bg: blue, style: italic
 func PLCyanBgBlueItalic(txt string) string {
 	return P(txt, CYAN.L(), BLUE.Pointer(), ITALIC)
 }
 
-// fg: CYAN(is_light: true) bg: MAGENTA style: ITALIC
+// fg: light cyan, bg: magenta, style: italic
 func PLCyanBgMagentaItalic(txt string) string {
 	return P(txt, CYAN.L(), MAGENTA.Pointer(), ITALIC)
 }
 
-// fg: CYAN(is_light: true) bg: CYAN style: ITALIC
+// fg: light cyan, bg: nil, style: italic
 func PLCyanItalic(txt string) string {
 	return P(txt, CYAN.L(), nil, ITALIC)
 }
 
-// fg: CYAN(is_light: true) bg: WHITE style: ITALIC
+// fg: light cyan, bg: white, style: italic
 func PLCyanBgWhiteItalic(txt string) string {
 	return P(txt, CYAN.L(), WHITE.Pointer(), ITALIC)
 }
 
-// fg: WHITE(is_light: true) bg: BLACK style: ITALIC
+// fg: light white, bg: black, style: italic
 func PLWhiteBgBlackItalic(txt string) string {
 	return P(txt, WHITE.L(), BLACK.Pointer(), ITALIC)
 }
 
-// fg: WHITE(is_light: true) bg: RED style: ITALIC
+// fg: light white, bg: red, style: italic
 func PLWhiteBgRedItalic(txt string) string {
 	return P(txt, WHITE.L(), RED.Pointer(), ITALIC)
 }
 
-// fg: WHITE(is_light: true) bg: GREEN style: ITALIC
+// fg: light white, bg: green, style: italic
 func PLWhiteBgGreenItalic(txt string) string {
 	return P(txt, WHITE.L(), GREEN.Pointer(), ITALIC)
 }
 
-// fg: WHITE(is_light: true) bg: YELLOW style: ITALIC
+// fg: light white, bg: yellow, style: italic
 func PLWhiteBgYellowItalic(txt string) string {
 	return P(txt, WHITE.L(), YELLOW.Pointer(), ITALIC)
 }
 
-// fg: WHITE(is_light: true) bg: BLUE style: ITALIC
+// fg: light white, bg: blue, style: italic
 func PLWhiteBgBlueItalic(txt string) string {
 	return P(txt, WHITE.L(), BLUE.Pointer(), ITALIC)
 }
 
-// fg: WHITE(is_light: true) bg: MAGENTA style: ITALIC
+// fg: light white, bg: magenta, style: italic
 func PLWhiteBgMagentaItalic(txt string) string {
 	return P(txt, WHITE.L(), MAGENTA.Pointer(), ITALIC)
 }
 
-// fg: WHITE(is_light: true) bg: CYAN style: ITALIC
+// fg: light white, bg: cyan, style: italic
 func PLWhiteBgCyanItalic(txt string) string {
 	return P(txt, WHITE.L(), CYAN.Pointer(), ITALIC)
 }
 
-// fg: WHITE(is_light: true) bg: WHITE style: ITALIC
+// fg: light white, bg: nil, style: italic
 func PLWhiteItalic(txt string) string {
 	return P(txt, WHITE.L(), nil, ITALIC)
 }
 
-// fg: BLACK(is_light: true) bg: BLACK style: UNDERLINE
+// fg: light black, bg: nil, style: underline
 func PLBlackUnderline(txt string) string {
 	return P(txt, BLACK.L(), nil, UNDERLINE)
 }
 
-// fg: BLACK(is_light: true) bg: RED style: UNDERLINE
+// fg: light black, bg: red, style: underline
 func PLBlackBgRedUnderline(txt string) string {
 	return P(txt, BLACK.L(), RED.Pointer(), UNDERLINE)
 }
 
-// fg: BLACK(is_light: true) bg: GREEN style: UNDERLINE
+// fg: light black, bg: green, style: underline
 func PLBlackBgGreenUnderline(txt string) string {
 	return P(txt, BLACK.L(), GREEN.Pointer(), UNDERLINE)
 }
 
-// fg: BLACK(is_light: true) bg: YELLOW style: UNDERLINE
+// fg: light black, bg: yellow, style: underline
 func PLBlackBgYellowUnderline(txt string) string {
 	return P(txt, BLACK.L(), YELLOW.Pointer(), UNDERLINE)
 }
 
-// fg: BLACK(is_light: true) bg: BLUE style: UNDERLINE
+// fg: light black, bg: blue, style: underline
 func PLBlackBgBlueUnderline(txt string) string {
 	return P(txt, BLACK.L(), BLUE.Pointer(), UNDERLINE)
 }
 
-// fg: BLACK(is_light: true) bg: MAGENTA style: UNDERLINE
+// fg: light black, bg: magenta, style: underline
 func PLBlackBgMagentaUnderline(txt string) string {
 	return P(txt, BLACK.L(), MAGENTA.Pointer(), UNDERLINE)
 }
 
-// fg: BLACK(is_light: true) bg: CYAN style: UNDERLINE
+// fg: light black, bg: cyan, style: underline
 func PLBlackBgCyanUnderline(txt string) string {
 	return P(txt, BLACK.L(), CYAN.Pointer(), UNDERLINE)
 }
 
-// fg: BLACK(is_light: true) bg: WHITE style: UNDERLINE
+// fg: light black, bg: white, style: underline
 func PLBlackBgWhiteUnderline(txt string) string {
 	return P(txt, BLACK.L(), WHITE.Pointer(), UNDERLINE)
 }
 
-// fg: RED(is_light: true) bg: BLACK style: UNDERLINE
+// fg: light red, bg: black, style: underline
 func PLRedBgBlackUnderline(txt string) string {
 	return P(txt, RED.L(), BLACK.Pointer(), UNDERLINE)
 }
 
-// fg: RED(is_light: true) bg: RED style: UNDERLINE
+// fg: light red, bg: nil, style: underline
 func PLRedUnderline(txt string) string {
 	return P(txt, RED.L(), nil, UNDERLINE)
 }
 
-// fg: RED(is_light: true) bg: GREEN style: UNDERLINE
+// fg: light red, bg: green, style: underline
 func PLRedBgGreenUnderline(txt string) string {
 	return P(txt, RED.L(), GREEN.Pointer(), UNDERLINE)
 }
 
-// fg: RED(is_light: true) bg: YELLOW style: UNDERLINE
+// fg: light red, bg: yellow, style: underline
 func PLRedBgYellowUnderline(txt string) string {
 	return P(txt, RED.L(), YELLOW.Pointer(), UNDERLINE)
 }
 
-// fg: RED(is_light: true) bg: BLUE style: UNDERLINE
+// fg: light red, bg: blue, style: underline
 func PLRedBgBlueUnderline(txt string) string {
 	return P(txt, RED.L(), BLUE.Pointer(), UNDERLINE)
 }
 
-// fg: RED(is_light: true) bg: MAGENTA style: UNDERLINE
+// fg: light red, bg: magenta, style: underline
 func PLRedBgMagentaUnderline(txt string) string {
 	return P(txt, RED.L(), MAGENTA.Pointer(), UNDERLINE)
 }
 
-// fg: RED(is_light: true) bg: CYAN style: UNDERLINE
+// fg: light red, bg: cyan, style: underline
 func PLRedBgCyanUnderline(txt string) string {
 	return P(txt, RED.L(), CYAN.Pointer(), UNDERLINE)
 }
 
-// fg: RED(is_light: true) bg: WHITE style: UNDERLINE
+// fg: light red, bg: white, style: underline
 func PLRedBgWhiteUnderline(txt string) string {
 	return P(txt, RED.L(), WHITE.Pointer(), UNDERLINE)
 }
 
-// fg: GREEN(is_light: true) bg: BLACK style: UNDERLINE
+// fg: light green, bg: black, style: underline
 func PLGreenBgBlackUnderline(txt string) string {
 	return P(txt, GREEN.L(), BLACK.Pointer(), UNDERLINE)
 }
 
-// fg: GREEN(is_light: true) bg: RED style: UNDERLINE
+// fg: light green, bg: red, style: underline
 func PLGreenBgRedUnderline(txt string) string {
 	return P(txt, GREEN.L(), RED.Pointer(), UNDERLINE)
 }
 
-// fg: GREEN(is_light: true) bg: GREEN style: UNDERLINE
+// fg: light green, bg: nil, style: underline
 func PLGreenUnderline(txt string) string {
 	return P(txt, GREEN.L(), nil, UNDERLINE)
 }
 
-// fg: GREEN(is_light: true) bg: YELLOW style: UNDERLINE
+// fg: light green, bg: yellow, style: underline
 func PLGreenBgYellowUnderline(txt string) string {
 	return P(txt, GREEN.L(), YELLOW.Pointer(), UNDERLINE)
 }
 
-// fg: GREEN(is_light: true) bg: BLUE style: UNDERLINE
+// fg: light green, bg: blue, style: underline
 func PLGreenBgBlueUnderline(txt string) string {
 	return P(txt, GREEN.L(), BLUE.Pointer(), UNDERLINE)
 }
 
-// fg: GREEN(is_light: true) bg: MAGENTA style: UNDERLINE
+// fg: light green, bg: magenta, style: underline
 func PLGreenBgMagentaUnderline(txt string) string {
 	return P(txt, GREEN.L(), MAGENTA.Pointer(), UNDERLINE)
 }
 
-// fg: GREEN(is_light: true) bg: CYAN style: UNDERLINE
+// fg: light green, bg: cyan, style: underline
 func PLGreenBgCyanUnderline(txt string) string {
 	return P(txt, GREEN.L(), CYAN.Pointer(), UNDERLINE)
 }
 
-// fg: GREEN(is_light: true) bg: WHITE style: UNDERLINE
+// fg: light green, bg: white, style: underline
 func PLGreenBgWhiteUnderline(txt string) string {
 	return P(txt, GREEN.L(), WHITE.Pointer(), UNDERLINE)
 }
 
-// fg: YELLOW(is_light: true) bg: BLACK style: UNDERLINE
+// fg: light yellow, bg: black, style: underline
 func PLYellowBgBlackUnderline(txt string) string {
 	return P(txt, YELLOW.L(), BLACK.Pointer(), UNDERLINE)
 }
 
-// fg: YELLOW(is_light: true) bg: RED style: UNDERLINE
+// fg: light yellow, bg: red, style: underline
 func PLYellowBgRedUnderline(txt string) string {
 	return P(txt, YELLOW.L(), RED.Pointer(), UNDERLINE)
 }
 
-// fg: YELLOW(is_light: true) bg: GREEN style: UNDERLINE
+// fg: light yellow, bg: green, style: underline
 func PLYellowBgGreenUnderline(txt string) string {
 	return P(txt, YELLOW.L(), GREEN.Pointer(), UNDERLINE)
 }
 
-// fg: YELLOW(is_light: true) bg: YELLOW style: UNDERLINE
+// fg: light yellow, bg: nil, style: underline
 func PLYellowUnderline(txt string) string {
 	return P(txt, YELLOW.L(), nil, UNDERLINE)
 }
 
-// fg: YELLOW(is_light: true) bg: BLUE style: UNDERLINE
+// fg: light yellow, bg: blue, style: underline
 func PLYellowBgBlueUnderline(txt string) string {
 	return P(txt, YELLOW.L(), BLUE.Pointer(), UNDERLINE)
 }
 
-// fg: YELLOW(is_light: true) bg: MAGENTA style: UNDERLINE
+// fg: light yellow, bg: magenta, style: underline
 func PLYellowBgMagentaUnderline(txt string) string {
 	return P(txt, YELLOW.L(), MAGENTA.Pointer(), UNDERLINE)
 }
 
-// fg: YELLOW(is_light: true) bg: CYAN style: UNDERLINE
+// fg: light yellow, bg: cyan, style: underline
 func PLYellowBgCyanUnderline(txt string) string {
 	return P(txt, YELLOW.L(), CYAN.Pointer(), UNDERLINE)
 }
 
-// fg: YELLOW(is_light: true) bg: WHITE style: UNDERLINE
+// fg: light yellow, bg: white, style: underline
 func PLYellowBgWhiteUnderline(txt string) string {
 	return P(txt, YELLOW.L(), WHITE.Pointer(), UNDERLINE)
 }
 
-// fg: BLUE(is_light: true) bg: BLACK style: UNDERLINE
+// fg: light blue, bg: black, style: underline
 func PLBlueBgBlackUnderline(txt string) string {
 	return P(txt, BLUE.L(), BLACK.Pointer(), UNDERLINE)
 }
 
-// fg: BLUE(is_light: true) bg: RED style: UNDERLINE
+// fg: light blue, bg: red, style: underline
 func PLBlueBgRedUnderline(txt string) string {
 	return P(txt, BLUE.L(), RED.Pointer(), UNDERLINE)
 }
 
-// fg: BLUE(is_light: true) bg: GREEN style: UNDERLINE
+// fg: light blue, bg: green, style: underline
 func PLBlueBgGreenUnderline(txt string) string {
 	return P(txt, BLUE.L(), GREEN.Pointer(), UNDERLINE)
 }
 
-// fg: BLUE(is_light: true) bg: YELLOW style: UNDERLINE
+// fg: light blue, bg: yellow, style: underline
 func PLBlueBgYellowUnderline(txt string) string {
 	return P(txt, BLUE.L(), YELLOW.Pointer(), UNDERLINE)
 }
 
-// fg: BLUE(is_light: true) bg: BLUE style: UNDERLINE
+// fg: light blue, bg: nil, style: underline
 func PLBlueUnderline(txt string) string {
 	return P(txt, BLUE.L(), nil, UNDERLINE)
 }
 
-// fg: BLUE(is_light: true) bg: MAGENTA style: UNDERLINE
+// fg: light blue, bg: magenta, style: underline
 func PLBlueBgMagentaUnderline(txt string) string {
 	return P(txt, BLUE.L(), MAGENTA.Pointer(), UNDERLINE)
 }
 
-// fg: BLUE(is_light: true) bg: CYAN style: UNDERLINE
+// fg: light blue, bg: cyan, style: underline
 func PLBlueBgCyanUnderline(txt string) string {
 	return P(txt, BLUE.L(), CYAN.Pointer(), UNDERLINE)
 }
 
-// fg: BLUE(is_light: true) bg: WHITE style: UNDERLINE
+// fg: light blue, bg: white, style: underline
 func PLBlueBgWhiteUnderline(txt string) string {
 	return P(txt, BLUE.L(), WHITE.Pointer(), UNDERLINE)
 }
 
-// fg: MAGENTA(is_light: true) bg: BLACK style: UNDERLINE
+// fg: light magenta, bg: black, style: underline
 func PLMagentaBgBlackUnderline(txt string) string {
 	return P(txt, MAGENTA.L(), BLACK.Pointer(), UNDERLINE)
 }
 
-// fg: MAGENTA(is_light: true) bg: RED style: UNDERLINE
+// fg: light magenta, bg: red, style: underline
 func PLMagentaBgRedUnderline(txt string) string {
 	return P(txt, MAGENTA.L(), RED.Pointer(), UNDERLINE)
 }
 
-// fg: MAGENTA(is_light: true) bg: GREEN style: UNDERLINE
+// fg: light magenta, bg: green, style: underline
 func PLMagentaBgGreenUnderline(txt string) string {
 	return P(txt, MAGENTA.L(), GREEN.Pointer(), UNDERLINE)
 }
 
-// fg: MAGENTA(is_light: true) bg: YELLOW style: UNDERLINE
+// fg: light magenta, bg: yellow, style: underline
 func PLMagentaBgYellowUnderline(txt string) string {
 	return P(txt, MAGENTA.L(), YELLOW.Pointer(), UNDERLINE)
 }
 
-// fg: MAGENTA(is_light: true) bg: BLUE style: UNDERLINE
+// fg: light magenta, bg: blue, style: underline
 func PLMagentaBgBlueUnderline(txt string) string {
 	return P(txt, MAGENTA.L(), BLUE.Pointer(), UNDERLINE)
 }
 
-// fg: MAGENTA(is_light: true) bg: MAGENTA style: UNDERLINE
+// fg: light magenta, bg: nil, style: underline
 func PLMagentaUnderline(txt string) string {
 	return P(txt, MAGENTA.L(), nil, UNDERLINE)
 }
 
-// fg: MAGENTA(is_light: true) bg: CYAN style: UNDERLINE
+// fg: light magenta, bg: cyan, style: underline
 func PLMagentaBgCyanUnderline(txt string) string {
 	return P(txt, MAGENTA.L(), CYAN.Pointer(), UNDERLINE)
 }
 
-// fg: MAGENTA(is_light: true) bg: WHITE style: UNDERLINE
+// fg: light magenta, bg: white, style: underline
 func PLMagentaBgWhiteUnderline(txt string) string {
 	return P(txt, MAGENTA.L(), WHITE.Pointer(), UNDERLINE)
 }
 
-// fg: CYAN(is_light: true) bg: BLACK style: UNDERLINE
+// fg: light cyan, bg: black, style: underline
 func PLCyanBgBlackUnderline(txt string) string {
 	return P(txt, CYAN.L(), BLACK.Pointer(), UNDERLINE)
 }
 
-// fg: CYAN(is_light: true) bg: RED style: UNDERLINE
+// fg: light cyan, bg: red, style: underline
 func PLCyanBgRedUnderline(txt string) string {
 	return P(txt, CYAN.L(), RED.Pointer(), UNDERLINE)
 }
 
-// fg: CYAN(is_light: true) bg: GREEN style: UNDERLINE
+// fg: light cyan, bg: green, style: underline
 func PLCyanBgGreenUnderline(txt string) string {
 	return P(txt, CYAN.L(), GREEN.Pointer(), UNDERLINE)
 }
 
-// fg: CYAN(is_light: true) bg: YELLOW style: UNDERLINE
+// fg: light cyan, bg: yellow, style: underline
 func PLCyanBgYellowUnderline(txt string) string {
 	return P(txt, CYAN.L(), YELLOW.Pointer(), UNDERLINE)
 }
 
-// fg: CYAN(is_light: true) bg: BLUE style: UNDERLINE
+// fg: light cyan, bg: blue, style: underline
 func PLCyanBgBlueUnderline(txt string) string {
 	return P(txt, CYAN.L(), BLUE.Pointer(), UNDERLINE)
 }
 
-// fg: CYAN(is_light: true) bg: MAGENTA style: UNDERLINE
+// fg: light cyan, bg: magenta, style: underline
 func PLCyanBgMagentaUnderline(txt string) string {
 	return P(txt, CYAN.L(), MAGENTA.Pointer(), UNDERLINE)
 }
 
-// fg: CYAN(is_light: true) bg: CYAN style: UNDERLINE
+// fg: light cyan, bg: nil, style: underline
 func PLCyanUnderline(txt string) string {
 	return P(txt, CYAN.L(), nil, UNDERLINE)
 }
 
-// fg: CYAN(is_light: true) bg: WHITE style: UNDERLINE
+// fg: light cyan, bg: white, style: underline
 func PLCyanBgWhiteUnderline(txt string) string {
 	return P(txt, CYAN.L(), WHITE.Pointer(), UNDERLINE)
 }
 
-// fg: WHITE(is_light: true) bg: BLACK style: UNDERLINE
+// fg: light white, bg: black, style: underline
 func PLWhiteBgBlackUnderline(txt string) string {
 	return P(txt, WHITE.L(), BLACK.Pointer(), UNDERLINE)
 }
 
-// fg: WHITE(is_light: true) bg: RED style: UNDERLINE
+// fg: light white, bg: red, style: underline
 func PLWhiteBgRedUnderline(txt string) string {
 	return P(txt, WHITE.L(), RED.Pointer(), UNDERLINE)
 }
 
-// fg: WHITE(is_light: true) bg: GREEN style: UNDERLINE
+// fg: light white, bg: green, style: underline
 func PLWhiteBgGreenUnderline(txt string) string {
 	return P(txt, WHITE.L(), GREEN.Pointer(), UNDERLINE)
 }
 
-// fg: WHITE(is_light: true) bg: YELLOW style: UNDERLINE
+// fg: light white, bg: yellow, style: underline
 func PLWhiteBgYellowUnderline(txt string) string {
 	return P(txt, WHITE.L(), YELLOW.Pointer(), UNDERLINE)
 }
 
-// fg: WHITE(is_light: true) bg: BLUE style: UNDERLINE
+// fg: light white, bg: blue, style: underline
 func PLWhiteBgBlueUnderline(txt string) string {
 	return P(txt, WHITE.L(), BLUE.Pointer(), UNDERLINE)
 }
 
-// fg: WHITE(is_light: true) bg: MAGENTA style: UNDERLINE
+// fg: light white, bg: magenta, style: underline
 func PLWhiteBgMagentaUnderline(txt string) string {
 	return P(txt, WHITE.L(), MAGENTA.Pointer(), UNDERLINE)
 }
 
-// fg: WHITE(is_light: true) bg: CYAN style: UNDERLINE
+// fg: light white, bg: cyan, style: underline
 func PLWhiteBgCyanUnderline(txt string) string {
 	return P(txt, WHITE.L(), CYAN.Pointer(), UNDERLINE)
 }
 
-// fg: WHITE(is_light: true) bg: WHITE style: UNDERLINE
+// fg: light white, bg: nil, style: underline
 func PLWhiteUnderline(txt string) string {
 	return P(txt, WHITE.L(), nil, UNDERLINE)
 }
 
-// fg: BLACK(is_light: true) bg: BLACK style: BLINK
+// fg: light black, bg: nil, style: blink
 func PLBlackBlink(txt string) string {
 	return P(txt, BLACK.L(), nil, BLINK)
 }
 
-// fg: BLACK(is_light: true) bg: RED style: BLINK
+// fg: light black, bg: red, style: blink
 func PLBlackBgRedBlink(txt string) string {
 	return P(txt, BLACK.L(), RED.Pointer(), BLINK)
 }
 
-// fg: BLACK(is_light: true) bg: GREEN style: BLINK
+// fg: light black, bg: green, style: blink
 func PLBlackBgGreenBlink(txt string) string {
 	return P(txt, BLACK.L(), GREEN.Pointer(), BLINK)
 }
 
-// fg: BLACK(is_light: true) bg: YELLOW style: BLINK
+// fg: light black, bg: yellow, style: blink
 func PLBlackBgYellowBlink(txt string) string {
 	return P(txt, BLACK.L(), YELLOW.Pointer(), BLINK)
 }
 
-// fg: BLACK(is_light: true) bg: BLUE style: BLINK
+// fg: light black, bg: blue, style: blink
 func PLBlackBgBlueBlink(txt string) string {
 	return P(txt, BLACK.L(), BLUE.Pointer(), BLINK)
 }
 
-// fg: BLACK(is_light: true) bg: MAGENTA style: BLINK
+// fg: light black, bg: magenta, style: blink
 func PLBlackBgMagentaBlink(txt string) string {
 	return P(txt, BLACK.L(), MAGENTA.Pointer(), BLINK)
 }
 
-// fg: BLACK(is_light: true) bg: CYAN style: BLINK
+// fg: light black, bg: cyan, style: blink
 func PLBlackBgCyanBlink(txt string) string {
 	return P(txt, BLACK.L(), CYAN.Pointer(), BLINK)
 }
 
-// fg: BLACK(is_light: true) bg: WHITE style: BLINK
+// fg: light black, bg: white, style: blink
 func PLBlackBgWhiteBlink(txt string) string {
 	return P(txt, BLACK.L(), WHITE.Pointer(), BLINK)
 }
 
-// fg: RED(is_light: true) bg: BLACK style: BLINK
+// fg: light red, bg: black, style: blink
 func PLRedBgBlackBlink(txt string) string {
 	return P(txt, RED.L(), BLACK.Pointer(), BLINK)
 }
 
-// fg: RED(is_light: true) bg: RED style: BLINK
+// fg: light red, bg: nil, style: blink
 func PLRedBlink(txt string) string {
 	return P(txt, RED.L(), nil, BLINK)
 }
 
-// fg: RED(is_light: true) bg: GREEN style: BLINK
+// fg: light red, bg: green, style: blink
 func PLRedBgGreenBlink(txt string) string {
 	return P(txt, RED.L(), GREEN.Pointer(), BLINK)
 }
 
-// fg: RED(is_light: true) bg: YELLOW style: BLINK
+// fg: light red, bg: yellow, style: blink
 func PLRedBgYellowBlink(txt string) string {
 	return P(txt, RED.L(), YELLOW.Pointer(), BLINK)
 }
 
-// fg: RED(is_light: true) bg: BLUE style: BLINK
+// fg: light red, bg: blue, style: blink
 func PLRedBgBlueBlink(txt string) string {
 	return P(txt, RED.L(), BLUE.Pointer(), BLINK)
 }
 
-// fg: RED(is_light: true) bg: MAGENTA style: BLINK
+// fg: light red, bg: magenta, style: blink
 func PLRedBgMagentaBlink(txt string) string {
 	return P(txt, RED.L(), MAGENTA.Pointer(), BLINK)
 }
 
-// fg: RED(is_light: true) bg: CYAN style: BLINK
+// fg: light red, bg: cyan, style: blink
 func PLRedBgCyanBlink(txt string) string {
 	return P(txt, RED.L(), CYAN.Pointer(), BLINK)
 }
 
-// fg: RED(is_light: true) bg: WHITE style: BLINK
+// fg: light red, bg: white, style: blink
 func PLRedBgWhiteBlink(txt string) string {
 	return P(txt, RED.L(), WHITE.Pointer(), BLINK)
 }
 
-// fg: GREEN(is_light: true) bg: BLACK style: BLINK
+// fg: light green, bg: black, style: blink
 func PLGreenBgBlackBlink(txt string) string {
 	return P(txt, GREEN.L(), BLACK.Pointer(), BLINK)
 }
 
-// fg: GREEN(is_light: true) bg: RED style: BLINK
+// fg: light green, bg: red, style: blink
 func PLGreenBgRedBlink(txt string) string {
 	return P(txt, GREEN.L(), RED.Pointer(), BLINK)
 }
 
-// fg: GREEN(is_light: true) bg: GREEN style: BLINK
+// fg: light green, bg: nil, style: blink
 func PLGreenBlink(txt string) string {
 	return P(txt, GREEN.L(), nil, BLINK)
 }
 
-// fg: GREEN(is_light: true) bg: YELLOW style: BLINK
+// fg: light green, bg: yellow, style: blink
 func PLGreenBgYellowBlink(txt string) string {
 	return P(txt, GREEN.L(), YELLOW.Pointer(), BLINK)
 }
 
-// fg: GREEN(is_light: true) bg: BLUE style: BLINK
+// fg: light green, bg: blue, style: blink
 func PLGreenBgBlueBlink(txt string) string {
 	return P(txt, GREEN.L(), BLUE.Pointer(), BLINK)
 }
 
-// fg: GREEN(is_light: true) bg: MAGENTA style: BLINK
+// fg: light green, bg: magenta, style: blink
 func PLGreenBgMagentaBlink(txt string) string {
 	return P(txt, GREEN.L(), MAGENTA.Pointer(), BLINK)
 }
 
-// fg: GREEN(is_light: true) bg: CYAN style: BLINK
+// fg: light green, bg: cyan, style: blink
 func PLGreenBgCyanBlink(txt string) string {
 	return P(txt, GREEN.L(), CYAN.Pointer(), BLINK)
 }
 
-// fg: GREEN(is_light: true) bg: WHITE style: BLINK
+// fg: light green, bg: white, style: blink
 func PLGreenBgWhiteBlink(txt string) string {
 	return P(txt, GREEN.L(), WHITE.Pointer(), BLINK)
 }
 
-// fg: YELLOW(is_light: true) bg: BLACK style: BLINK
+// fg: light yellow, bg: black, style: blink
 func PLYellowBgBlackBlink(txt string) string {
 	return P(txt, YELLOW.L(), BLACK.Pointer(), BLINK)
 }
 
-// fg: YELLOW(is_light: true) bg: RED style: BLINK
+// fg: light yellow, bg: red, style: blink
 func PLYellowBgRedBlink(txt string) string {
 	return P(txt, YELLOW.L(), RED.Pointer(), BLINK)
 }
 
-// fg: YELLOW(is_light: true) bg: GREEN style: BLINK
+// fg: light yellow, bg: green, style: blink
 func PLYellowBgGreenBlink(txt string) string {
 	return P(txt, YELLOW.L(), GREEN.Pointer(), BLINK)
 }
 
-// fg: YELLOW(is_light: true) bg: YELLOW style: BLINK
+// fg: light yellow, bg: nil, style: blink
 func PLYellowBlink(txt string) string {
 	return P(txt, YELLOW.L(), nil, BLINK)
 }
 
-// fg: YELLOW(is_light: true) bg: BLUE style: BLINK
+// fg: light yellow, bg: blue, style: blink
 func PLYellowBgBlueBlink(txt string) string {
 	return P(txt, YELLOW.L(), BLUE.Pointer(), BLINK)
 }
 
-// fg: YELLOW(is_light: true) bg: MAGENTA style: BLINK
+// fg: light yellow, bg: magenta, style: blink
 func PLYellowBgMagentaBlink(txt string) string {
 	return P(txt, YELLOW.L(), MAGENTA.Pointer(), BLINK)
 }
 
-// fg: YELLOW(is_light: true) bg: CYAN style: BLINK
+// fg: light yellow, bg: cyan, style: blink
 func PLYellowBgCyanBlink(txt string) string {
 	return P(txt, YELLOW.L(), CYAN.Pointer(), BLINK)
 }
 
-// fg: YELLOW(is_light: true) bg: WHITE style: BLINK
+// fg: light yellow, bg: white, style: blink
 func PLYellowBgWhiteBlink(txt string) string {
 	return P(txt, YELLOW.L(), WHITE.Pointer(), BLINK)
 }
 
-// fg: BLUE(is_light: true) bg: BLACK style: BLINK
+// fg: light blue, bg: black, style: blink
 func PLBlueBgBlackBlink(txt string) string {
 	return P(txt, BLUE.L(), BLACK.Pointer(), BLINK)
 }
 
-// fg: BLUE(is_light: true) bg: RED style: BLINK
+// fg: light blue, bg: red, style: blink
 func PLBlueBgRedBlink(txt string) string {
 	return P(txt, BLUE.L(), RED.Pointer(), BLINK)
 }
 
-// fg: BLUE(is_light: true) bg: GREEN style: BLINK
+// fg: light blue, bg: green, style: blink
 func PLBlueBgGreenBlink(txt string) string {
 	return P(txt, BLUE.L(), GREEN.Pointer(), BLINK)
 }
 
-// fg: BLUE(is_light: true) bg: YELLOW style: BLINK
+// fg: light blue, bg: yellow, style: blink
 func PLBlueBgYellowBlink(txt string) string {
 	return P(txt, BLUE.L(), YELLOW.Pointer(), BLINK)
 }
 
-// fg: BLUE(is_light: true) bg: BLUE style: BLINK
+// fg: light blue, bg: nil, style: blink
 func PLBlueBlink(txt string) string {
 	return P(txt, BLUE.L(), nil, BLINK)
 }
 
-// fg: BLUE(is_light: true) bg: MAGENTA style: BLINK
+// fg: light blue, bg: magenta, style: blink
 func PLBlueBgMagentaBlink(txt string) string {
 	return P(txt, BLUE.L(), MAGENTA.Pointer(), BLINK)
 }
 
-// fg: BLUE(is_light: true) bg: CYAN style: BLINK
+// fg: light blue, bg: cyan, style: blink
 func PLBlueBgCyanBlink(txt string) string {
 	return P(txt, BLUE.L(), CYAN.Pointer(), BLINK)
 }
 
-// fg: BLUE(is_light: true) bg: WHITE style: BLINK
+// fg: light blue, bg: white, style: blink
 func PLBlueBgWhiteBlink(txt string) string {
 	return P(txt, BLUE.L(), WHITE.Pointer(), BLINK)
 }
 
-// fg: MAGENTA(is_light: true) bg: BLACK style: BLINK
+// fg: light magenta, bg: black, style: blink
 func PLMagentaBgBlackBlink(txt string) string {
 	return P(txt, MAGENTA.L(), BLACK.Pointer(), BLINK)
 }
 
-// fg: MAGENTA(is_light: true) bg: RED style: BLINK
+// fg: light magenta, bg: red, style: blink
 func PLMagentaBgRedBlink(txt string) string {
 	return P(txt, MAGENTA.L(), RED.Pointer(), BLINK)
 }
 
-// fg: MAGENTA(is_light: true) bg: GREEN style: BLINK
+// fg: light magenta, bg: green, style: blink
 func PLMagentaBgGreenBlink(txt string) string {
 	return P(txt, MAGENTA.L(), GREEN.Pointer(), BLINK)
 }
 
-// fg: MAGENTA(is_light: true) bg: YELLOW style: BLINK
+// fg: light magenta, bg: yellow, style: blink
 func PLMagentaBgYellowBlink(txt string) string {
 	return P(txt, MAGENTA.L(), YELLOW.Pointer(), BLINK)
 }
 
-// fg: MAGENTA(is_light: true) bg: BLUE style: BLINK
+// fg: light magenta, bg: blue, style: blink
 func PLMagentaBgBlueBlink(txt string) string {
 	return P(txt, MAGENTA.L(), BLUE.Pointer(), BLINK)
 }
 
-// fg: MAGENTA(is_light: true) bg: MAGENTA style: BLINK
+// fg: light magenta, bg: nil, style: blink
 func PLMagentaBlink(txt string) string {
 	return P(txt, MAGENTA.L(), nil, BLINK)
 }
 
-// fg: MAGENTA(is_light: true) bg: CYAN style: BLINK
+// fg: light magenta, bg: cyan, style: blink
 func PLMagentaBgCyanBlink(txt string) string {
 	return P(txt, MAGENTA.L(), CYAN.Pointer(), BLINK)
 }
 
-// fg: MAGENTA(is_light: true) bg: WHITE style: BLINK
+// fg: light magenta, bg: white, style: blink
 func PLMagentaBgWhiteBlink(txt string) string {
 	return P(txt, MAGENTA.L(), WHITE.Pointer(), BLINK)
 }
 
-// fg: CYAN(is_light: true) bg: BLACK style: BLINK
+// fg: light cyan, bg: black, style: blink
 func PLCyanBgBlackBlink(txt string) string {
 	return P(txt, CYAN.L(), BLACK.Pointer(), BLINK)
 }
 
-// fg: CYAN(is_light: true) bg: RED style: BLINK
+// fg: light cyan, bg: red, style: blink
 func PLCyanBgRedBlink(txt string) string {
 	return P(txt, CYAN.L(), RED.Pointer(), BLINK)
 }
 
-// fg: CYAN(is_light: true) bg: GREEN style: BLINK
+// fg: light cyan, bg: green, style: blink
 func PLCyanBgGreenBlink(txt string) string {
 	return P(txt, CYAN.L(), GREEN.Pointer(), BLINK)
 }
 
-// fg: CYAN(is_light: true) bg: YELLOW style: BLINK
+// fg: light cyan, bg: yellow, style: blink
 func PLCyanBgYellowBlink(txt string) string {
 	return P(txt, CYAN.L(), YELLOW.Pointer(), BLINK)
 }
 
-// fg: CYAN(is_light: true) bg: BLUE style: BLINK
+// fg: light cyan, bg: blue, style: blink
 func PLCyanBgBlueBlink(txt string) string {
 	return P(txt, CYAN.L(), BLUE.Pointer(), BLINK)
 }
 
-// fg: CYAN(is_light: true) bg: MAGENTA style: BLINK
+// fg: light cyan, bg: magenta, style: blink
 func PLCyanBgMagentaBlink(txt string) string {
 	return P(txt, CYAN.L(), MAGENTA.Pointer(), BLINK)
 }
 
-// fg: CYAN(is_light: true) bg: CYAN style: BLINK
+// fg: light cyan, bg: nil, style: blink
 func PLCyanBlink(txt string) string {
 	return P(txt, CYAN.L(), nil, BLINK)
 }
 
-// fg: CYAN(is_light: true) bg: WHITE style: BLINK
+// fg: light cyan, bg: white, style: blink
 func PLCyanBgWhiteBlink(txt string) string {
 	return P(txt, CYAN.L(), WHITE.Pointer(), BLINK)
 }
 
-// fg: WHITE(is_light: true) bg: BLACK style: BLINK
+// fg: light white, bg: black, style: blink
 func PLWhiteBgBlackBlink(txt string) string {
 	return P(txt, WHITE.L(), BLACK.Pointer(), BLINK)
 }
 
-// fg: WHITE(is_light: true) bg: RED style: BLINK
+// fg: light white, bg: red, style: blink
 func PLWhiteBgRedBlink(txt string) string {
 	return P(txt, WHITE.L(), RED.Pointer(), BLINK)
 }
 
-// fg: WHITE(is_light: true) bg: GREEN style: BLINK
+// fg: light white, bg: green, style: blink
 func PLWhiteBgGreenBlink(txt string) string {
 	return P(txt, WHITE.L(), GREEN.Pointer(), BLINK)
 }
 
-// fg: WHITE(is_light: true) bg: YELLOW style: BLINK
+// fg: light white, bg: yellow, style: blink
 func PLWhiteBgYellowBlink(txt string) string {
 	return P(txt, WHITE.L(), YELLOW.Pointer(), BLINK)
 }
 
-// fg: WHITE(is_light: true) bg: BLUE style: BLINK
+// fg: light white, bg: blue, style: blink
 func PLWhiteBgBlueBlink(txt string) string {
 	return P(txt, WHITE.L(), BLUE.Pointer(), BLINK)
 }
 
-// fg: WHITE(is_light: true) bg: MAGENTA style: BLINK
+// fg: light white, bg: magenta, style: blink
 func PLWhiteBgMagentaBlink(txt string) string {
 	return P(txt, WHITE.L(), MAGENTA.Pointer(), BLINK)
 }
 
-// fg: WHITE(is_light: true) bg: CYAN style: BLINK
+// fg: light white, bg: cyan, style: blink
 func PLWhiteBgCyanBlink(txt string) string {
 	return P(txt, WHITE.L(), CYAN.Pointer(), BLINK)
 }
 
-// fg: WHITE(is_light: true) bg: WHITE style: BLINK
+// fg: light white, bg: nil, style: blink
 func PLWhiteBlink(txt string) string {
 	return P(txt, WHITE.L(), nil, BLINK)
 }

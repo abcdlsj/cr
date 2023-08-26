@@ -9,3842 +9,3842 @@ import (
 
 var globalStr = "Hello, World!"
 
-// fg: BLACK(is_light: false) bg: BLACK style: nil
+// fg: black, bg: nil, style: nil
 func TestPBlack(t *testing.T) {
 	fmt.Println(PBlack(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: RED style: nil
+// fg: black, bg: red, style: nil
 func TestPBlackBgRed(t *testing.T) {
 	fmt.Println(PBlackBgRed(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: GREEN style: nil
+// fg: black, bg: green, style: nil
 func TestPBlackBgGreen(t *testing.T) {
 	fmt.Println(PBlackBgGreen(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: YELLOW style: nil
+// fg: black, bg: yellow, style: nil
 func TestPBlackBgYellow(t *testing.T) {
 	fmt.Println(PBlackBgYellow(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: BLUE style: nil
+// fg: black, bg: blue, style: nil
 func TestPBlackBgBlue(t *testing.T) {
 	fmt.Println(PBlackBgBlue(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: MAGENTA style: nil
+// fg: black, bg: magenta, style: nil
 func TestPBlackBgMagenta(t *testing.T) {
 	fmt.Println(PBlackBgMagenta(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: CYAN style: nil
+// fg: black, bg: cyan, style: nil
 func TestPBlackBgCyan(t *testing.T) {
 	fmt.Println(PBlackBgCyan(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: WHITE style: nil
+// fg: black, bg: white, style: nil
 func TestPBlackBgWhite(t *testing.T) {
 	fmt.Println(PBlackBgWhite(globalStr))
 }
 
-// fg: RED(is_light: false) bg: BLACK style: nil
+// fg: red, bg: black, style: nil
 func TestPRedBgBlack(t *testing.T) {
 	fmt.Println(PRedBgBlack(globalStr))
 }
 
-// fg: RED(is_light: false) bg: RED style: nil
+// fg: red, bg: nil, style: nil
 func TestPRed(t *testing.T) {
 	fmt.Println(PRed(globalStr))
 }
 
-// fg: RED(is_light: false) bg: GREEN style: nil
+// fg: red, bg: green, style: nil
 func TestPRedBgGreen(t *testing.T) {
 	fmt.Println(PRedBgGreen(globalStr))
 }
 
-// fg: RED(is_light: false) bg: YELLOW style: nil
+// fg: red, bg: yellow, style: nil
 func TestPRedBgYellow(t *testing.T) {
 	fmt.Println(PRedBgYellow(globalStr))
 }
 
-// fg: RED(is_light: false) bg: BLUE style: nil
+// fg: red, bg: blue, style: nil
 func TestPRedBgBlue(t *testing.T) {
 	fmt.Println(PRedBgBlue(globalStr))
 }
 
-// fg: RED(is_light: false) bg: MAGENTA style: nil
+// fg: red, bg: magenta, style: nil
 func TestPRedBgMagenta(t *testing.T) {
 	fmt.Println(PRedBgMagenta(globalStr))
 }
 
-// fg: RED(is_light: false) bg: CYAN style: nil
+// fg: red, bg: cyan, style: nil
 func TestPRedBgCyan(t *testing.T) {
 	fmt.Println(PRedBgCyan(globalStr))
 }
 
-// fg: RED(is_light: false) bg: WHITE style: nil
+// fg: red, bg: white, style: nil
 func TestPRedBgWhite(t *testing.T) {
 	fmt.Println(PRedBgWhite(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: BLACK style: nil
+// fg: green, bg: black, style: nil
 func TestPGreenBgBlack(t *testing.T) {
 	fmt.Println(PGreenBgBlack(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: RED style: nil
+// fg: green, bg: red, style: nil
 func TestPGreenBgRed(t *testing.T) {
 	fmt.Println(PGreenBgRed(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: GREEN style: nil
+// fg: green, bg: nil, style: nil
 func TestPGreen(t *testing.T) {
 	fmt.Println(PGreen(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: YELLOW style: nil
+// fg: green, bg: yellow, style: nil
 func TestPGreenBgYellow(t *testing.T) {
 	fmt.Println(PGreenBgYellow(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: BLUE style: nil
+// fg: green, bg: blue, style: nil
 func TestPGreenBgBlue(t *testing.T) {
 	fmt.Println(PGreenBgBlue(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: MAGENTA style: nil
+// fg: green, bg: magenta, style: nil
 func TestPGreenBgMagenta(t *testing.T) {
 	fmt.Println(PGreenBgMagenta(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: CYAN style: nil
+// fg: green, bg: cyan, style: nil
 func TestPGreenBgCyan(t *testing.T) {
 	fmt.Println(PGreenBgCyan(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: WHITE style: nil
+// fg: green, bg: white, style: nil
 func TestPGreenBgWhite(t *testing.T) {
 	fmt.Println(PGreenBgWhite(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: BLACK style: nil
+// fg: yellow, bg: black, style: nil
 func TestPYellowBgBlack(t *testing.T) {
 	fmt.Println(PYellowBgBlack(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: RED style: nil
+// fg: yellow, bg: red, style: nil
 func TestPYellowBgRed(t *testing.T) {
 	fmt.Println(PYellowBgRed(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: GREEN style: nil
+// fg: yellow, bg: green, style: nil
 func TestPYellowBgGreen(t *testing.T) {
 	fmt.Println(PYellowBgGreen(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: YELLOW style: nil
+// fg: yellow, bg: nil, style: nil
 func TestPYellow(t *testing.T) {
 	fmt.Println(PYellow(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: BLUE style: nil
+// fg: yellow, bg: blue, style: nil
 func TestPYellowBgBlue(t *testing.T) {
 	fmt.Println(PYellowBgBlue(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: MAGENTA style: nil
+// fg: yellow, bg: magenta, style: nil
 func TestPYellowBgMagenta(t *testing.T) {
 	fmt.Println(PYellowBgMagenta(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: CYAN style: nil
+// fg: yellow, bg: cyan, style: nil
 func TestPYellowBgCyan(t *testing.T) {
 	fmt.Println(PYellowBgCyan(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: WHITE style: nil
+// fg: yellow, bg: white, style: nil
 func TestPYellowBgWhite(t *testing.T) {
 	fmt.Println(PYellowBgWhite(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: BLACK style: nil
+// fg: blue, bg: black, style: nil
 func TestPBlueBgBlack(t *testing.T) {
 	fmt.Println(PBlueBgBlack(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: RED style: nil
+// fg: blue, bg: red, style: nil
 func TestPBlueBgRed(t *testing.T) {
 	fmt.Println(PBlueBgRed(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: GREEN style: nil
+// fg: blue, bg: green, style: nil
 func TestPBlueBgGreen(t *testing.T) {
 	fmt.Println(PBlueBgGreen(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: YELLOW style: nil
+// fg: blue, bg: yellow, style: nil
 func TestPBlueBgYellow(t *testing.T) {
 	fmt.Println(PBlueBgYellow(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: BLUE style: nil
+// fg: blue, bg: nil, style: nil
 func TestPBlue(t *testing.T) {
 	fmt.Println(PBlue(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: MAGENTA style: nil
+// fg: blue, bg: magenta, style: nil
 func TestPBlueBgMagenta(t *testing.T) {
 	fmt.Println(PBlueBgMagenta(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: CYAN style: nil
+// fg: blue, bg: cyan, style: nil
 func TestPBlueBgCyan(t *testing.T) {
 	fmt.Println(PBlueBgCyan(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: WHITE style: nil
+// fg: blue, bg: white, style: nil
 func TestPBlueBgWhite(t *testing.T) {
 	fmt.Println(PBlueBgWhite(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: BLACK style: nil
+// fg: magenta, bg: black, style: nil
 func TestPMagentaBgBlack(t *testing.T) {
 	fmt.Println(PMagentaBgBlack(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: RED style: nil
+// fg: magenta, bg: red, style: nil
 func TestPMagentaBgRed(t *testing.T) {
 	fmt.Println(PMagentaBgRed(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: GREEN style: nil
+// fg: magenta, bg: green, style: nil
 func TestPMagentaBgGreen(t *testing.T) {
 	fmt.Println(PMagentaBgGreen(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: YELLOW style: nil
+// fg: magenta, bg: yellow, style: nil
 func TestPMagentaBgYellow(t *testing.T) {
 	fmt.Println(PMagentaBgYellow(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: BLUE style: nil
+// fg: magenta, bg: blue, style: nil
 func TestPMagentaBgBlue(t *testing.T) {
 	fmt.Println(PMagentaBgBlue(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: MAGENTA style: nil
+// fg: magenta, bg: nil, style: nil
 func TestPMagenta(t *testing.T) {
 	fmt.Println(PMagenta(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: CYAN style: nil
+// fg: magenta, bg: cyan, style: nil
 func TestPMagentaBgCyan(t *testing.T) {
 	fmt.Println(PMagentaBgCyan(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: WHITE style: nil
+// fg: magenta, bg: white, style: nil
 func TestPMagentaBgWhite(t *testing.T) {
 	fmt.Println(PMagentaBgWhite(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: BLACK style: nil
+// fg: cyan, bg: black, style: nil
 func TestPCyanBgBlack(t *testing.T) {
 	fmt.Println(PCyanBgBlack(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: RED style: nil
+// fg: cyan, bg: red, style: nil
 func TestPCyanBgRed(t *testing.T) {
 	fmt.Println(PCyanBgRed(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: GREEN style: nil
+// fg: cyan, bg: green, style: nil
 func TestPCyanBgGreen(t *testing.T) {
 	fmt.Println(PCyanBgGreen(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: YELLOW style: nil
+// fg: cyan, bg: yellow, style: nil
 func TestPCyanBgYellow(t *testing.T) {
 	fmt.Println(PCyanBgYellow(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: BLUE style: nil
+// fg: cyan, bg: blue, style: nil
 func TestPCyanBgBlue(t *testing.T) {
 	fmt.Println(PCyanBgBlue(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: MAGENTA style: nil
+// fg: cyan, bg: magenta, style: nil
 func TestPCyanBgMagenta(t *testing.T) {
 	fmt.Println(PCyanBgMagenta(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: CYAN style: nil
+// fg: cyan, bg: nil, style: nil
 func TestPCyan(t *testing.T) {
 	fmt.Println(PCyan(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: WHITE style: nil
+// fg: cyan, bg: white, style: nil
 func TestPCyanBgWhite(t *testing.T) {
 	fmt.Println(PCyanBgWhite(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: BLACK style: nil
+// fg: white, bg: black, style: nil
 func TestPWhiteBgBlack(t *testing.T) {
 	fmt.Println(PWhiteBgBlack(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: RED style: nil
+// fg: white, bg: red, style: nil
 func TestPWhiteBgRed(t *testing.T) {
 	fmt.Println(PWhiteBgRed(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: GREEN style: nil
+// fg: white, bg: green, style: nil
 func TestPWhiteBgGreen(t *testing.T) {
 	fmt.Println(PWhiteBgGreen(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: YELLOW style: nil
+// fg: white, bg: yellow, style: nil
 func TestPWhiteBgYellow(t *testing.T) {
 	fmt.Println(PWhiteBgYellow(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: BLUE style: nil
+// fg: white, bg: blue, style: nil
 func TestPWhiteBgBlue(t *testing.T) {
 	fmt.Println(PWhiteBgBlue(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: MAGENTA style: nil
+// fg: white, bg: magenta, style: nil
 func TestPWhiteBgMagenta(t *testing.T) {
 	fmt.Println(PWhiteBgMagenta(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: CYAN style: nil
+// fg: white, bg: cyan, style: nil
 func TestPWhiteBgCyan(t *testing.T) {
 	fmt.Println(PWhiteBgCyan(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: WHITE style: nil
+// fg: white, bg: nil, style: nil
 func TestPWhite(t *testing.T) {
 	fmt.Println(PWhite(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: BLACK style: BOLD
+// fg: black, bg: nil, style: bold
 func TestPBlackBold(t *testing.T) {
 	fmt.Println(PBlackBold(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: RED style: BOLD
+// fg: black, bg: red, style: bold
 func TestPBlackBgRedBold(t *testing.T) {
 	fmt.Println(PBlackBgRedBold(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: GREEN style: BOLD
+// fg: black, bg: green, style: bold
 func TestPBlackBgGreenBold(t *testing.T) {
 	fmt.Println(PBlackBgGreenBold(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: YELLOW style: BOLD
+// fg: black, bg: yellow, style: bold
 func TestPBlackBgYellowBold(t *testing.T) {
 	fmt.Println(PBlackBgYellowBold(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: BLUE style: BOLD
+// fg: black, bg: blue, style: bold
 func TestPBlackBgBlueBold(t *testing.T) {
 	fmt.Println(PBlackBgBlueBold(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: MAGENTA style: BOLD
+// fg: black, bg: magenta, style: bold
 func TestPBlackBgMagentaBold(t *testing.T) {
 	fmt.Println(PBlackBgMagentaBold(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: CYAN style: BOLD
+// fg: black, bg: cyan, style: bold
 func TestPBlackBgCyanBold(t *testing.T) {
 	fmt.Println(PBlackBgCyanBold(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: WHITE style: BOLD
+// fg: black, bg: white, style: bold
 func TestPBlackBgWhiteBold(t *testing.T) {
 	fmt.Println(PBlackBgWhiteBold(globalStr))
 }
 
-// fg: RED(is_light: false) bg: BLACK style: BOLD
+// fg: red, bg: black, style: bold
 func TestPRedBgBlackBold(t *testing.T) {
 	fmt.Println(PRedBgBlackBold(globalStr))
 }
 
-// fg: RED(is_light: false) bg: RED style: BOLD
+// fg: red, bg: nil, style: bold
 func TestPRedBold(t *testing.T) {
 	fmt.Println(PRedBold(globalStr))
 }
 
-// fg: RED(is_light: false) bg: GREEN style: BOLD
+// fg: red, bg: green, style: bold
 func TestPRedBgGreenBold(t *testing.T) {
 	fmt.Println(PRedBgGreenBold(globalStr))
 }
 
-// fg: RED(is_light: false) bg: YELLOW style: BOLD
+// fg: red, bg: yellow, style: bold
 func TestPRedBgYellowBold(t *testing.T) {
 	fmt.Println(PRedBgYellowBold(globalStr))
 }
 
-// fg: RED(is_light: false) bg: BLUE style: BOLD
+// fg: red, bg: blue, style: bold
 func TestPRedBgBlueBold(t *testing.T) {
 	fmt.Println(PRedBgBlueBold(globalStr))
 }
 
-// fg: RED(is_light: false) bg: MAGENTA style: BOLD
+// fg: red, bg: magenta, style: bold
 func TestPRedBgMagentaBold(t *testing.T) {
 	fmt.Println(PRedBgMagentaBold(globalStr))
 }
 
-// fg: RED(is_light: false) bg: CYAN style: BOLD
+// fg: red, bg: cyan, style: bold
 func TestPRedBgCyanBold(t *testing.T) {
 	fmt.Println(PRedBgCyanBold(globalStr))
 }
 
-// fg: RED(is_light: false) bg: WHITE style: BOLD
+// fg: red, bg: white, style: bold
 func TestPRedBgWhiteBold(t *testing.T) {
 	fmt.Println(PRedBgWhiteBold(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: BLACK style: BOLD
+// fg: green, bg: black, style: bold
 func TestPGreenBgBlackBold(t *testing.T) {
 	fmt.Println(PGreenBgBlackBold(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: RED style: BOLD
+// fg: green, bg: red, style: bold
 func TestPGreenBgRedBold(t *testing.T) {
 	fmt.Println(PGreenBgRedBold(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: GREEN style: BOLD
+// fg: green, bg: nil, style: bold
 func TestPGreenBold(t *testing.T) {
 	fmt.Println(PGreenBold(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: YELLOW style: BOLD
+// fg: green, bg: yellow, style: bold
 func TestPGreenBgYellowBold(t *testing.T) {
 	fmt.Println(PGreenBgYellowBold(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: BLUE style: BOLD
+// fg: green, bg: blue, style: bold
 func TestPGreenBgBlueBold(t *testing.T) {
 	fmt.Println(PGreenBgBlueBold(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: MAGENTA style: BOLD
+// fg: green, bg: magenta, style: bold
 func TestPGreenBgMagentaBold(t *testing.T) {
 	fmt.Println(PGreenBgMagentaBold(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: CYAN style: BOLD
+// fg: green, bg: cyan, style: bold
 func TestPGreenBgCyanBold(t *testing.T) {
 	fmt.Println(PGreenBgCyanBold(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: WHITE style: BOLD
+// fg: green, bg: white, style: bold
 func TestPGreenBgWhiteBold(t *testing.T) {
 	fmt.Println(PGreenBgWhiteBold(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: BLACK style: BOLD
+// fg: yellow, bg: black, style: bold
 func TestPYellowBgBlackBold(t *testing.T) {
 	fmt.Println(PYellowBgBlackBold(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: RED style: BOLD
+// fg: yellow, bg: red, style: bold
 func TestPYellowBgRedBold(t *testing.T) {
 	fmt.Println(PYellowBgRedBold(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: GREEN style: BOLD
+// fg: yellow, bg: green, style: bold
 func TestPYellowBgGreenBold(t *testing.T) {
 	fmt.Println(PYellowBgGreenBold(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: YELLOW style: BOLD
+// fg: yellow, bg: nil, style: bold
 func TestPYellowBold(t *testing.T) {
 	fmt.Println(PYellowBold(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: BLUE style: BOLD
+// fg: yellow, bg: blue, style: bold
 func TestPYellowBgBlueBold(t *testing.T) {
 	fmt.Println(PYellowBgBlueBold(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: MAGENTA style: BOLD
+// fg: yellow, bg: magenta, style: bold
 func TestPYellowBgMagentaBold(t *testing.T) {
 	fmt.Println(PYellowBgMagentaBold(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: CYAN style: BOLD
+// fg: yellow, bg: cyan, style: bold
 func TestPYellowBgCyanBold(t *testing.T) {
 	fmt.Println(PYellowBgCyanBold(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: WHITE style: BOLD
+// fg: yellow, bg: white, style: bold
 func TestPYellowBgWhiteBold(t *testing.T) {
 	fmt.Println(PYellowBgWhiteBold(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: BLACK style: BOLD
+// fg: blue, bg: black, style: bold
 func TestPBlueBgBlackBold(t *testing.T) {
 	fmt.Println(PBlueBgBlackBold(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: RED style: BOLD
+// fg: blue, bg: red, style: bold
 func TestPBlueBgRedBold(t *testing.T) {
 	fmt.Println(PBlueBgRedBold(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: GREEN style: BOLD
+// fg: blue, bg: green, style: bold
 func TestPBlueBgGreenBold(t *testing.T) {
 	fmt.Println(PBlueBgGreenBold(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: YELLOW style: BOLD
+// fg: blue, bg: yellow, style: bold
 func TestPBlueBgYellowBold(t *testing.T) {
 	fmt.Println(PBlueBgYellowBold(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: BLUE style: BOLD
+// fg: blue, bg: nil, style: bold
 func TestPBlueBold(t *testing.T) {
 	fmt.Println(PBlueBold(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: MAGENTA style: BOLD
+// fg: blue, bg: magenta, style: bold
 func TestPBlueBgMagentaBold(t *testing.T) {
 	fmt.Println(PBlueBgMagentaBold(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: CYAN style: BOLD
+// fg: blue, bg: cyan, style: bold
 func TestPBlueBgCyanBold(t *testing.T) {
 	fmt.Println(PBlueBgCyanBold(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: WHITE style: BOLD
+// fg: blue, bg: white, style: bold
 func TestPBlueBgWhiteBold(t *testing.T) {
 	fmt.Println(PBlueBgWhiteBold(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: BLACK style: BOLD
+// fg: magenta, bg: black, style: bold
 func TestPMagentaBgBlackBold(t *testing.T) {
 	fmt.Println(PMagentaBgBlackBold(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: RED style: BOLD
+// fg: magenta, bg: red, style: bold
 func TestPMagentaBgRedBold(t *testing.T) {
 	fmt.Println(PMagentaBgRedBold(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: GREEN style: BOLD
+// fg: magenta, bg: green, style: bold
 func TestPMagentaBgGreenBold(t *testing.T) {
 	fmt.Println(PMagentaBgGreenBold(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: YELLOW style: BOLD
+// fg: magenta, bg: yellow, style: bold
 func TestPMagentaBgYellowBold(t *testing.T) {
 	fmt.Println(PMagentaBgYellowBold(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: BLUE style: BOLD
+// fg: magenta, bg: blue, style: bold
 func TestPMagentaBgBlueBold(t *testing.T) {
 	fmt.Println(PMagentaBgBlueBold(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: MAGENTA style: BOLD
+// fg: magenta, bg: nil, style: bold
 func TestPMagentaBold(t *testing.T) {
 	fmt.Println(PMagentaBold(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: CYAN style: BOLD
+// fg: magenta, bg: cyan, style: bold
 func TestPMagentaBgCyanBold(t *testing.T) {
 	fmt.Println(PMagentaBgCyanBold(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: WHITE style: BOLD
+// fg: magenta, bg: white, style: bold
 func TestPMagentaBgWhiteBold(t *testing.T) {
 	fmt.Println(PMagentaBgWhiteBold(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: BLACK style: BOLD
+// fg: cyan, bg: black, style: bold
 func TestPCyanBgBlackBold(t *testing.T) {
 	fmt.Println(PCyanBgBlackBold(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: RED style: BOLD
+// fg: cyan, bg: red, style: bold
 func TestPCyanBgRedBold(t *testing.T) {
 	fmt.Println(PCyanBgRedBold(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: GREEN style: BOLD
+// fg: cyan, bg: green, style: bold
 func TestPCyanBgGreenBold(t *testing.T) {
 	fmt.Println(PCyanBgGreenBold(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: YELLOW style: BOLD
+// fg: cyan, bg: yellow, style: bold
 func TestPCyanBgYellowBold(t *testing.T) {
 	fmt.Println(PCyanBgYellowBold(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: BLUE style: BOLD
+// fg: cyan, bg: blue, style: bold
 func TestPCyanBgBlueBold(t *testing.T) {
 	fmt.Println(PCyanBgBlueBold(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: MAGENTA style: BOLD
+// fg: cyan, bg: magenta, style: bold
 func TestPCyanBgMagentaBold(t *testing.T) {
 	fmt.Println(PCyanBgMagentaBold(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: CYAN style: BOLD
+// fg: cyan, bg: nil, style: bold
 func TestPCyanBold(t *testing.T) {
 	fmt.Println(PCyanBold(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: WHITE style: BOLD
+// fg: cyan, bg: white, style: bold
 func TestPCyanBgWhiteBold(t *testing.T) {
 	fmt.Println(PCyanBgWhiteBold(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: BLACK style: BOLD
+// fg: white, bg: black, style: bold
 func TestPWhiteBgBlackBold(t *testing.T) {
 	fmt.Println(PWhiteBgBlackBold(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: RED style: BOLD
+// fg: white, bg: red, style: bold
 func TestPWhiteBgRedBold(t *testing.T) {
 	fmt.Println(PWhiteBgRedBold(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: GREEN style: BOLD
+// fg: white, bg: green, style: bold
 func TestPWhiteBgGreenBold(t *testing.T) {
 	fmt.Println(PWhiteBgGreenBold(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: YELLOW style: BOLD
+// fg: white, bg: yellow, style: bold
 func TestPWhiteBgYellowBold(t *testing.T) {
 	fmt.Println(PWhiteBgYellowBold(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: BLUE style: BOLD
+// fg: white, bg: blue, style: bold
 func TestPWhiteBgBlueBold(t *testing.T) {
 	fmt.Println(PWhiteBgBlueBold(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: MAGENTA style: BOLD
+// fg: white, bg: magenta, style: bold
 func TestPWhiteBgMagentaBold(t *testing.T) {
 	fmt.Println(PWhiteBgMagentaBold(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: CYAN style: BOLD
+// fg: white, bg: cyan, style: bold
 func TestPWhiteBgCyanBold(t *testing.T) {
 	fmt.Println(PWhiteBgCyanBold(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: WHITE style: BOLD
+// fg: white, bg: nil, style: bold
 func TestPWhiteBold(t *testing.T) {
 	fmt.Println(PWhiteBold(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: BLACK style: FAINT
+// fg: black, bg: nil, style: faint
 func TestPBlackFaint(t *testing.T) {
 	fmt.Println(PBlackFaint(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: RED style: FAINT
+// fg: black, bg: red, style: faint
 func TestPBlackBgRedFaint(t *testing.T) {
 	fmt.Println(PBlackBgRedFaint(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: GREEN style: FAINT
+// fg: black, bg: green, style: faint
 func TestPBlackBgGreenFaint(t *testing.T) {
 	fmt.Println(PBlackBgGreenFaint(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: YELLOW style: FAINT
+// fg: black, bg: yellow, style: faint
 func TestPBlackBgYellowFaint(t *testing.T) {
 	fmt.Println(PBlackBgYellowFaint(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: BLUE style: FAINT
+// fg: black, bg: blue, style: faint
 func TestPBlackBgBlueFaint(t *testing.T) {
 	fmt.Println(PBlackBgBlueFaint(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: MAGENTA style: FAINT
+// fg: black, bg: magenta, style: faint
 func TestPBlackBgMagentaFaint(t *testing.T) {
 	fmt.Println(PBlackBgMagentaFaint(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: CYAN style: FAINT
+// fg: black, bg: cyan, style: faint
 func TestPBlackBgCyanFaint(t *testing.T) {
 	fmt.Println(PBlackBgCyanFaint(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: WHITE style: FAINT
+// fg: black, bg: white, style: faint
 func TestPBlackBgWhiteFaint(t *testing.T) {
 	fmt.Println(PBlackBgWhiteFaint(globalStr))
 }
 
-// fg: RED(is_light: false) bg: BLACK style: FAINT
+// fg: red, bg: black, style: faint
 func TestPRedBgBlackFaint(t *testing.T) {
 	fmt.Println(PRedBgBlackFaint(globalStr))
 }
 
-// fg: RED(is_light: false) bg: RED style: FAINT
+// fg: red, bg: nil, style: faint
 func TestPRedFaint(t *testing.T) {
 	fmt.Println(PRedFaint(globalStr))
 }
 
-// fg: RED(is_light: false) bg: GREEN style: FAINT
+// fg: red, bg: green, style: faint
 func TestPRedBgGreenFaint(t *testing.T) {
 	fmt.Println(PRedBgGreenFaint(globalStr))
 }
 
-// fg: RED(is_light: false) bg: YELLOW style: FAINT
+// fg: red, bg: yellow, style: faint
 func TestPRedBgYellowFaint(t *testing.T) {
 	fmt.Println(PRedBgYellowFaint(globalStr))
 }
 
-// fg: RED(is_light: false) bg: BLUE style: FAINT
+// fg: red, bg: blue, style: faint
 func TestPRedBgBlueFaint(t *testing.T) {
 	fmt.Println(PRedBgBlueFaint(globalStr))
 }
 
-// fg: RED(is_light: false) bg: MAGENTA style: FAINT
+// fg: red, bg: magenta, style: faint
 func TestPRedBgMagentaFaint(t *testing.T) {
 	fmt.Println(PRedBgMagentaFaint(globalStr))
 }
 
-// fg: RED(is_light: false) bg: CYAN style: FAINT
+// fg: red, bg: cyan, style: faint
 func TestPRedBgCyanFaint(t *testing.T) {
 	fmt.Println(PRedBgCyanFaint(globalStr))
 }
 
-// fg: RED(is_light: false) bg: WHITE style: FAINT
+// fg: red, bg: white, style: faint
 func TestPRedBgWhiteFaint(t *testing.T) {
 	fmt.Println(PRedBgWhiteFaint(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: BLACK style: FAINT
+// fg: green, bg: black, style: faint
 func TestPGreenBgBlackFaint(t *testing.T) {
 	fmt.Println(PGreenBgBlackFaint(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: RED style: FAINT
+// fg: green, bg: red, style: faint
 func TestPGreenBgRedFaint(t *testing.T) {
 	fmt.Println(PGreenBgRedFaint(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: GREEN style: FAINT
+// fg: green, bg: nil, style: faint
 func TestPGreenFaint(t *testing.T) {
 	fmt.Println(PGreenFaint(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: YELLOW style: FAINT
+// fg: green, bg: yellow, style: faint
 func TestPGreenBgYellowFaint(t *testing.T) {
 	fmt.Println(PGreenBgYellowFaint(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: BLUE style: FAINT
+// fg: green, bg: blue, style: faint
 func TestPGreenBgBlueFaint(t *testing.T) {
 	fmt.Println(PGreenBgBlueFaint(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: MAGENTA style: FAINT
+// fg: green, bg: magenta, style: faint
 func TestPGreenBgMagentaFaint(t *testing.T) {
 	fmt.Println(PGreenBgMagentaFaint(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: CYAN style: FAINT
+// fg: green, bg: cyan, style: faint
 func TestPGreenBgCyanFaint(t *testing.T) {
 	fmt.Println(PGreenBgCyanFaint(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: WHITE style: FAINT
+// fg: green, bg: white, style: faint
 func TestPGreenBgWhiteFaint(t *testing.T) {
 	fmt.Println(PGreenBgWhiteFaint(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: BLACK style: FAINT
+// fg: yellow, bg: black, style: faint
 func TestPYellowBgBlackFaint(t *testing.T) {
 	fmt.Println(PYellowBgBlackFaint(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: RED style: FAINT
+// fg: yellow, bg: red, style: faint
 func TestPYellowBgRedFaint(t *testing.T) {
 	fmt.Println(PYellowBgRedFaint(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: GREEN style: FAINT
+// fg: yellow, bg: green, style: faint
 func TestPYellowBgGreenFaint(t *testing.T) {
 	fmt.Println(PYellowBgGreenFaint(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: YELLOW style: FAINT
+// fg: yellow, bg: nil, style: faint
 func TestPYellowFaint(t *testing.T) {
 	fmt.Println(PYellowFaint(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: BLUE style: FAINT
+// fg: yellow, bg: blue, style: faint
 func TestPYellowBgBlueFaint(t *testing.T) {
 	fmt.Println(PYellowBgBlueFaint(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: MAGENTA style: FAINT
+// fg: yellow, bg: magenta, style: faint
 func TestPYellowBgMagentaFaint(t *testing.T) {
 	fmt.Println(PYellowBgMagentaFaint(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: CYAN style: FAINT
+// fg: yellow, bg: cyan, style: faint
 func TestPYellowBgCyanFaint(t *testing.T) {
 	fmt.Println(PYellowBgCyanFaint(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: WHITE style: FAINT
+// fg: yellow, bg: white, style: faint
 func TestPYellowBgWhiteFaint(t *testing.T) {
 	fmt.Println(PYellowBgWhiteFaint(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: BLACK style: FAINT
+// fg: blue, bg: black, style: faint
 func TestPBlueBgBlackFaint(t *testing.T) {
 	fmt.Println(PBlueBgBlackFaint(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: RED style: FAINT
+// fg: blue, bg: red, style: faint
 func TestPBlueBgRedFaint(t *testing.T) {
 	fmt.Println(PBlueBgRedFaint(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: GREEN style: FAINT
+// fg: blue, bg: green, style: faint
 func TestPBlueBgGreenFaint(t *testing.T) {
 	fmt.Println(PBlueBgGreenFaint(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: YELLOW style: FAINT
+// fg: blue, bg: yellow, style: faint
 func TestPBlueBgYellowFaint(t *testing.T) {
 	fmt.Println(PBlueBgYellowFaint(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: BLUE style: FAINT
+// fg: blue, bg: nil, style: faint
 func TestPBlueFaint(t *testing.T) {
 	fmt.Println(PBlueFaint(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: MAGENTA style: FAINT
+// fg: blue, bg: magenta, style: faint
 func TestPBlueBgMagentaFaint(t *testing.T) {
 	fmt.Println(PBlueBgMagentaFaint(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: CYAN style: FAINT
+// fg: blue, bg: cyan, style: faint
 func TestPBlueBgCyanFaint(t *testing.T) {
 	fmt.Println(PBlueBgCyanFaint(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: WHITE style: FAINT
+// fg: blue, bg: white, style: faint
 func TestPBlueBgWhiteFaint(t *testing.T) {
 	fmt.Println(PBlueBgWhiteFaint(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: BLACK style: FAINT
+// fg: magenta, bg: black, style: faint
 func TestPMagentaBgBlackFaint(t *testing.T) {
 	fmt.Println(PMagentaBgBlackFaint(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: RED style: FAINT
+// fg: magenta, bg: red, style: faint
 func TestPMagentaBgRedFaint(t *testing.T) {
 	fmt.Println(PMagentaBgRedFaint(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: GREEN style: FAINT
+// fg: magenta, bg: green, style: faint
 func TestPMagentaBgGreenFaint(t *testing.T) {
 	fmt.Println(PMagentaBgGreenFaint(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: YELLOW style: FAINT
+// fg: magenta, bg: yellow, style: faint
 func TestPMagentaBgYellowFaint(t *testing.T) {
 	fmt.Println(PMagentaBgYellowFaint(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: BLUE style: FAINT
+// fg: magenta, bg: blue, style: faint
 func TestPMagentaBgBlueFaint(t *testing.T) {
 	fmt.Println(PMagentaBgBlueFaint(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: MAGENTA style: FAINT
+// fg: magenta, bg: nil, style: faint
 func TestPMagentaFaint(t *testing.T) {
 	fmt.Println(PMagentaFaint(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: CYAN style: FAINT
+// fg: magenta, bg: cyan, style: faint
 func TestPMagentaBgCyanFaint(t *testing.T) {
 	fmt.Println(PMagentaBgCyanFaint(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: WHITE style: FAINT
+// fg: magenta, bg: white, style: faint
 func TestPMagentaBgWhiteFaint(t *testing.T) {
 	fmt.Println(PMagentaBgWhiteFaint(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: BLACK style: FAINT
+// fg: cyan, bg: black, style: faint
 func TestPCyanBgBlackFaint(t *testing.T) {
 	fmt.Println(PCyanBgBlackFaint(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: RED style: FAINT
+// fg: cyan, bg: red, style: faint
 func TestPCyanBgRedFaint(t *testing.T) {
 	fmt.Println(PCyanBgRedFaint(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: GREEN style: FAINT
+// fg: cyan, bg: green, style: faint
 func TestPCyanBgGreenFaint(t *testing.T) {
 	fmt.Println(PCyanBgGreenFaint(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: YELLOW style: FAINT
+// fg: cyan, bg: yellow, style: faint
 func TestPCyanBgYellowFaint(t *testing.T) {
 	fmt.Println(PCyanBgYellowFaint(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: BLUE style: FAINT
+// fg: cyan, bg: blue, style: faint
 func TestPCyanBgBlueFaint(t *testing.T) {
 	fmt.Println(PCyanBgBlueFaint(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: MAGENTA style: FAINT
+// fg: cyan, bg: magenta, style: faint
 func TestPCyanBgMagentaFaint(t *testing.T) {
 	fmt.Println(PCyanBgMagentaFaint(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: CYAN style: FAINT
+// fg: cyan, bg: nil, style: faint
 func TestPCyanFaint(t *testing.T) {
 	fmt.Println(PCyanFaint(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: WHITE style: FAINT
+// fg: cyan, bg: white, style: faint
 func TestPCyanBgWhiteFaint(t *testing.T) {
 	fmt.Println(PCyanBgWhiteFaint(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: BLACK style: FAINT
+// fg: white, bg: black, style: faint
 func TestPWhiteBgBlackFaint(t *testing.T) {
 	fmt.Println(PWhiteBgBlackFaint(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: RED style: FAINT
+// fg: white, bg: red, style: faint
 func TestPWhiteBgRedFaint(t *testing.T) {
 	fmt.Println(PWhiteBgRedFaint(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: GREEN style: FAINT
+// fg: white, bg: green, style: faint
 func TestPWhiteBgGreenFaint(t *testing.T) {
 	fmt.Println(PWhiteBgGreenFaint(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: YELLOW style: FAINT
+// fg: white, bg: yellow, style: faint
 func TestPWhiteBgYellowFaint(t *testing.T) {
 	fmt.Println(PWhiteBgYellowFaint(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: BLUE style: FAINT
+// fg: white, bg: blue, style: faint
 func TestPWhiteBgBlueFaint(t *testing.T) {
 	fmt.Println(PWhiteBgBlueFaint(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: MAGENTA style: FAINT
+// fg: white, bg: magenta, style: faint
 func TestPWhiteBgMagentaFaint(t *testing.T) {
 	fmt.Println(PWhiteBgMagentaFaint(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: CYAN style: FAINT
+// fg: white, bg: cyan, style: faint
 func TestPWhiteBgCyanFaint(t *testing.T) {
 	fmt.Println(PWhiteBgCyanFaint(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: WHITE style: FAINT
+// fg: white, bg: nil, style: faint
 func TestPWhiteFaint(t *testing.T) {
 	fmt.Println(PWhiteFaint(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: BLACK style: ITALIC
+// fg: black, bg: nil, style: italic
 func TestPBlackItalic(t *testing.T) {
 	fmt.Println(PBlackItalic(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: RED style: ITALIC
+// fg: black, bg: red, style: italic
 func TestPBlackBgRedItalic(t *testing.T) {
 	fmt.Println(PBlackBgRedItalic(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: GREEN style: ITALIC
+// fg: black, bg: green, style: italic
 func TestPBlackBgGreenItalic(t *testing.T) {
 	fmt.Println(PBlackBgGreenItalic(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: YELLOW style: ITALIC
+// fg: black, bg: yellow, style: italic
 func TestPBlackBgYellowItalic(t *testing.T) {
 	fmt.Println(PBlackBgYellowItalic(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: BLUE style: ITALIC
+// fg: black, bg: blue, style: italic
 func TestPBlackBgBlueItalic(t *testing.T) {
 	fmt.Println(PBlackBgBlueItalic(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: MAGENTA style: ITALIC
+// fg: black, bg: magenta, style: italic
 func TestPBlackBgMagentaItalic(t *testing.T) {
 	fmt.Println(PBlackBgMagentaItalic(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: CYAN style: ITALIC
+// fg: black, bg: cyan, style: italic
 func TestPBlackBgCyanItalic(t *testing.T) {
 	fmt.Println(PBlackBgCyanItalic(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: WHITE style: ITALIC
+// fg: black, bg: white, style: italic
 func TestPBlackBgWhiteItalic(t *testing.T) {
 	fmt.Println(PBlackBgWhiteItalic(globalStr))
 }
 
-// fg: RED(is_light: false) bg: BLACK style: ITALIC
+// fg: red, bg: black, style: italic
 func TestPRedBgBlackItalic(t *testing.T) {
 	fmt.Println(PRedBgBlackItalic(globalStr))
 }
 
-// fg: RED(is_light: false) bg: RED style: ITALIC
+// fg: red, bg: nil, style: italic
 func TestPRedItalic(t *testing.T) {
 	fmt.Println(PRedItalic(globalStr))
 }
 
-// fg: RED(is_light: false) bg: GREEN style: ITALIC
+// fg: red, bg: green, style: italic
 func TestPRedBgGreenItalic(t *testing.T) {
 	fmt.Println(PRedBgGreenItalic(globalStr))
 }
 
-// fg: RED(is_light: false) bg: YELLOW style: ITALIC
+// fg: red, bg: yellow, style: italic
 func TestPRedBgYellowItalic(t *testing.T) {
 	fmt.Println(PRedBgYellowItalic(globalStr))
 }
 
-// fg: RED(is_light: false) bg: BLUE style: ITALIC
+// fg: red, bg: blue, style: italic
 func TestPRedBgBlueItalic(t *testing.T) {
 	fmt.Println(PRedBgBlueItalic(globalStr))
 }
 
-// fg: RED(is_light: false) bg: MAGENTA style: ITALIC
+// fg: red, bg: magenta, style: italic
 func TestPRedBgMagentaItalic(t *testing.T) {
 	fmt.Println(PRedBgMagentaItalic(globalStr))
 }
 
-// fg: RED(is_light: false) bg: CYAN style: ITALIC
+// fg: red, bg: cyan, style: italic
 func TestPRedBgCyanItalic(t *testing.T) {
 	fmt.Println(PRedBgCyanItalic(globalStr))
 }
 
-// fg: RED(is_light: false) bg: WHITE style: ITALIC
+// fg: red, bg: white, style: italic
 func TestPRedBgWhiteItalic(t *testing.T) {
 	fmt.Println(PRedBgWhiteItalic(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: BLACK style: ITALIC
+// fg: green, bg: black, style: italic
 func TestPGreenBgBlackItalic(t *testing.T) {
 	fmt.Println(PGreenBgBlackItalic(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: RED style: ITALIC
+// fg: green, bg: red, style: italic
 func TestPGreenBgRedItalic(t *testing.T) {
 	fmt.Println(PGreenBgRedItalic(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: GREEN style: ITALIC
+// fg: green, bg: nil, style: italic
 func TestPGreenItalic(t *testing.T) {
 	fmt.Println(PGreenItalic(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: YELLOW style: ITALIC
+// fg: green, bg: yellow, style: italic
 func TestPGreenBgYellowItalic(t *testing.T) {
 	fmt.Println(PGreenBgYellowItalic(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: BLUE style: ITALIC
+// fg: green, bg: blue, style: italic
 func TestPGreenBgBlueItalic(t *testing.T) {
 	fmt.Println(PGreenBgBlueItalic(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: MAGENTA style: ITALIC
+// fg: green, bg: magenta, style: italic
 func TestPGreenBgMagentaItalic(t *testing.T) {
 	fmt.Println(PGreenBgMagentaItalic(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: CYAN style: ITALIC
+// fg: green, bg: cyan, style: italic
 func TestPGreenBgCyanItalic(t *testing.T) {
 	fmt.Println(PGreenBgCyanItalic(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: WHITE style: ITALIC
+// fg: green, bg: white, style: italic
 func TestPGreenBgWhiteItalic(t *testing.T) {
 	fmt.Println(PGreenBgWhiteItalic(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: BLACK style: ITALIC
+// fg: yellow, bg: black, style: italic
 func TestPYellowBgBlackItalic(t *testing.T) {
 	fmt.Println(PYellowBgBlackItalic(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: RED style: ITALIC
+// fg: yellow, bg: red, style: italic
 func TestPYellowBgRedItalic(t *testing.T) {
 	fmt.Println(PYellowBgRedItalic(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: GREEN style: ITALIC
+// fg: yellow, bg: green, style: italic
 func TestPYellowBgGreenItalic(t *testing.T) {
 	fmt.Println(PYellowBgGreenItalic(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: YELLOW style: ITALIC
+// fg: yellow, bg: nil, style: italic
 func TestPYellowItalic(t *testing.T) {
 	fmt.Println(PYellowItalic(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: BLUE style: ITALIC
+// fg: yellow, bg: blue, style: italic
 func TestPYellowBgBlueItalic(t *testing.T) {
 	fmt.Println(PYellowBgBlueItalic(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: MAGENTA style: ITALIC
+// fg: yellow, bg: magenta, style: italic
 func TestPYellowBgMagentaItalic(t *testing.T) {
 	fmt.Println(PYellowBgMagentaItalic(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: CYAN style: ITALIC
+// fg: yellow, bg: cyan, style: italic
 func TestPYellowBgCyanItalic(t *testing.T) {
 	fmt.Println(PYellowBgCyanItalic(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: WHITE style: ITALIC
+// fg: yellow, bg: white, style: italic
 func TestPYellowBgWhiteItalic(t *testing.T) {
 	fmt.Println(PYellowBgWhiteItalic(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: BLACK style: ITALIC
+// fg: blue, bg: black, style: italic
 func TestPBlueBgBlackItalic(t *testing.T) {
 	fmt.Println(PBlueBgBlackItalic(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: RED style: ITALIC
+// fg: blue, bg: red, style: italic
 func TestPBlueBgRedItalic(t *testing.T) {
 	fmt.Println(PBlueBgRedItalic(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: GREEN style: ITALIC
+// fg: blue, bg: green, style: italic
 func TestPBlueBgGreenItalic(t *testing.T) {
 	fmt.Println(PBlueBgGreenItalic(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: YELLOW style: ITALIC
+// fg: blue, bg: yellow, style: italic
 func TestPBlueBgYellowItalic(t *testing.T) {
 	fmt.Println(PBlueBgYellowItalic(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: BLUE style: ITALIC
+// fg: blue, bg: nil, style: italic
 func TestPBlueItalic(t *testing.T) {
 	fmt.Println(PBlueItalic(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: MAGENTA style: ITALIC
+// fg: blue, bg: magenta, style: italic
 func TestPBlueBgMagentaItalic(t *testing.T) {
 	fmt.Println(PBlueBgMagentaItalic(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: CYAN style: ITALIC
+// fg: blue, bg: cyan, style: italic
 func TestPBlueBgCyanItalic(t *testing.T) {
 	fmt.Println(PBlueBgCyanItalic(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: WHITE style: ITALIC
+// fg: blue, bg: white, style: italic
 func TestPBlueBgWhiteItalic(t *testing.T) {
 	fmt.Println(PBlueBgWhiteItalic(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: BLACK style: ITALIC
+// fg: magenta, bg: black, style: italic
 func TestPMagentaBgBlackItalic(t *testing.T) {
 	fmt.Println(PMagentaBgBlackItalic(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: RED style: ITALIC
+// fg: magenta, bg: red, style: italic
 func TestPMagentaBgRedItalic(t *testing.T) {
 	fmt.Println(PMagentaBgRedItalic(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: GREEN style: ITALIC
+// fg: magenta, bg: green, style: italic
 func TestPMagentaBgGreenItalic(t *testing.T) {
 	fmt.Println(PMagentaBgGreenItalic(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: YELLOW style: ITALIC
+// fg: magenta, bg: yellow, style: italic
 func TestPMagentaBgYellowItalic(t *testing.T) {
 	fmt.Println(PMagentaBgYellowItalic(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: BLUE style: ITALIC
+// fg: magenta, bg: blue, style: italic
 func TestPMagentaBgBlueItalic(t *testing.T) {
 	fmt.Println(PMagentaBgBlueItalic(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: MAGENTA style: ITALIC
+// fg: magenta, bg: nil, style: italic
 func TestPMagentaItalic(t *testing.T) {
 	fmt.Println(PMagentaItalic(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: CYAN style: ITALIC
+// fg: magenta, bg: cyan, style: italic
 func TestPMagentaBgCyanItalic(t *testing.T) {
 	fmt.Println(PMagentaBgCyanItalic(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: WHITE style: ITALIC
+// fg: magenta, bg: white, style: italic
 func TestPMagentaBgWhiteItalic(t *testing.T) {
 	fmt.Println(PMagentaBgWhiteItalic(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: BLACK style: ITALIC
+// fg: cyan, bg: black, style: italic
 func TestPCyanBgBlackItalic(t *testing.T) {
 	fmt.Println(PCyanBgBlackItalic(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: RED style: ITALIC
+// fg: cyan, bg: red, style: italic
 func TestPCyanBgRedItalic(t *testing.T) {
 	fmt.Println(PCyanBgRedItalic(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: GREEN style: ITALIC
+// fg: cyan, bg: green, style: italic
 func TestPCyanBgGreenItalic(t *testing.T) {
 	fmt.Println(PCyanBgGreenItalic(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: YELLOW style: ITALIC
+// fg: cyan, bg: yellow, style: italic
 func TestPCyanBgYellowItalic(t *testing.T) {
 	fmt.Println(PCyanBgYellowItalic(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: BLUE style: ITALIC
+// fg: cyan, bg: blue, style: italic
 func TestPCyanBgBlueItalic(t *testing.T) {
 	fmt.Println(PCyanBgBlueItalic(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: MAGENTA style: ITALIC
+// fg: cyan, bg: magenta, style: italic
 func TestPCyanBgMagentaItalic(t *testing.T) {
 	fmt.Println(PCyanBgMagentaItalic(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: CYAN style: ITALIC
+// fg: cyan, bg: nil, style: italic
 func TestPCyanItalic(t *testing.T) {
 	fmt.Println(PCyanItalic(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: WHITE style: ITALIC
+// fg: cyan, bg: white, style: italic
 func TestPCyanBgWhiteItalic(t *testing.T) {
 	fmt.Println(PCyanBgWhiteItalic(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: BLACK style: ITALIC
+// fg: white, bg: black, style: italic
 func TestPWhiteBgBlackItalic(t *testing.T) {
 	fmt.Println(PWhiteBgBlackItalic(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: RED style: ITALIC
+// fg: white, bg: red, style: italic
 func TestPWhiteBgRedItalic(t *testing.T) {
 	fmt.Println(PWhiteBgRedItalic(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: GREEN style: ITALIC
+// fg: white, bg: green, style: italic
 func TestPWhiteBgGreenItalic(t *testing.T) {
 	fmt.Println(PWhiteBgGreenItalic(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: YELLOW style: ITALIC
+// fg: white, bg: yellow, style: italic
 func TestPWhiteBgYellowItalic(t *testing.T) {
 	fmt.Println(PWhiteBgYellowItalic(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: BLUE style: ITALIC
+// fg: white, bg: blue, style: italic
 func TestPWhiteBgBlueItalic(t *testing.T) {
 	fmt.Println(PWhiteBgBlueItalic(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: MAGENTA style: ITALIC
+// fg: white, bg: magenta, style: italic
 func TestPWhiteBgMagentaItalic(t *testing.T) {
 	fmt.Println(PWhiteBgMagentaItalic(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: CYAN style: ITALIC
+// fg: white, bg: cyan, style: italic
 func TestPWhiteBgCyanItalic(t *testing.T) {
 	fmt.Println(PWhiteBgCyanItalic(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: WHITE style: ITALIC
+// fg: white, bg: nil, style: italic
 func TestPWhiteItalic(t *testing.T) {
 	fmt.Println(PWhiteItalic(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: BLACK style: UNDERLINE
+// fg: black, bg: nil, style: underline
 func TestPBlackUnderline(t *testing.T) {
 	fmt.Println(PBlackUnderline(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: RED style: UNDERLINE
+// fg: black, bg: red, style: underline
 func TestPBlackBgRedUnderline(t *testing.T) {
 	fmt.Println(PBlackBgRedUnderline(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: GREEN style: UNDERLINE
+// fg: black, bg: green, style: underline
 func TestPBlackBgGreenUnderline(t *testing.T) {
 	fmt.Println(PBlackBgGreenUnderline(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: YELLOW style: UNDERLINE
+// fg: black, bg: yellow, style: underline
 func TestPBlackBgYellowUnderline(t *testing.T) {
 	fmt.Println(PBlackBgYellowUnderline(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: BLUE style: UNDERLINE
+// fg: black, bg: blue, style: underline
 func TestPBlackBgBlueUnderline(t *testing.T) {
 	fmt.Println(PBlackBgBlueUnderline(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: MAGENTA style: UNDERLINE
+// fg: black, bg: magenta, style: underline
 func TestPBlackBgMagentaUnderline(t *testing.T) {
 	fmt.Println(PBlackBgMagentaUnderline(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: CYAN style: UNDERLINE
+// fg: black, bg: cyan, style: underline
 func TestPBlackBgCyanUnderline(t *testing.T) {
 	fmt.Println(PBlackBgCyanUnderline(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: WHITE style: UNDERLINE
+// fg: black, bg: white, style: underline
 func TestPBlackBgWhiteUnderline(t *testing.T) {
 	fmt.Println(PBlackBgWhiteUnderline(globalStr))
 }
 
-// fg: RED(is_light: false) bg: BLACK style: UNDERLINE
+// fg: red, bg: black, style: underline
 func TestPRedBgBlackUnderline(t *testing.T) {
 	fmt.Println(PRedBgBlackUnderline(globalStr))
 }
 
-// fg: RED(is_light: false) bg: RED style: UNDERLINE
+// fg: red, bg: nil, style: underline
 func TestPRedUnderline(t *testing.T) {
 	fmt.Println(PRedUnderline(globalStr))
 }
 
-// fg: RED(is_light: false) bg: GREEN style: UNDERLINE
+// fg: red, bg: green, style: underline
 func TestPRedBgGreenUnderline(t *testing.T) {
 	fmt.Println(PRedBgGreenUnderline(globalStr))
 }
 
-// fg: RED(is_light: false) bg: YELLOW style: UNDERLINE
+// fg: red, bg: yellow, style: underline
 func TestPRedBgYellowUnderline(t *testing.T) {
 	fmt.Println(PRedBgYellowUnderline(globalStr))
 }
 
-// fg: RED(is_light: false) bg: BLUE style: UNDERLINE
+// fg: red, bg: blue, style: underline
 func TestPRedBgBlueUnderline(t *testing.T) {
 	fmt.Println(PRedBgBlueUnderline(globalStr))
 }
 
-// fg: RED(is_light: false) bg: MAGENTA style: UNDERLINE
+// fg: red, bg: magenta, style: underline
 func TestPRedBgMagentaUnderline(t *testing.T) {
 	fmt.Println(PRedBgMagentaUnderline(globalStr))
 }
 
-// fg: RED(is_light: false) bg: CYAN style: UNDERLINE
+// fg: red, bg: cyan, style: underline
 func TestPRedBgCyanUnderline(t *testing.T) {
 	fmt.Println(PRedBgCyanUnderline(globalStr))
 }
 
-// fg: RED(is_light: false) bg: WHITE style: UNDERLINE
+// fg: red, bg: white, style: underline
 func TestPRedBgWhiteUnderline(t *testing.T) {
 	fmt.Println(PRedBgWhiteUnderline(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: BLACK style: UNDERLINE
+// fg: green, bg: black, style: underline
 func TestPGreenBgBlackUnderline(t *testing.T) {
 	fmt.Println(PGreenBgBlackUnderline(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: RED style: UNDERLINE
+// fg: green, bg: red, style: underline
 func TestPGreenBgRedUnderline(t *testing.T) {
 	fmt.Println(PGreenBgRedUnderline(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: GREEN style: UNDERLINE
+// fg: green, bg: nil, style: underline
 func TestPGreenUnderline(t *testing.T) {
 	fmt.Println(PGreenUnderline(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: YELLOW style: UNDERLINE
+// fg: green, bg: yellow, style: underline
 func TestPGreenBgYellowUnderline(t *testing.T) {
 	fmt.Println(PGreenBgYellowUnderline(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: BLUE style: UNDERLINE
+// fg: green, bg: blue, style: underline
 func TestPGreenBgBlueUnderline(t *testing.T) {
 	fmt.Println(PGreenBgBlueUnderline(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: MAGENTA style: UNDERLINE
+// fg: green, bg: magenta, style: underline
 func TestPGreenBgMagentaUnderline(t *testing.T) {
 	fmt.Println(PGreenBgMagentaUnderline(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: CYAN style: UNDERLINE
+// fg: green, bg: cyan, style: underline
 func TestPGreenBgCyanUnderline(t *testing.T) {
 	fmt.Println(PGreenBgCyanUnderline(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: WHITE style: UNDERLINE
+// fg: green, bg: white, style: underline
 func TestPGreenBgWhiteUnderline(t *testing.T) {
 	fmt.Println(PGreenBgWhiteUnderline(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: BLACK style: UNDERLINE
+// fg: yellow, bg: black, style: underline
 func TestPYellowBgBlackUnderline(t *testing.T) {
 	fmt.Println(PYellowBgBlackUnderline(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: RED style: UNDERLINE
+// fg: yellow, bg: red, style: underline
 func TestPYellowBgRedUnderline(t *testing.T) {
 	fmt.Println(PYellowBgRedUnderline(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: GREEN style: UNDERLINE
+// fg: yellow, bg: green, style: underline
 func TestPYellowBgGreenUnderline(t *testing.T) {
 	fmt.Println(PYellowBgGreenUnderline(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: YELLOW style: UNDERLINE
+// fg: yellow, bg: nil, style: underline
 func TestPYellowUnderline(t *testing.T) {
 	fmt.Println(PYellowUnderline(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: BLUE style: UNDERLINE
+// fg: yellow, bg: blue, style: underline
 func TestPYellowBgBlueUnderline(t *testing.T) {
 	fmt.Println(PYellowBgBlueUnderline(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: MAGENTA style: UNDERLINE
+// fg: yellow, bg: magenta, style: underline
 func TestPYellowBgMagentaUnderline(t *testing.T) {
 	fmt.Println(PYellowBgMagentaUnderline(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: CYAN style: UNDERLINE
+// fg: yellow, bg: cyan, style: underline
 func TestPYellowBgCyanUnderline(t *testing.T) {
 	fmt.Println(PYellowBgCyanUnderline(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: WHITE style: UNDERLINE
+// fg: yellow, bg: white, style: underline
 func TestPYellowBgWhiteUnderline(t *testing.T) {
 	fmt.Println(PYellowBgWhiteUnderline(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: BLACK style: UNDERLINE
+// fg: blue, bg: black, style: underline
 func TestPBlueBgBlackUnderline(t *testing.T) {
 	fmt.Println(PBlueBgBlackUnderline(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: RED style: UNDERLINE
+// fg: blue, bg: red, style: underline
 func TestPBlueBgRedUnderline(t *testing.T) {
 	fmt.Println(PBlueBgRedUnderline(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: GREEN style: UNDERLINE
+// fg: blue, bg: green, style: underline
 func TestPBlueBgGreenUnderline(t *testing.T) {
 	fmt.Println(PBlueBgGreenUnderline(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: YELLOW style: UNDERLINE
+// fg: blue, bg: yellow, style: underline
 func TestPBlueBgYellowUnderline(t *testing.T) {
 	fmt.Println(PBlueBgYellowUnderline(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: BLUE style: UNDERLINE
+// fg: blue, bg: nil, style: underline
 func TestPBlueUnderline(t *testing.T) {
 	fmt.Println(PBlueUnderline(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: MAGENTA style: UNDERLINE
+// fg: blue, bg: magenta, style: underline
 func TestPBlueBgMagentaUnderline(t *testing.T) {
 	fmt.Println(PBlueBgMagentaUnderline(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: CYAN style: UNDERLINE
+// fg: blue, bg: cyan, style: underline
 func TestPBlueBgCyanUnderline(t *testing.T) {
 	fmt.Println(PBlueBgCyanUnderline(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: WHITE style: UNDERLINE
+// fg: blue, bg: white, style: underline
 func TestPBlueBgWhiteUnderline(t *testing.T) {
 	fmt.Println(PBlueBgWhiteUnderline(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: BLACK style: UNDERLINE
+// fg: magenta, bg: black, style: underline
 func TestPMagentaBgBlackUnderline(t *testing.T) {
 	fmt.Println(PMagentaBgBlackUnderline(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: RED style: UNDERLINE
+// fg: magenta, bg: red, style: underline
 func TestPMagentaBgRedUnderline(t *testing.T) {
 	fmt.Println(PMagentaBgRedUnderline(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: GREEN style: UNDERLINE
+// fg: magenta, bg: green, style: underline
 func TestPMagentaBgGreenUnderline(t *testing.T) {
 	fmt.Println(PMagentaBgGreenUnderline(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: YELLOW style: UNDERLINE
+// fg: magenta, bg: yellow, style: underline
 func TestPMagentaBgYellowUnderline(t *testing.T) {
 	fmt.Println(PMagentaBgYellowUnderline(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: BLUE style: UNDERLINE
+// fg: magenta, bg: blue, style: underline
 func TestPMagentaBgBlueUnderline(t *testing.T) {
 	fmt.Println(PMagentaBgBlueUnderline(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: MAGENTA style: UNDERLINE
+// fg: magenta, bg: nil, style: underline
 func TestPMagentaUnderline(t *testing.T) {
 	fmt.Println(PMagentaUnderline(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: CYAN style: UNDERLINE
+// fg: magenta, bg: cyan, style: underline
 func TestPMagentaBgCyanUnderline(t *testing.T) {
 	fmt.Println(PMagentaBgCyanUnderline(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: WHITE style: UNDERLINE
+// fg: magenta, bg: white, style: underline
 func TestPMagentaBgWhiteUnderline(t *testing.T) {
 	fmt.Println(PMagentaBgWhiteUnderline(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: BLACK style: UNDERLINE
+// fg: cyan, bg: black, style: underline
 func TestPCyanBgBlackUnderline(t *testing.T) {
 	fmt.Println(PCyanBgBlackUnderline(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: RED style: UNDERLINE
+// fg: cyan, bg: red, style: underline
 func TestPCyanBgRedUnderline(t *testing.T) {
 	fmt.Println(PCyanBgRedUnderline(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: GREEN style: UNDERLINE
+// fg: cyan, bg: green, style: underline
 func TestPCyanBgGreenUnderline(t *testing.T) {
 	fmt.Println(PCyanBgGreenUnderline(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: YELLOW style: UNDERLINE
+// fg: cyan, bg: yellow, style: underline
 func TestPCyanBgYellowUnderline(t *testing.T) {
 	fmt.Println(PCyanBgYellowUnderline(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: BLUE style: UNDERLINE
+// fg: cyan, bg: blue, style: underline
 func TestPCyanBgBlueUnderline(t *testing.T) {
 	fmt.Println(PCyanBgBlueUnderline(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: MAGENTA style: UNDERLINE
+// fg: cyan, bg: magenta, style: underline
 func TestPCyanBgMagentaUnderline(t *testing.T) {
 	fmt.Println(PCyanBgMagentaUnderline(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: CYAN style: UNDERLINE
+// fg: cyan, bg: nil, style: underline
 func TestPCyanUnderline(t *testing.T) {
 	fmt.Println(PCyanUnderline(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: WHITE style: UNDERLINE
+// fg: cyan, bg: white, style: underline
 func TestPCyanBgWhiteUnderline(t *testing.T) {
 	fmt.Println(PCyanBgWhiteUnderline(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: BLACK style: UNDERLINE
+// fg: white, bg: black, style: underline
 func TestPWhiteBgBlackUnderline(t *testing.T) {
 	fmt.Println(PWhiteBgBlackUnderline(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: RED style: UNDERLINE
+// fg: white, bg: red, style: underline
 func TestPWhiteBgRedUnderline(t *testing.T) {
 	fmt.Println(PWhiteBgRedUnderline(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: GREEN style: UNDERLINE
+// fg: white, bg: green, style: underline
 func TestPWhiteBgGreenUnderline(t *testing.T) {
 	fmt.Println(PWhiteBgGreenUnderline(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: YELLOW style: UNDERLINE
+// fg: white, bg: yellow, style: underline
 func TestPWhiteBgYellowUnderline(t *testing.T) {
 	fmt.Println(PWhiteBgYellowUnderline(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: BLUE style: UNDERLINE
+// fg: white, bg: blue, style: underline
 func TestPWhiteBgBlueUnderline(t *testing.T) {
 	fmt.Println(PWhiteBgBlueUnderline(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: MAGENTA style: UNDERLINE
+// fg: white, bg: magenta, style: underline
 func TestPWhiteBgMagentaUnderline(t *testing.T) {
 	fmt.Println(PWhiteBgMagentaUnderline(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: CYAN style: UNDERLINE
+// fg: white, bg: cyan, style: underline
 func TestPWhiteBgCyanUnderline(t *testing.T) {
 	fmt.Println(PWhiteBgCyanUnderline(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: WHITE style: UNDERLINE
+// fg: white, bg: nil, style: underline
 func TestPWhiteUnderline(t *testing.T) {
 	fmt.Println(PWhiteUnderline(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: BLACK style: BLINK
+// fg: black, bg: nil, style: blink
 func TestPBlackBlink(t *testing.T) {
 	fmt.Println(PBlackBlink(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: RED style: BLINK
+// fg: black, bg: red, style: blink
 func TestPBlackBgRedBlink(t *testing.T) {
 	fmt.Println(PBlackBgRedBlink(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: GREEN style: BLINK
+// fg: black, bg: green, style: blink
 func TestPBlackBgGreenBlink(t *testing.T) {
 	fmt.Println(PBlackBgGreenBlink(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: YELLOW style: BLINK
+// fg: black, bg: yellow, style: blink
 func TestPBlackBgYellowBlink(t *testing.T) {
 	fmt.Println(PBlackBgYellowBlink(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: BLUE style: BLINK
+// fg: black, bg: blue, style: blink
 func TestPBlackBgBlueBlink(t *testing.T) {
 	fmt.Println(PBlackBgBlueBlink(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: MAGENTA style: BLINK
+// fg: black, bg: magenta, style: blink
 func TestPBlackBgMagentaBlink(t *testing.T) {
 	fmt.Println(PBlackBgMagentaBlink(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: CYAN style: BLINK
+// fg: black, bg: cyan, style: blink
 func TestPBlackBgCyanBlink(t *testing.T) {
 	fmt.Println(PBlackBgCyanBlink(globalStr))
 }
 
-// fg: BLACK(is_light: false) bg: WHITE style: BLINK
+// fg: black, bg: white, style: blink
 func TestPBlackBgWhiteBlink(t *testing.T) {
 	fmt.Println(PBlackBgWhiteBlink(globalStr))
 }
 
-// fg: RED(is_light: false) bg: BLACK style: BLINK
+// fg: red, bg: black, style: blink
 func TestPRedBgBlackBlink(t *testing.T) {
 	fmt.Println(PRedBgBlackBlink(globalStr))
 }
 
-// fg: RED(is_light: false) bg: RED style: BLINK
+// fg: red, bg: nil, style: blink
 func TestPRedBlink(t *testing.T) {
 	fmt.Println(PRedBlink(globalStr))
 }
 
-// fg: RED(is_light: false) bg: GREEN style: BLINK
+// fg: red, bg: green, style: blink
 func TestPRedBgGreenBlink(t *testing.T) {
 	fmt.Println(PRedBgGreenBlink(globalStr))
 }
 
-// fg: RED(is_light: false) bg: YELLOW style: BLINK
+// fg: red, bg: yellow, style: blink
 func TestPRedBgYellowBlink(t *testing.T) {
 	fmt.Println(PRedBgYellowBlink(globalStr))
 }
 
-// fg: RED(is_light: false) bg: BLUE style: BLINK
+// fg: red, bg: blue, style: blink
 func TestPRedBgBlueBlink(t *testing.T) {
 	fmt.Println(PRedBgBlueBlink(globalStr))
 }
 
-// fg: RED(is_light: false) bg: MAGENTA style: BLINK
+// fg: red, bg: magenta, style: blink
 func TestPRedBgMagentaBlink(t *testing.T) {
 	fmt.Println(PRedBgMagentaBlink(globalStr))
 }
 
-// fg: RED(is_light: false) bg: CYAN style: BLINK
+// fg: red, bg: cyan, style: blink
 func TestPRedBgCyanBlink(t *testing.T) {
 	fmt.Println(PRedBgCyanBlink(globalStr))
 }
 
-// fg: RED(is_light: false) bg: WHITE style: BLINK
+// fg: red, bg: white, style: blink
 func TestPRedBgWhiteBlink(t *testing.T) {
 	fmt.Println(PRedBgWhiteBlink(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: BLACK style: BLINK
+// fg: green, bg: black, style: blink
 func TestPGreenBgBlackBlink(t *testing.T) {
 	fmt.Println(PGreenBgBlackBlink(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: RED style: BLINK
+// fg: green, bg: red, style: blink
 func TestPGreenBgRedBlink(t *testing.T) {
 	fmt.Println(PGreenBgRedBlink(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: GREEN style: BLINK
+// fg: green, bg: nil, style: blink
 func TestPGreenBlink(t *testing.T) {
 	fmt.Println(PGreenBlink(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: YELLOW style: BLINK
+// fg: green, bg: yellow, style: blink
 func TestPGreenBgYellowBlink(t *testing.T) {
 	fmt.Println(PGreenBgYellowBlink(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: BLUE style: BLINK
+// fg: green, bg: blue, style: blink
 func TestPGreenBgBlueBlink(t *testing.T) {
 	fmt.Println(PGreenBgBlueBlink(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: MAGENTA style: BLINK
+// fg: green, bg: magenta, style: blink
 func TestPGreenBgMagentaBlink(t *testing.T) {
 	fmt.Println(PGreenBgMagentaBlink(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: CYAN style: BLINK
+// fg: green, bg: cyan, style: blink
 func TestPGreenBgCyanBlink(t *testing.T) {
 	fmt.Println(PGreenBgCyanBlink(globalStr))
 }
 
-// fg: GREEN(is_light: false) bg: WHITE style: BLINK
+// fg: green, bg: white, style: blink
 func TestPGreenBgWhiteBlink(t *testing.T) {
 	fmt.Println(PGreenBgWhiteBlink(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: BLACK style: BLINK
+// fg: yellow, bg: black, style: blink
 func TestPYellowBgBlackBlink(t *testing.T) {
 	fmt.Println(PYellowBgBlackBlink(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: RED style: BLINK
+// fg: yellow, bg: red, style: blink
 func TestPYellowBgRedBlink(t *testing.T) {
 	fmt.Println(PYellowBgRedBlink(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: GREEN style: BLINK
+// fg: yellow, bg: green, style: blink
 func TestPYellowBgGreenBlink(t *testing.T) {
 	fmt.Println(PYellowBgGreenBlink(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: YELLOW style: BLINK
+// fg: yellow, bg: nil, style: blink
 func TestPYellowBlink(t *testing.T) {
 	fmt.Println(PYellowBlink(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: BLUE style: BLINK
+// fg: yellow, bg: blue, style: blink
 func TestPYellowBgBlueBlink(t *testing.T) {
 	fmt.Println(PYellowBgBlueBlink(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: MAGENTA style: BLINK
+// fg: yellow, bg: magenta, style: blink
 func TestPYellowBgMagentaBlink(t *testing.T) {
 	fmt.Println(PYellowBgMagentaBlink(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: CYAN style: BLINK
+// fg: yellow, bg: cyan, style: blink
 func TestPYellowBgCyanBlink(t *testing.T) {
 	fmt.Println(PYellowBgCyanBlink(globalStr))
 }
 
-// fg: YELLOW(is_light: false) bg: WHITE style: BLINK
+// fg: yellow, bg: white, style: blink
 func TestPYellowBgWhiteBlink(t *testing.T) {
 	fmt.Println(PYellowBgWhiteBlink(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: BLACK style: BLINK
+// fg: blue, bg: black, style: blink
 func TestPBlueBgBlackBlink(t *testing.T) {
 	fmt.Println(PBlueBgBlackBlink(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: RED style: BLINK
+// fg: blue, bg: red, style: blink
 func TestPBlueBgRedBlink(t *testing.T) {
 	fmt.Println(PBlueBgRedBlink(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: GREEN style: BLINK
+// fg: blue, bg: green, style: blink
 func TestPBlueBgGreenBlink(t *testing.T) {
 	fmt.Println(PBlueBgGreenBlink(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: YELLOW style: BLINK
+// fg: blue, bg: yellow, style: blink
 func TestPBlueBgYellowBlink(t *testing.T) {
 	fmt.Println(PBlueBgYellowBlink(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: BLUE style: BLINK
+// fg: blue, bg: nil, style: blink
 func TestPBlueBlink(t *testing.T) {
 	fmt.Println(PBlueBlink(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: MAGENTA style: BLINK
+// fg: blue, bg: magenta, style: blink
 func TestPBlueBgMagentaBlink(t *testing.T) {
 	fmt.Println(PBlueBgMagentaBlink(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: CYAN style: BLINK
+// fg: blue, bg: cyan, style: blink
 func TestPBlueBgCyanBlink(t *testing.T) {
 	fmt.Println(PBlueBgCyanBlink(globalStr))
 }
 
-// fg: BLUE(is_light: false) bg: WHITE style: BLINK
+// fg: blue, bg: white, style: blink
 func TestPBlueBgWhiteBlink(t *testing.T) {
 	fmt.Println(PBlueBgWhiteBlink(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: BLACK style: BLINK
+// fg: magenta, bg: black, style: blink
 func TestPMagentaBgBlackBlink(t *testing.T) {
 	fmt.Println(PMagentaBgBlackBlink(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: RED style: BLINK
+// fg: magenta, bg: red, style: blink
 func TestPMagentaBgRedBlink(t *testing.T) {
 	fmt.Println(PMagentaBgRedBlink(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: GREEN style: BLINK
+// fg: magenta, bg: green, style: blink
 func TestPMagentaBgGreenBlink(t *testing.T) {
 	fmt.Println(PMagentaBgGreenBlink(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: YELLOW style: BLINK
+// fg: magenta, bg: yellow, style: blink
 func TestPMagentaBgYellowBlink(t *testing.T) {
 	fmt.Println(PMagentaBgYellowBlink(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: BLUE style: BLINK
+// fg: magenta, bg: blue, style: blink
 func TestPMagentaBgBlueBlink(t *testing.T) {
 	fmt.Println(PMagentaBgBlueBlink(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: MAGENTA style: BLINK
+// fg: magenta, bg: nil, style: blink
 func TestPMagentaBlink(t *testing.T) {
 	fmt.Println(PMagentaBlink(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: CYAN style: BLINK
+// fg: magenta, bg: cyan, style: blink
 func TestPMagentaBgCyanBlink(t *testing.T) {
 	fmt.Println(PMagentaBgCyanBlink(globalStr))
 }
 
-// fg: MAGENTA(is_light: false) bg: WHITE style: BLINK
+// fg: magenta, bg: white, style: blink
 func TestPMagentaBgWhiteBlink(t *testing.T) {
 	fmt.Println(PMagentaBgWhiteBlink(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: BLACK style: BLINK
+// fg: cyan, bg: black, style: blink
 func TestPCyanBgBlackBlink(t *testing.T) {
 	fmt.Println(PCyanBgBlackBlink(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: RED style: BLINK
+// fg: cyan, bg: red, style: blink
 func TestPCyanBgRedBlink(t *testing.T) {
 	fmt.Println(PCyanBgRedBlink(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: GREEN style: BLINK
+// fg: cyan, bg: green, style: blink
 func TestPCyanBgGreenBlink(t *testing.T) {
 	fmt.Println(PCyanBgGreenBlink(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: YELLOW style: BLINK
+// fg: cyan, bg: yellow, style: blink
 func TestPCyanBgYellowBlink(t *testing.T) {
 	fmt.Println(PCyanBgYellowBlink(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: BLUE style: BLINK
+// fg: cyan, bg: blue, style: blink
 func TestPCyanBgBlueBlink(t *testing.T) {
 	fmt.Println(PCyanBgBlueBlink(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: MAGENTA style: BLINK
+// fg: cyan, bg: magenta, style: blink
 func TestPCyanBgMagentaBlink(t *testing.T) {
 	fmt.Println(PCyanBgMagentaBlink(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: CYAN style: BLINK
+// fg: cyan, bg: nil, style: blink
 func TestPCyanBlink(t *testing.T) {
 	fmt.Println(PCyanBlink(globalStr))
 }
 
-// fg: CYAN(is_light: false) bg: WHITE style: BLINK
+// fg: cyan, bg: white, style: blink
 func TestPCyanBgWhiteBlink(t *testing.T) {
 	fmt.Println(PCyanBgWhiteBlink(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: BLACK style: BLINK
+// fg: white, bg: black, style: blink
 func TestPWhiteBgBlackBlink(t *testing.T) {
 	fmt.Println(PWhiteBgBlackBlink(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: RED style: BLINK
+// fg: white, bg: red, style: blink
 func TestPWhiteBgRedBlink(t *testing.T) {
 	fmt.Println(PWhiteBgRedBlink(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: GREEN style: BLINK
+// fg: white, bg: green, style: blink
 func TestPWhiteBgGreenBlink(t *testing.T) {
 	fmt.Println(PWhiteBgGreenBlink(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: YELLOW style: BLINK
+// fg: white, bg: yellow, style: blink
 func TestPWhiteBgYellowBlink(t *testing.T) {
 	fmt.Println(PWhiteBgYellowBlink(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: BLUE style: BLINK
+// fg: white, bg: blue, style: blink
 func TestPWhiteBgBlueBlink(t *testing.T) {
 	fmt.Println(PWhiteBgBlueBlink(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: MAGENTA style: BLINK
+// fg: white, bg: magenta, style: blink
 func TestPWhiteBgMagentaBlink(t *testing.T) {
 	fmt.Println(PWhiteBgMagentaBlink(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: CYAN style: BLINK
+// fg: white, bg: cyan, style: blink
 func TestPWhiteBgCyanBlink(t *testing.T) {
 	fmt.Println(PWhiteBgCyanBlink(globalStr))
 }
 
-// fg: WHITE(is_light: false) bg: WHITE style: BLINK
+// fg: white, bg: nil, style: blink
 func TestPWhiteBlink(t *testing.T) {
 	fmt.Println(PWhiteBlink(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: BLACK style: nil
+// fg: light black, bg: nil, style: nil
 func TestPLBlack(t *testing.T) {
 	fmt.Println(PLBlack(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: RED style: nil
+// fg: light black, bg: red, style: nil
 func TestPLBlackBgRed(t *testing.T) {
 	fmt.Println(PLBlackBgRed(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: GREEN style: nil
+// fg: light black, bg: green, style: nil
 func TestPLBlackBgGreen(t *testing.T) {
 	fmt.Println(PLBlackBgGreen(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: YELLOW style: nil
+// fg: light black, bg: yellow, style: nil
 func TestPLBlackBgYellow(t *testing.T) {
 	fmt.Println(PLBlackBgYellow(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: BLUE style: nil
+// fg: light black, bg: blue, style: nil
 func TestPLBlackBgBlue(t *testing.T) {
 	fmt.Println(PLBlackBgBlue(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: MAGENTA style: nil
+// fg: light black, bg: magenta, style: nil
 func TestPLBlackBgMagenta(t *testing.T) {
 	fmt.Println(PLBlackBgMagenta(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: CYAN style: nil
+// fg: light black, bg: cyan, style: nil
 func TestPLBlackBgCyan(t *testing.T) {
 	fmt.Println(PLBlackBgCyan(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: WHITE style: nil
+// fg: light black, bg: white, style: nil
 func TestPLBlackBgWhite(t *testing.T) {
 	fmt.Println(PLBlackBgWhite(globalStr))
 }
 
-// fg: RED(is_light: true) bg: BLACK style: nil
+// fg: light red, bg: black, style: nil
 func TestPLRedBgBlack(t *testing.T) {
 	fmt.Println(PLRedBgBlack(globalStr))
 }
 
-// fg: RED(is_light: true) bg: RED style: nil
+// fg: light red, bg: nil, style: nil
 func TestPLRed(t *testing.T) {
 	fmt.Println(PLRed(globalStr))
 }
 
-// fg: RED(is_light: true) bg: GREEN style: nil
+// fg: light red, bg: green, style: nil
 func TestPLRedBgGreen(t *testing.T) {
 	fmt.Println(PLRedBgGreen(globalStr))
 }
 
-// fg: RED(is_light: true) bg: YELLOW style: nil
+// fg: light red, bg: yellow, style: nil
 func TestPLRedBgYellow(t *testing.T) {
 	fmt.Println(PLRedBgYellow(globalStr))
 }
 
-// fg: RED(is_light: true) bg: BLUE style: nil
+// fg: light red, bg: blue, style: nil
 func TestPLRedBgBlue(t *testing.T) {
 	fmt.Println(PLRedBgBlue(globalStr))
 }
 
-// fg: RED(is_light: true) bg: MAGENTA style: nil
+// fg: light red, bg: magenta, style: nil
 func TestPLRedBgMagenta(t *testing.T) {
 	fmt.Println(PLRedBgMagenta(globalStr))
 }
 
-// fg: RED(is_light: true) bg: CYAN style: nil
+// fg: light red, bg: cyan, style: nil
 func TestPLRedBgCyan(t *testing.T) {
 	fmt.Println(PLRedBgCyan(globalStr))
 }
 
-// fg: RED(is_light: true) bg: WHITE style: nil
+// fg: light red, bg: white, style: nil
 func TestPLRedBgWhite(t *testing.T) {
 	fmt.Println(PLRedBgWhite(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: BLACK style: nil
+// fg: light green, bg: black, style: nil
 func TestPLGreenBgBlack(t *testing.T) {
 	fmt.Println(PLGreenBgBlack(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: RED style: nil
+// fg: light green, bg: red, style: nil
 func TestPLGreenBgRed(t *testing.T) {
 	fmt.Println(PLGreenBgRed(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: GREEN style: nil
+// fg: light green, bg: nil, style: nil
 func TestPLGreen(t *testing.T) {
 	fmt.Println(PLGreen(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: YELLOW style: nil
+// fg: light green, bg: yellow, style: nil
 func TestPLGreenBgYellow(t *testing.T) {
 	fmt.Println(PLGreenBgYellow(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: BLUE style: nil
+// fg: light green, bg: blue, style: nil
 func TestPLGreenBgBlue(t *testing.T) {
 	fmt.Println(PLGreenBgBlue(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: MAGENTA style: nil
+// fg: light green, bg: magenta, style: nil
 func TestPLGreenBgMagenta(t *testing.T) {
 	fmt.Println(PLGreenBgMagenta(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: CYAN style: nil
+// fg: light green, bg: cyan, style: nil
 func TestPLGreenBgCyan(t *testing.T) {
 	fmt.Println(PLGreenBgCyan(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: WHITE style: nil
+// fg: light green, bg: white, style: nil
 func TestPLGreenBgWhite(t *testing.T) {
 	fmt.Println(PLGreenBgWhite(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: BLACK style: nil
+// fg: light yellow, bg: black, style: nil
 func TestPLYellowBgBlack(t *testing.T) {
 	fmt.Println(PLYellowBgBlack(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: RED style: nil
+// fg: light yellow, bg: red, style: nil
 func TestPLYellowBgRed(t *testing.T) {
 	fmt.Println(PLYellowBgRed(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: GREEN style: nil
+// fg: light yellow, bg: green, style: nil
 func TestPLYellowBgGreen(t *testing.T) {
 	fmt.Println(PLYellowBgGreen(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: YELLOW style: nil
+// fg: light yellow, bg: nil, style: nil
 func TestPLYellow(t *testing.T) {
 	fmt.Println(PLYellow(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: BLUE style: nil
+// fg: light yellow, bg: blue, style: nil
 func TestPLYellowBgBlue(t *testing.T) {
 	fmt.Println(PLYellowBgBlue(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: MAGENTA style: nil
+// fg: light yellow, bg: magenta, style: nil
 func TestPLYellowBgMagenta(t *testing.T) {
 	fmt.Println(PLYellowBgMagenta(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: CYAN style: nil
+// fg: light yellow, bg: cyan, style: nil
 func TestPLYellowBgCyan(t *testing.T) {
 	fmt.Println(PLYellowBgCyan(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: WHITE style: nil
+// fg: light yellow, bg: white, style: nil
 func TestPLYellowBgWhite(t *testing.T) {
 	fmt.Println(PLYellowBgWhite(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: BLACK style: nil
+// fg: light blue, bg: black, style: nil
 func TestPLBlueBgBlack(t *testing.T) {
 	fmt.Println(PLBlueBgBlack(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: RED style: nil
+// fg: light blue, bg: red, style: nil
 func TestPLBlueBgRed(t *testing.T) {
 	fmt.Println(PLBlueBgRed(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: GREEN style: nil
+// fg: light blue, bg: green, style: nil
 func TestPLBlueBgGreen(t *testing.T) {
 	fmt.Println(PLBlueBgGreen(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: YELLOW style: nil
+// fg: light blue, bg: yellow, style: nil
 func TestPLBlueBgYellow(t *testing.T) {
 	fmt.Println(PLBlueBgYellow(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: BLUE style: nil
+// fg: light blue, bg: nil, style: nil
 func TestPLBlue(t *testing.T) {
 	fmt.Println(PLBlue(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: MAGENTA style: nil
+// fg: light blue, bg: magenta, style: nil
 func TestPLBlueBgMagenta(t *testing.T) {
 	fmt.Println(PLBlueBgMagenta(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: CYAN style: nil
+// fg: light blue, bg: cyan, style: nil
 func TestPLBlueBgCyan(t *testing.T) {
 	fmt.Println(PLBlueBgCyan(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: WHITE style: nil
+// fg: light blue, bg: white, style: nil
 func TestPLBlueBgWhite(t *testing.T) {
 	fmt.Println(PLBlueBgWhite(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: BLACK style: nil
+// fg: light magenta, bg: black, style: nil
 func TestPLMagentaBgBlack(t *testing.T) {
 	fmt.Println(PLMagentaBgBlack(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: RED style: nil
+// fg: light magenta, bg: red, style: nil
 func TestPLMagentaBgRed(t *testing.T) {
 	fmt.Println(PLMagentaBgRed(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: GREEN style: nil
+// fg: light magenta, bg: green, style: nil
 func TestPLMagentaBgGreen(t *testing.T) {
 	fmt.Println(PLMagentaBgGreen(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: YELLOW style: nil
+// fg: light magenta, bg: yellow, style: nil
 func TestPLMagentaBgYellow(t *testing.T) {
 	fmt.Println(PLMagentaBgYellow(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: BLUE style: nil
+// fg: light magenta, bg: blue, style: nil
 func TestPLMagentaBgBlue(t *testing.T) {
 	fmt.Println(PLMagentaBgBlue(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: MAGENTA style: nil
+// fg: light magenta, bg: nil, style: nil
 func TestPLMagenta(t *testing.T) {
 	fmt.Println(PLMagenta(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: CYAN style: nil
+// fg: light magenta, bg: cyan, style: nil
 func TestPLMagentaBgCyan(t *testing.T) {
 	fmt.Println(PLMagentaBgCyan(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: WHITE style: nil
+// fg: light magenta, bg: white, style: nil
 func TestPLMagentaBgWhite(t *testing.T) {
 	fmt.Println(PLMagentaBgWhite(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: BLACK style: nil
+// fg: light cyan, bg: black, style: nil
 func TestPLCyanBgBlack(t *testing.T) {
 	fmt.Println(PLCyanBgBlack(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: RED style: nil
+// fg: light cyan, bg: red, style: nil
 func TestPLCyanBgRed(t *testing.T) {
 	fmt.Println(PLCyanBgRed(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: GREEN style: nil
+// fg: light cyan, bg: green, style: nil
 func TestPLCyanBgGreen(t *testing.T) {
 	fmt.Println(PLCyanBgGreen(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: YELLOW style: nil
+// fg: light cyan, bg: yellow, style: nil
 func TestPLCyanBgYellow(t *testing.T) {
 	fmt.Println(PLCyanBgYellow(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: BLUE style: nil
+// fg: light cyan, bg: blue, style: nil
 func TestPLCyanBgBlue(t *testing.T) {
 	fmt.Println(PLCyanBgBlue(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: MAGENTA style: nil
+// fg: light cyan, bg: magenta, style: nil
 func TestPLCyanBgMagenta(t *testing.T) {
 	fmt.Println(PLCyanBgMagenta(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: CYAN style: nil
+// fg: light cyan, bg: nil, style: nil
 func TestPLCyan(t *testing.T) {
 	fmt.Println(PLCyan(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: WHITE style: nil
+// fg: light cyan, bg: white, style: nil
 func TestPLCyanBgWhite(t *testing.T) {
 	fmt.Println(PLCyanBgWhite(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: BLACK style: nil
+// fg: light white, bg: black, style: nil
 func TestPLWhiteBgBlack(t *testing.T) {
 	fmt.Println(PLWhiteBgBlack(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: RED style: nil
+// fg: light white, bg: red, style: nil
 func TestPLWhiteBgRed(t *testing.T) {
 	fmt.Println(PLWhiteBgRed(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: GREEN style: nil
+// fg: light white, bg: green, style: nil
 func TestPLWhiteBgGreen(t *testing.T) {
 	fmt.Println(PLWhiteBgGreen(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: YELLOW style: nil
+// fg: light white, bg: yellow, style: nil
 func TestPLWhiteBgYellow(t *testing.T) {
 	fmt.Println(PLWhiteBgYellow(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: BLUE style: nil
+// fg: light white, bg: blue, style: nil
 func TestPLWhiteBgBlue(t *testing.T) {
 	fmt.Println(PLWhiteBgBlue(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: MAGENTA style: nil
+// fg: light white, bg: magenta, style: nil
 func TestPLWhiteBgMagenta(t *testing.T) {
 	fmt.Println(PLWhiteBgMagenta(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: CYAN style: nil
+// fg: light white, bg: cyan, style: nil
 func TestPLWhiteBgCyan(t *testing.T) {
 	fmt.Println(PLWhiteBgCyan(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: WHITE style: nil
+// fg: light white, bg: nil, style: nil
 func TestPLWhite(t *testing.T) {
 	fmt.Println(PLWhite(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: BLACK style: BOLD
+// fg: light black, bg: nil, style: bold
 func TestPLBlackBold(t *testing.T) {
 	fmt.Println(PLBlackBold(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: RED style: BOLD
+// fg: light black, bg: red, style: bold
 func TestPLBlackBgRedBold(t *testing.T) {
 	fmt.Println(PLBlackBgRedBold(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: GREEN style: BOLD
+// fg: light black, bg: green, style: bold
 func TestPLBlackBgGreenBold(t *testing.T) {
 	fmt.Println(PLBlackBgGreenBold(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: YELLOW style: BOLD
+// fg: light black, bg: yellow, style: bold
 func TestPLBlackBgYellowBold(t *testing.T) {
 	fmt.Println(PLBlackBgYellowBold(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: BLUE style: BOLD
+// fg: light black, bg: blue, style: bold
 func TestPLBlackBgBlueBold(t *testing.T) {
 	fmt.Println(PLBlackBgBlueBold(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: MAGENTA style: BOLD
+// fg: light black, bg: magenta, style: bold
 func TestPLBlackBgMagentaBold(t *testing.T) {
 	fmt.Println(PLBlackBgMagentaBold(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: CYAN style: BOLD
+// fg: light black, bg: cyan, style: bold
 func TestPLBlackBgCyanBold(t *testing.T) {
 	fmt.Println(PLBlackBgCyanBold(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: WHITE style: BOLD
+// fg: light black, bg: white, style: bold
 func TestPLBlackBgWhiteBold(t *testing.T) {
 	fmt.Println(PLBlackBgWhiteBold(globalStr))
 }
 
-// fg: RED(is_light: true) bg: BLACK style: BOLD
+// fg: light red, bg: black, style: bold
 func TestPLRedBgBlackBold(t *testing.T) {
 	fmt.Println(PLRedBgBlackBold(globalStr))
 }
 
-// fg: RED(is_light: true) bg: RED style: BOLD
+// fg: light red, bg: nil, style: bold
 func TestPLRedBold(t *testing.T) {
 	fmt.Println(PLRedBold(globalStr))
 }
 
-// fg: RED(is_light: true) bg: GREEN style: BOLD
+// fg: light red, bg: green, style: bold
 func TestPLRedBgGreenBold(t *testing.T) {
 	fmt.Println(PLRedBgGreenBold(globalStr))
 }
 
-// fg: RED(is_light: true) bg: YELLOW style: BOLD
+// fg: light red, bg: yellow, style: bold
 func TestPLRedBgYellowBold(t *testing.T) {
 	fmt.Println(PLRedBgYellowBold(globalStr))
 }
 
-// fg: RED(is_light: true) bg: BLUE style: BOLD
+// fg: light red, bg: blue, style: bold
 func TestPLRedBgBlueBold(t *testing.T) {
 	fmt.Println(PLRedBgBlueBold(globalStr))
 }
 
-// fg: RED(is_light: true) bg: MAGENTA style: BOLD
+// fg: light red, bg: magenta, style: bold
 func TestPLRedBgMagentaBold(t *testing.T) {
 	fmt.Println(PLRedBgMagentaBold(globalStr))
 }
 
-// fg: RED(is_light: true) bg: CYAN style: BOLD
+// fg: light red, bg: cyan, style: bold
 func TestPLRedBgCyanBold(t *testing.T) {
 	fmt.Println(PLRedBgCyanBold(globalStr))
 }
 
-// fg: RED(is_light: true) bg: WHITE style: BOLD
+// fg: light red, bg: white, style: bold
 func TestPLRedBgWhiteBold(t *testing.T) {
 	fmt.Println(PLRedBgWhiteBold(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: BLACK style: BOLD
+// fg: light green, bg: black, style: bold
 func TestPLGreenBgBlackBold(t *testing.T) {
 	fmt.Println(PLGreenBgBlackBold(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: RED style: BOLD
+// fg: light green, bg: red, style: bold
 func TestPLGreenBgRedBold(t *testing.T) {
 	fmt.Println(PLGreenBgRedBold(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: GREEN style: BOLD
+// fg: light green, bg: nil, style: bold
 func TestPLGreenBold(t *testing.T) {
 	fmt.Println(PLGreenBold(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: YELLOW style: BOLD
+// fg: light green, bg: yellow, style: bold
 func TestPLGreenBgYellowBold(t *testing.T) {
 	fmt.Println(PLGreenBgYellowBold(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: BLUE style: BOLD
+// fg: light green, bg: blue, style: bold
 func TestPLGreenBgBlueBold(t *testing.T) {
 	fmt.Println(PLGreenBgBlueBold(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: MAGENTA style: BOLD
+// fg: light green, bg: magenta, style: bold
 func TestPLGreenBgMagentaBold(t *testing.T) {
 	fmt.Println(PLGreenBgMagentaBold(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: CYAN style: BOLD
+// fg: light green, bg: cyan, style: bold
 func TestPLGreenBgCyanBold(t *testing.T) {
 	fmt.Println(PLGreenBgCyanBold(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: WHITE style: BOLD
+// fg: light green, bg: white, style: bold
 func TestPLGreenBgWhiteBold(t *testing.T) {
 	fmt.Println(PLGreenBgWhiteBold(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: BLACK style: BOLD
+// fg: light yellow, bg: black, style: bold
 func TestPLYellowBgBlackBold(t *testing.T) {
 	fmt.Println(PLYellowBgBlackBold(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: RED style: BOLD
+// fg: light yellow, bg: red, style: bold
 func TestPLYellowBgRedBold(t *testing.T) {
 	fmt.Println(PLYellowBgRedBold(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: GREEN style: BOLD
+// fg: light yellow, bg: green, style: bold
 func TestPLYellowBgGreenBold(t *testing.T) {
 	fmt.Println(PLYellowBgGreenBold(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: YELLOW style: BOLD
+// fg: light yellow, bg: nil, style: bold
 func TestPLYellowBold(t *testing.T) {
 	fmt.Println(PLYellowBold(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: BLUE style: BOLD
+// fg: light yellow, bg: blue, style: bold
 func TestPLYellowBgBlueBold(t *testing.T) {
 	fmt.Println(PLYellowBgBlueBold(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: MAGENTA style: BOLD
+// fg: light yellow, bg: magenta, style: bold
 func TestPLYellowBgMagentaBold(t *testing.T) {
 	fmt.Println(PLYellowBgMagentaBold(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: CYAN style: BOLD
+// fg: light yellow, bg: cyan, style: bold
 func TestPLYellowBgCyanBold(t *testing.T) {
 	fmt.Println(PLYellowBgCyanBold(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: WHITE style: BOLD
+// fg: light yellow, bg: white, style: bold
 func TestPLYellowBgWhiteBold(t *testing.T) {
 	fmt.Println(PLYellowBgWhiteBold(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: BLACK style: BOLD
+// fg: light blue, bg: black, style: bold
 func TestPLBlueBgBlackBold(t *testing.T) {
 	fmt.Println(PLBlueBgBlackBold(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: RED style: BOLD
+// fg: light blue, bg: red, style: bold
 func TestPLBlueBgRedBold(t *testing.T) {
 	fmt.Println(PLBlueBgRedBold(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: GREEN style: BOLD
+// fg: light blue, bg: green, style: bold
 func TestPLBlueBgGreenBold(t *testing.T) {
 	fmt.Println(PLBlueBgGreenBold(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: YELLOW style: BOLD
+// fg: light blue, bg: yellow, style: bold
 func TestPLBlueBgYellowBold(t *testing.T) {
 	fmt.Println(PLBlueBgYellowBold(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: BLUE style: BOLD
+// fg: light blue, bg: nil, style: bold
 func TestPLBlueBold(t *testing.T) {
 	fmt.Println(PLBlueBold(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: MAGENTA style: BOLD
+// fg: light blue, bg: magenta, style: bold
 func TestPLBlueBgMagentaBold(t *testing.T) {
 	fmt.Println(PLBlueBgMagentaBold(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: CYAN style: BOLD
+// fg: light blue, bg: cyan, style: bold
 func TestPLBlueBgCyanBold(t *testing.T) {
 	fmt.Println(PLBlueBgCyanBold(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: WHITE style: BOLD
+// fg: light blue, bg: white, style: bold
 func TestPLBlueBgWhiteBold(t *testing.T) {
 	fmt.Println(PLBlueBgWhiteBold(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: BLACK style: BOLD
+// fg: light magenta, bg: black, style: bold
 func TestPLMagentaBgBlackBold(t *testing.T) {
 	fmt.Println(PLMagentaBgBlackBold(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: RED style: BOLD
+// fg: light magenta, bg: red, style: bold
 func TestPLMagentaBgRedBold(t *testing.T) {
 	fmt.Println(PLMagentaBgRedBold(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: GREEN style: BOLD
+// fg: light magenta, bg: green, style: bold
 func TestPLMagentaBgGreenBold(t *testing.T) {
 	fmt.Println(PLMagentaBgGreenBold(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: YELLOW style: BOLD
+// fg: light magenta, bg: yellow, style: bold
 func TestPLMagentaBgYellowBold(t *testing.T) {
 	fmt.Println(PLMagentaBgYellowBold(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: BLUE style: BOLD
+// fg: light magenta, bg: blue, style: bold
 func TestPLMagentaBgBlueBold(t *testing.T) {
 	fmt.Println(PLMagentaBgBlueBold(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: MAGENTA style: BOLD
+// fg: light magenta, bg: nil, style: bold
 func TestPLMagentaBold(t *testing.T) {
 	fmt.Println(PLMagentaBold(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: CYAN style: BOLD
+// fg: light magenta, bg: cyan, style: bold
 func TestPLMagentaBgCyanBold(t *testing.T) {
 	fmt.Println(PLMagentaBgCyanBold(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: WHITE style: BOLD
+// fg: light magenta, bg: white, style: bold
 func TestPLMagentaBgWhiteBold(t *testing.T) {
 	fmt.Println(PLMagentaBgWhiteBold(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: BLACK style: BOLD
+// fg: light cyan, bg: black, style: bold
 func TestPLCyanBgBlackBold(t *testing.T) {
 	fmt.Println(PLCyanBgBlackBold(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: RED style: BOLD
+// fg: light cyan, bg: red, style: bold
 func TestPLCyanBgRedBold(t *testing.T) {
 	fmt.Println(PLCyanBgRedBold(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: GREEN style: BOLD
+// fg: light cyan, bg: green, style: bold
 func TestPLCyanBgGreenBold(t *testing.T) {
 	fmt.Println(PLCyanBgGreenBold(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: YELLOW style: BOLD
+// fg: light cyan, bg: yellow, style: bold
 func TestPLCyanBgYellowBold(t *testing.T) {
 	fmt.Println(PLCyanBgYellowBold(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: BLUE style: BOLD
+// fg: light cyan, bg: blue, style: bold
 func TestPLCyanBgBlueBold(t *testing.T) {
 	fmt.Println(PLCyanBgBlueBold(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: MAGENTA style: BOLD
+// fg: light cyan, bg: magenta, style: bold
 func TestPLCyanBgMagentaBold(t *testing.T) {
 	fmt.Println(PLCyanBgMagentaBold(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: CYAN style: BOLD
+// fg: light cyan, bg: nil, style: bold
 func TestPLCyanBold(t *testing.T) {
 	fmt.Println(PLCyanBold(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: WHITE style: BOLD
+// fg: light cyan, bg: white, style: bold
 func TestPLCyanBgWhiteBold(t *testing.T) {
 	fmt.Println(PLCyanBgWhiteBold(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: BLACK style: BOLD
+// fg: light white, bg: black, style: bold
 func TestPLWhiteBgBlackBold(t *testing.T) {
 	fmt.Println(PLWhiteBgBlackBold(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: RED style: BOLD
+// fg: light white, bg: red, style: bold
 func TestPLWhiteBgRedBold(t *testing.T) {
 	fmt.Println(PLWhiteBgRedBold(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: GREEN style: BOLD
+// fg: light white, bg: green, style: bold
 func TestPLWhiteBgGreenBold(t *testing.T) {
 	fmt.Println(PLWhiteBgGreenBold(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: YELLOW style: BOLD
+// fg: light white, bg: yellow, style: bold
 func TestPLWhiteBgYellowBold(t *testing.T) {
 	fmt.Println(PLWhiteBgYellowBold(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: BLUE style: BOLD
+// fg: light white, bg: blue, style: bold
 func TestPLWhiteBgBlueBold(t *testing.T) {
 	fmt.Println(PLWhiteBgBlueBold(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: MAGENTA style: BOLD
+// fg: light white, bg: magenta, style: bold
 func TestPLWhiteBgMagentaBold(t *testing.T) {
 	fmt.Println(PLWhiteBgMagentaBold(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: CYAN style: BOLD
+// fg: light white, bg: cyan, style: bold
 func TestPLWhiteBgCyanBold(t *testing.T) {
 	fmt.Println(PLWhiteBgCyanBold(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: WHITE style: BOLD
+// fg: light white, bg: nil, style: bold
 func TestPLWhiteBold(t *testing.T) {
 	fmt.Println(PLWhiteBold(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: BLACK style: FAINT
+// fg: light black, bg: nil, style: faint
 func TestPLBlackFaint(t *testing.T) {
 	fmt.Println(PLBlackFaint(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: RED style: FAINT
+// fg: light black, bg: red, style: faint
 func TestPLBlackBgRedFaint(t *testing.T) {
 	fmt.Println(PLBlackBgRedFaint(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: GREEN style: FAINT
+// fg: light black, bg: green, style: faint
 func TestPLBlackBgGreenFaint(t *testing.T) {
 	fmt.Println(PLBlackBgGreenFaint(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: YELLOW style: FAINT
+// fg: light black, bg: yellow, style: faint
 func TestPLBlackBgYellowFaint(t *testing.T) {
 	fmt.Println(PLBlackBgYellowFaint(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: BLUE style: FAINT
+// fg: light black, bg: blue, style: faint
 func TestPLBlackBgBlueFaint(t *testing.T) {
 	fmt.Println(PLBlackBgBlueFaint(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: MAGENTA style: FAINT
+// fg: light black, bg: magenta, style: faint
 func TestPLBlackBgMagentaFaint(t *testing.T) {
 	fmt.Println(PLBlackBgMagentaFaint(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: CYAN style: FAINT
+// fg: light black, bg: cyan, style: faint
 func TestPLBlackBgCyanFaint(t *testing.T) {
 	fmt.Println(PLBlackBgCyanFaint(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: WHITE style: FAINT
+// fg: light black, bg: white, style: faint
 func TestPLBlackBgWhiteFaint(t *testing.T) {
 	fmt.Println(PLBlackBgWhiteFaint(globalStr))
 }
 
-// fg: RED(is_light: true) bg: BLACK style: FAINT
+// fg: light red, bg: black, style: faint
 func TestPLRedBgBlackFaint(t *testing.T) {
 	fmt.Println(PLRedBgBlackFaint(globalStr))
 }
 
-// fg: RED(is_light: true) bg: RED style: FAINT
+// fg: light red, bg: nil, style: faint
 func TestPLRedFaint(t *testing.T) {
 	fmt.Println(PLRedFaint(globalStr))
 }
 
-// fg: RED(is_light: true) bg: GREEN style: FAINT
+// fg: light red, bg: green, style: faint
 func TestPLRedBgGreenFaint(t *testing.T) {
 	fmt.Println(PLRedBgGreenFaint(globalStr))
 }
 
-// fg: RED(is_light: true) bg: YELLOW style: FAINT
+// fg: light red, bg: yellow, style: faint
 func TestPLRedBgYellowFaint(t *testing.T) {
 	fmt.Println(PLRedBgYellowFaint(globalStr))
 }
 
-// fg: RED(is_light: true) bg: BLUE style: FAINT
+// fg: light red, bg: blue, style: faint
 func TestPLRedBgBlueFaint(t *testing.T) {
 	fmt.Println(PLRedBgBlueFaint(globalStr))
 }
 
-// fg: RED(is_light: true) bg: MAGENTA style: FAINT
+// fg: light red, bg: magenta, style: faint
 func TestPLRedBgMagentaFaint(t *testing.T) {
 	fmt.Println(PLRedBgMagentaFaint(globalStr))
 }
 
-// fg: RED(is_light: true) bg: CYAN style: FAINT
+// fg: light red, bg: cyan, style: faint
 func TestPLRedBgCyanFaint(t *testing.T) {
 	fmt.Println(PLRedBgCyanFaint(globalStr))
 }
 
-// fg: RED(is_light: true) bg: WHITE style: FAINT
+// fg: light red, bg: white, style: faint
 func TestPLRedBgWhiteFaint(t *testing.T) {
 	fmt.Println(PLRedBgWhiteFaint(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: BLACK style: FAINT
+// fg: light green, bg: black, style: faint
 func TestPLGreenBgBlackFaint(t *testing.T) {
 	fmt.Println(PLGreenBgBlackFaint(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: RED style: FAINT
+// fg: light green, bg: red, style: faint
 func TestPLGreenBgRedFaint(t *testing.T) {
 	fmt.Println(PLGreenBgRedFaint(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: GREEN style: FAINT
+// fg: light green, bg: nil, style: faint
 func TestPLGreenFaint(t *testing.T) {
 	fmt.Println(PLGreenFaint(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: YELLOW style: FAINT
+// fg: light green, bg: yellow, style: faint
 func TestPLGreenBgYellowFaint(t *testing.T) {
 	fmt.Println(PLGreenBgYellowFaint(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: BLUE style: FAINT
+// fg: light green, bg: blue, style: faint
 func TestPLGreenBgBlueFaint(t *testing.T) {
 	fmt.Println(PLGreenBgBlueFaint(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: MAGENTA style: FAINT
+// fg: light green, bg: magenta, style: faint
 func TestPLGreenBgMagentaFaint(t *testing.T) {
 	fmt.Println(PLGreenBgMagentaFaint(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: CYAN style: FAINT
+// fg: light green, bg: cyan, style: faint
 func TestPLGreenBgCyanFaint(t *testing.T) {
 	fmt.Println(PLGreenBgCyanFaint(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: WHITE style: FAINT
+// fg: light green, bg: white, style: faint
 func TestPLGreenBgWhiteFaint(t *testing.T) {
 	fmt.Println(PLGreenBgWhiteFaint(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: BLACK style: FAINT
+// fg: light yellow, bg: black, style: faint
 func TestPLYellowBgBlackFaint(t *testing.T) {
 	fmt.Println(PLYellowBgBlackFaint(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: RED style: FAINT
+// fg: light yellow, bg: red, style: faint
 func TestPLYellowBgRedFaint(t *testing.T) {
 	fmt.Println(PLYellowBgRedFaint(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: GREEN style: FAINT
+// fg: light yellow, bg: green, style: faint
 func TestPLYellowBgGreenFaint(t *testing.T) {
 	fmt.Println(PLYellowBgGreenFaint(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: YELLOW style: FAINT
+// fg: light yellow, bg: nil, style: faint
 func TestPLYellowFaint(t *testing.T) {
 	fmt.Println(PLYellowFaint(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: BLUE style: FAINT
+// fg: light yellow, bg: blue, style: faint
 func TestPLYellowBgBlueFaint(t *testing.T) {
 	fmt.Println(PLYellowBgBlueFaint(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: MAGENTA style: FAINT
+// fg: light yellow, bg: magenta, style: faint
 func TestPLYellowBgMagentaFaint(t *testing.T) {
 	fmt.Println(PLYellowBgMagentaFaint(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: CYAN style: FAINT
+// fg: light yellow, bg: cyan, style: faint
 func TestPLYellowBgCyanFaint(t *testing.T) {
 	fmt.Println(PLYellowBgCyanFaint(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: WHITE style: FAINT
+// fg: light yellow, bg: white, style: faint
 func TestPLYellowBgWhiteFaint(t *testing.T) {
 	fmt.Println(PLYellowBgWhiteFaint(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: BLACK style: FAINT
+// fg: light blue, bg: black, style: faint
 func TestPLBlueBgBlackFaint(t *testing.T) {
 	fmt.Println(PLBlueBgBlackFaint(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: RED style: FAINT
+// fg: light blue, bg: red, style: faint
 func TestPLBlueBgRedFaint(t *testing.T) {
 	fmt.Println(PLBlueBgRedFaint(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: GREEN style: FAINT
+// fg: light blue, bg: green, style: faint
 func TestPLBlueBgGreenFaint(t *testing.T) {
 	fmt.Println(PLBlueBgGreenFaint(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: YELLOW style: FAINT
+// fg: light blue, bg: yellow, style: faint
 func TestPLBlueBgYellowFaint(t *testing.T) {
 	fmt.Println(PLBlueBgYellowFaint(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: BLUE style: FAINT
+// fg: light blue, bg: nil, style: faint
 func TestPLBlueFaint(t *testing.T) {
 	fmt.Println(PLBlueFaint(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: MAGENTA style: FAINT
+// fg: light blue, bg: magenta, style: faint
 func TestPLBlueBgMagentaFaint(t *testing.T) {
 	fmt.Println(PLBlueBgMagentaFaint(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: CYAN style: FAINT
+// fg: light blue, bg: cyan, style: faint
 func TestPLBlueBgCyanFaint(t *testing.T) {
 	fmt.Println(PLBlueBgCyanFaint(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: WHITE style: FAINT
+// fg: light blue, bg: white, style: faint
 func TestPLBlueBgWhiteFaint(t *testing.T) {
 	fmt.Println(PLBlueBgWhiteFaint(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: BLACK style: FAINT
+// fg: light magenta, bg: black, style: faint
 func TestPLMagentaBgBlackFaint(t *testing.T) {
 	fmt.Println(PLMagentaBgBlackFaint(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: RED style: FAINT
+// fg: light magenta, bg: red, style: faint
 func TestPLMagentaBgRedFaint(t *testing.T) {
 	fmt.Println(PLMagentaBgRedFaint(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: GREEN style: FAINT
+// fg: light magenta, bg: green, style: faint
 func TestPLMagentaBgGreenFaint(t *testing.T) {
 	fmt.Println(PLMagentaBgGreenFaint(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: YELLOW style: FAINT
+// fg: light magenta, bg: yellow, style: faint
 func TestPLMagentaBgYellowFaint(t *testing.T) {
 	fmt.Println(PLMagentaBgYellowFaint(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: BLUE style: FAINT
+// fg: light magenta, bg: blue, style: faint
 func TestPLMagentaBgBlueFaint(t *testing.T) {
 	fmt.Println(PLMagentaBgBlueFaint(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: MAGENTA style: FAINT
+// fg: light magenta, bg: nil, style: faint
 func TestPLMagentaFaint(t *testing.T) {
 	fmt.Println(PLMagentaFaint(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: CYAN style: FAINT
+// fg: light magenta, bg: cyan, style: faint
 func TestPLMagentaBgCyanFaint(t *testing.T) {
 	fmt.Println(PLMagentaBgCyanFaint(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: WHITE style: FAINT
+// fg: light magenta, bg: white, style: faint
 func TestPLMagentaBgWhiteFaint(t *testing.T) {
 	fmt.Println(PLMagentaBgWhiteFaint(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: BLACK style: FAINT
+// fg: light cyan, bg: black, style: faint
 func TestPLCyanBgBlackFaint(t *testing.T) {
 	fmt.Println(PLCyanBgBlackFaint(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: RED style: FAINT
+// fg: light cyan, bg: red, style: faint
 func TestPLCyanBgRedFaint(t *testing.T) {
 	fmt.Println(PLCyanBgRedFaint(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: GREEN style: FAINT
+// fg: light cyan, bg: green, style: faint
 func TestPLCyanBgGreenFaint(t *testing.T) {
 	fmt.Println(PLCyanBgGreenFaint(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: YELLOW style: FAINT
+// fg: light cyan, bg: yellow, style: faint
 func TestPLCyanBgYellowFaint(t *testing.T) {
 	fmt.Println(PLCyanBgYellowFaint(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: BLUE style: FAINT
+// fg: light cyan, bg: blue, style: faint
 func TestPLCyanBgBlueFaint(t *testing.T) {
 	fmt.Println(PLCyanBgBlueFaint(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: MAGENTA style: FAINT
+// fg: light cyan, bg: magenta, style: faint
 func TestPLCyanBgMagentaFaint(t *testing.T) {
 	fmt.Println(PLCyanBgMagentaFaint(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: CYAN style: FAINT
+// fg: light cyan, bg: nil, style: faint
 func TestPLCyanFaint(t *testing.T) {
 	fmt.Println(PLCyanFaint(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: WHITE style: FAINT
+// fg: light cyan, bg: white, style: faint
 func TestPLCyanBgWhiteFaint(t *testing.T) {
 	fmt.Println(PLCyanBgWhiteFaint(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: BLACK style: FAINT
+// fg: light white, bg: black, style: faint
 func TestPLWhiteBgBlackFaint(t *testing.T) {
 	fmt.Println(PLWhiteBgBlackFaint(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: RED style: FAINT
+// fg: light white, bg: red, style: faint
 func TestPLWhiteBgRedFaint(t *testing.T) {
 	fmt.Println(PLWhiteBgRedFaint(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: GREEN style: FAINT
+// fg: light white, bg: green, style: faint
 func TestPLWhiteBgGreenFaint(t *testing.T) {
 	fmt.Println(PLWhiteBgGreenFaint(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: YELLOW style: FAINT
+// fg: light white, bg: yellow, style: faint
 func TestPLWhiteBgYellowFaint(t *testing.T) {
 	fmt.Println(PLWhiteBgYellowFaint(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: BLUE style: FAINT
+// fg: light white, bg: blue, style: faint
 func TestPLWhiteBgBlueFaint(t *testing.T) {
 	fmt.Println(PLWhiteBgBlueFaint(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: MAGENTA style: FAINT
+// fg: light white, bg: magenta, style: faint
 func TestPLWhiteBgMagentaFaint(t *testing.T) {
 	fmt.Println(PLWhiteBgMagentaFaint(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: CYAN style: FAINT
+// fg: light white, bg: cyan, style: faint
 func TestPLWhiteBgCyanFaint(t *testing.T) {
 	fmt.Println(PLWhiteBgCyanFaint(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: WHITE style: FAINT
+// fg: light white, bg: nil, style: faint
 func TestPLWhiteFaint(t *testing.T) {
 	fmt.Println(PLWhiteFaint(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: BLACK style: ITALIC
+// fg: light black, bg: nil, style: italic
 func TestPLBlackItalic(t *testing.T) {
 	fmt.Println(PLBlackItalic(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: RED style: ITALIC
+// fg: light black, bg: red, style: italic
 func TestPLBlackBgRedItalic(t *testing.T) {
 	fmt.Println(PLBlackBgRedItalic(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: GREEN style: ITALIC
+// fg: light black, bg: green, style: italic
 func TestPLBlackBgGreenItalic(t *testing.T) {
 	fmt.Println(PLBlackBgGreenItalic(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: YELLOW style: ITALIC
+// fg: light black, bg: yellow, style: italic
 func TestPLBlackBgYellowItalic(t *testing.T) {
 	fmt.Println(PLBlackBgYellowItalic(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: BLUE style: ITALIC
+// fg: light black, bg: blue, style: italic
 func TestPLBlackBgBlueItalic(t *testing.T) {
 	fmt.Println(PLBlackBgBlueItalic(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: MAGENTA style: ITALIC
+// fg: light black, bg: magenta, style: italic
 func TestPLBlackBgMagentaItalic(t *testing.T) {
 	fmt.Println(PLBlackBgMagentaItalic(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: CYAN style: ITALIC
+// fg: light black, bg: cyan, style: italic
 func TestPLBlackBgCyanItalic(t *testing.T) {
 	fmt.Println(PLBlackBgCyanItalic(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: WHITE style: ITALIC
+// fg: light black, bg: white, style: italic
 func TestPLBlackBgWhiteItalic(t *testing.T) {
 	fmt.Println(PLBlackBgWhiteItalic(globalStr))
 }
 
-// fg: RED(is_light: true) bg: BLACK style: ITALIC
+// fg: light red, bg: black, style: italic
 func TestPLRedBgBlackItalic(t *testing.T) {
 	fmt.Println(PLRedBgBlackItalic(globalStr))
 }
 
-// fg: RED(is_light: true) bg: RED style: ITALIC
+// fg: light red, bg: nil, style: italic
 func TestPLRedItalic(t *testing.T) {
 	fmt.Println(PLRedItalic(globalStr))
 }
 
-// fg: RED(is_light: true) bg: GREEN style: ITALIC
+// fg: light red, bg: green, style: italic
 func TestPLRedBgGreenItalic(t *testing.T) {
 	fmt.Println(PLRedBgGreenItalic(globalStr))
 }
 
-// fg: RED(is_light: true) bg: YELLOW style: ITALIC
+// fg: light red, bg: yellow, style: italic
 func TestPLRedBgYellowItalic(t *testing.T) {
 	fmt.Println(PLRedBgYellowItalic(globalStr))
 }
 
-// fg: RED(is_light: true) bg: BLUE style: ITALIC
+// fg: light red, bg: blue, style: italic
 func TestPLRedBgBlueItalic(t *testing.T) {
 	fmt.Println(PLRedBgBlueItalic(globalStr))
 }
 
-// fg: RED(is_light: true) bg: MAGENTA style: ITALIC
+// fg: light red, bg: magenta, style: italic
 func TestPLRedBgMagentaItalic(t *testing.T) {
 	fmt.Println(PLRedBgMagentaItalic(globalStr))
 }
 
-// fg: RED(is_light: true) bg: CYAN style: ITALIC
+// fg: light red, bg: cyan, style: italic
 func TestPLRedBgCyanItalic(t *testing.T) {
 	fmt.Println(PLRedBgCyanItalic(globalStr))
 }
 
-// fg: RED(is_light: true) bg: WHITE style: ITALIC
+// fg: light red, bg: white, style: italic
 func TestPLRedBgWhiteItalic(t *testing.T) {
 	fmt.Println(PLRedBgWhiteItalic(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: BLACK style: ITALIC
+// fg: light green, bg: black, style: italic
 func TestPLGreenBgBlackItalic(t *testing.T) {
 	fmt.Println(PLGreenBgBlackItalic(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: RED style: ITALIC
+// fg: light green, bg: red, style: italic
 func TestPLGreenBgRedItalic(t *testing.T) {
 	fmt.Println(PLGreenBgRedItalic(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: GREEN style: ITALIC
+// fg: light green, bg: nil, style: italic
 func TestPLGreenItalic(t *testing.T) {
 	fmt.Println(PLGreenItalic(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: YELLOW style: ITALIC
+// fg: light green, bg: yellow, style: italic
 func TestPLGreenBgYellowItalic(t *testing.T) {
 	fmt.Println(PLGreenBgYellowItalic(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: BLUE style: ITALIC
+// fg: light green, bg: blue, style: italic
 func TestPLGreenBgBlueItalic(t *testing.T) {
 	fmt.Println(PLGreenBgBlueItalic(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: MAGENTA style: ITALIC
+// fg: light green, bg: magenta, style: italic
 func TestPLGreenBgMagentaItalic(t *testing.T) {
 	fmt.Println(PLGreenBgMagentaItalic(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: CYAN style: ITALIC
+// fg: light green, bg: cyan, style: italic
 func TestPLGreenBgCyanItalic(t *testing.T) {
 	fmt.Println(PLGreenBgCyanItalic(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: WHITE style: ITALIC
+// fg: light green, bg: white, style: italic
 func TestPLGreenBgWhiteItalic(t *testing.T) {
 	fmt.Println(PLGreenBgWhiteItalic(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: BLACK style: ITALIC
+// fg: light yellow, bg: black, style: italic
 func TestPLYellowBgBlackItalic(t *testing.T) {
 	fmt.Println(PLYellowBgBlackItalic(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: RED style: ITALIC
+// fg: light yellow, bg: red, style: italic
 func TestPLYellowBgRedItalic(t *testing.T) {
 	fmt.Println(PLYellowBgRedItalic(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: GREEN style: ITALIC
+// fg: light yellow, bg: green, style: italic
 func TestPLYellowBgGreenItalic(t *testing.T) {
 	fmt.Println(PLYellowBgGreenItalic(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: YELLOW style: ITALIC
+// fg: light yellow, bg: nil, style: italic
 func TestPLYellowItalic(t *testing.T) {
 	fmt.Println(PLYellowItalic(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: BLUE style: ITALIC
+// fg: light yellow, bg: blue, style: italic
 func TestPLYellowBgBlueItalic(t *testing.T) {
 	fmt.Println(PLYellowBgBlueItalic(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: MAGENTA style: ITALIC
+// fg: light yellow, bg: magenta, style: italic
 func TestPLYellowBgMagentaItalic(t *testing.T) {
 	fmt.Println(PLYellowBgMagentaItalic(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: CYAN style: ITALIC
+// fg: light yellow, bg: cyan, style: italic
 func TestPLYellowBgCyanItalic(t *testing.T) {
 	fmt.Println(PLYellowBgCyanItalic(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: WHITE style: ITALIC
+// fg: light yellow, bg: white, style: italic
 func TestPLYellowBgWhiteItalic(t *testing.T) {
 	fmt.Println(PLYellowBgWhiteItalic(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: BLACK style: ITALIC
+// fg: light blue, bg: black, style: italic
 func TestPLBlueBgBlackItalic(t *testing.T) {
 	fmt.Println(PLBlueBgBlackItalic(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: RED style: ITALIC
+// fg: light blue, bg: red, style: italic
 func TestPLBlueBgRedItalic(t *testing.T) {
 	fmt.Println(PLBlueBgRedItalic(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: GREEN style: ITALIC
+// fg: light blue, bg: green, style: italic
 func TestPLBlueBgGreenItalic(t *testing.T) {
 	fmt.Println(PLBlueBgGreenItalic(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: YELLOW style: ITALIC
+// fg: light blue, bg: yellow, style: italic
 func TestPLBlueBgYellowItalic(t *testing.T) {
 	fmt.Println(PLBlueBgYellowItalic(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: BLUE style: ITALIC
+// fg: light blue, bg: nil, style: italic
 func TestPLBlueItalic(t *testing.T) {
 	fmt.Println(PLBlueItalic(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: MAGENTA style: ITALIC
+// fg: light blue, bg: magenta, style: italic
 func TestPLBlueBgMagentaItalic(t *testing.T) {
 	fmt.Println(PLBlueBgMagentaItalic(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: CYAN style: ITALIC
+// fg: light blue, bg: cyan, style: italic
 func TestPLBlueBgCyanItalic(t *testing.T) {
 	fmt.Println(PLBlueBgCyanItalic(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: WHITE style: ITALIC
+// fg: light blue, bg: white, style: italic
 func TestPLBlueBgWhiteItalic(t *testing.T) {
 	fmt.Println(PLBlueBgWhiteItalic(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: BLACK style: ITALIC
+// fg: light magenta, bg: black, style: italic
 func TestPLMagentaBgBlackItalic(t *testing.T) {
 	fmt.Println(PLMagentaBgBlackItalic(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: RED style: ITALIC
+// fg: light magenta, bg: red, style: italic
 func TestPLMagentaBgRedItalic(t *testing.T) {
 	fmt.Println(PLMagentaBgRedItalic(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: GREEN style: ITALIC
+// fg: light magenta, bg: green, style: italic
 func TestPLMagentaBgGreenItalic(t *testing.T) {
 	fmt.Println(PLMagentaBgGreenItalic(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: YELLOW style: ITALIC
+// fg: light magenta, bg: yellow, style: italic
 func TestPLMagentaBgYellowItalic(t *testing.T) {
 	fmt.Println(PLMagentaBgYellowItalic(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: BLUE style: ITALIC
+// fg: light magenta, bg: blue, style: italic
 func TestPLMagentaBgBlueItalic(t *testing.T) {
 	fmt.Println(PLMagentaBgBlueItalic(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: MAGENTA style: ITALIC
+// fg: light magenta, bg: nil, style: italic
 func TestPLMagentaItalic(t *testing.T) {
 	fmt.Println(PLMagentaItalic(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: CYAN style: ITALIC
+// fg: light magenta, bg: cyan, style: italic
 func TestPLMagentaBgCyanItalic(t *testing.T) {
 	fmt.Println(PLMagentaBgCyanItalic(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: WHITE style: ITALIC
+// fg: light magenta, bg: white, style: italic
 func TestPLMagentaBgWhiteItalic(t *testing.T) {
 	fmt.Println(PLMagentaBgWhiteItalic(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: BLACK style: ITALIC
+// fg: light cyan, bg: black, style: italic
 func TestPLCyanBgBlackItalic(t *testing.T) {
 	fmt.Println(PLCyanBgBlackItalic(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: RED style: ITALIC
+// fg: light cyan, bg: red, style: italic
 func TestPLCyanBgRedItalic(t *testing.T) {
 	fmt.Println(PLCyanBgRedItalic(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: GREEN style: ITALIC
+// fg: light cyan, bg: green, style: italic
 func TestPLCyanBgGreenItalic(t *testing.T) {
 	fmt.Println(PLCyanBgGreenItalic(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: YELLOW style: ITALIC
+// fg: light cyan, bg: yellow, style: italic
 func TestPLCyanBgYellowItalic(t *testing.T) {
 	fmt.Println(PLCyanBgYellowItalic(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: BLUE style: ITALIC
+// fg: light cyan, bg: blue, style: italic
 func TestPLCyanBgBlueItalic(t *testing.T) {
 	fmt.Println(PLCyanBgBlueItalic(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: MAGENTA style: ITALIC
+// fg: light cyan, bg: magenta, style: italic
 func TestPLCyanBgMagentaItalic(t *testing.T) {
 	fmt.Println(PLCyanBgMagentaItalic(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: CYAN style: ITALIC
+// fg: light cyan, bg: nil, style: italic
 func TestPLCyanItalic(t *testing.T) {
 	fmt.Println(PLCyanItalic(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: WHITE style: ITALIC
+// fg: light cyan, bg: white, style: italic
 func TestPLCyanBgWhiteItalic(t *testing.T) {
 	fmt.Println(PLCyanBgWhiteItalic(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: BLACK style: ITALIC
+// fg: light white, bg: black, style: italic
 func TestPLWhiteBgBlackItalic(t *testing.T) {
 	fmt.Println(PLWhiteBgBlackItalic(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: RED style: ITALIC
+// fg: light white, bg: red, style: italic
 func TestPLWhiteBgRedItalic(t *testing.T) {
 	fmt.Println(PLWhiteBgRedItalic(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: GREEN style: ITALIC
+// fg: light white, bg: green, style: italic
 func TestPLWhiteBgGreenItalic(t *testing.T) {
 	fmt.Println(PLWhiteBgGreenItalic(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: YELLOW style: ITALIC
+// fg: light white, bg: yellow, style: italic
 func TestPLWhiteBgYellowItalic(t *testing.T) {
 	fmt.Println(PLWhiteBgYellowItalic(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: BLUE style: ITALIC
+// fg: light white, bg: blue, style: italic
 func TestPLWhiteBgBlueItalic(t *testing.T) {
 	fmt.Println(PLWhiteBgBlueItalic(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: MAGENTA style: ITALIC
+// fg: light white, bg: magenta, style: italic
 func TestPLWhiteBgMagentaItalic(t *testing.T) {
 	fmt.Println(PLWhiteBgMagentaItalic(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: CYAN style: ITALIC
+// fg: light white, bg: cyan, style: italic
 func TestPLWhiteBgCyanItalic(t *testing.T) {
 	fmt.Println(PLWhiteBgCyanItalic(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: WHITE style: ITALIC
+// fg: light white, bg: nil, style: italic
 func TestPLWhiteItalic(t *testing.T) {
 	fmt.Println(PLWhiteItalic(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: BLACK style: UNDERLINE
+// fg: light black, bg: nil, style: underline
 func TestPLBlackUnderline(t *testing.T) {
 	fmt.Println(PLBlackUnderline(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: RED style: UNDERLINE
+// fg: light black, bg: red, style: underline
 func TestPLBlackBgRedUnderline(t *testing.T) {
 	fmt.Println(PLBlackBgRedUnderline(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: GREEN style: UNDERLINE
+// fg: light black, bg: green, style: underline
 func TestPLBlackBgGreenUnderline(t *testing.T) {
 	fmt.Println(PLBlackBgGreenUnderline(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: YELLOW style: UNDERLINE
+// fg: light black, bg: yellow, style: underline
 func TestPLBlackBgYellowUnderline(t *testing.T) {
 	fmt.Println(PLBlackBgYellowUnderline(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: BLUE style: UNDERLINE
+// fg: light black, bg: blue, style: underline
 func TestPLBlackBgBlueUnderline(t *testing.T) {
 	fmt.Println(PLBlackBgBlueUnderline(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: MAGENTA style: UNDERLINE
+// fg: light black, bg: magenta, style: underline
 func TestPLBlackBgMagentaUnderline(t *testing.T) {
 	fmt.Println(PLBlackBgMagentaUnderline(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: CYAN style: UNDERLINE
+// fg: light black, bg: cyan, style: underline
 func TestPLBlackBgCyanUnderline(t *testing.T) {
 	fmt.Println(PLBlackBgCyanUnderline(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: WHITE style: UNDERLINE
+// fg: light black, bg: white, style: underline
 func TestPLBlackBgWhiteUnderline(t *testing.T) {
 	fmt.Println(PLBlackBgWhiteUnderline(globalStr))
 }
 
-// fg: RED(is_light: true) bg: BLACK style: UNDERLINE
+// fg: light red, bg: black, style: underline
 func TestPLRedBgBlackUnderline(t *testing.T) {
 	fmt.Println(PLRedBgBlackUnderline(globalStr))
 }
 
-// fg: RED(is_light: true) bg: RED style: UNDERLINE
+// fg: light red, bg: nil, style: underline
 func TestPLRedUnderline(t *testing.T) {
 	fmt.Println(PLRedUnderline(globalStr))
 }
 
-// fg: RED(is_light: true) bg: GREEN style: UNDERLINE
+// fg: light red, bg: green, style: underline
 func TestPLRedBgGreenUnderline(t *testing.T) {
 	fmt.Println(PLRedBgGreenUnderline(globalStr))
 }
 
-// fg: RED(is_light: true) bg: YELLOW style: UNDERLINE
+// fg: light red, bg: yellow, style: underline
 func TestPLRedBgYellowUnderline(t *testing.T) {
 	fmt.Println(PLRedBgYellowUnderline(globalStr))
 }
 
-// fg: RED(is_light: true) bg: BLUE style: UNDERLINE
+// fg: light red, bg: blue, style: underline
 func TestPLRedBgBlueUnderline(t *testing.T) {
 	fmt.Println(PLRedBgBlueUnderline(globalStr))
 }
 
-// fg: RED(is_light: true) bg: MAGENTA style: UNDERLINE
+// fg: light red, bg: magenta, style: underline
 func TestPLRedBgMagentaUnderline(t *testing.T) {
 	fmt.Println(PLRedBgMagentaUnderline(globalStr))
 }
 
-// fg: RED(is_light: true) bg: CYAN style: UNDERLINE
+// fg: light red, bg: cyan, style: underline
 func TestPLRedBgCyanUnderline(t *testing.T) {
 	fmt.Println(PLRedBgCyanUnderline(globalStr))
 }
 
-// fg: RED(is_light: true) bg: WHITE style: UNDERLINE
+// fg: light red, bg: white, style: underline
 func TestPLRedBgWhiteUnderline(t *testing.T) {
 	fmt.Println(PLRedBgWhiteUnderline(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: BLACK style: UNDERLINE
+// fg: light green, bg: black, style: underline
 func TestPLGreenBgBlackUnderline(t *testing.T) {
 	fmt.Println(PLGreenBgBlackUnderline(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: RED style: UNDERLINE
+// fg: light green, bg: red, style: underline
 func TestPLGreenBgRedUnderline(t *testing.T) {
 	fmt.Println(PLGreenBgRedUnderline(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: GREEN style: UNDERLINE
+// fg: light green, bg: nil, style: underline
 func TestPLGreenUnderline(t *testing.T) {
 	fmt.Println(PLGreenUnderline(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: YELLOW style: UNDERLINE
+// fg: light green, bg: yellow, style: underline
 func TestPLGreenBgYellowUnderline(t *testing.T) {
 	fmt.Println(PLGreenBgYellowUnderline(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: BLUE style: UNDERLINE
+// fg: light green, bg: blue, style: underline
 func TestPLGreenBgBlueUnderline(t *testing.T) {
 	fmt.Println(PLGreenBgBlueUnderline(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: MAGENTA style: UNDERLINE
+// fg: light green, bg: magenta, style: underline
 func TestPLGreenBgMagentaUnderline(t *testing.T) {
 	fmt.Println(PLGreenBgMagentaUnderline(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: CYAN style: UNDERLINE
+// fg: light green, bg: cyan, style: underline
 func TestPLGreenBgCyanUnderline(t *testing.T) {
 	fmt.Println(PLGreenBgCyanUnderline(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: WHITE style: UNDERLINE
+// fg: light green, bg: white, style: underline
 func TestPLGreenBgWhiteUnderline(t *testing.T) {
 	fmt.Println(PLGreenBgWhiteUnderline(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: BLACK style: UNDERLINE
+// fg: light yellow, bg: black, style: underline
 func TestPLYellowBgBlackUnderline(t *testing.T) {
 	fmt.Println(PLYellowBgBlackUnderline(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: RED style: UNDERLINE
+// fg: light yellow, bg: red, style: underline
 func TestPLYellowBgRedUnderline(t *testing.T) {
 	fmt.Println(PLYellowBgRedUnderline(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: GREEN style: UNDERLINE
+// fg: light yellow, bg: green, style: underline
 func TestPLYellowBgGreenUnderline(t *testing.T) {
 	fmt.Println(PLYellowBgGreenUnderline(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: YELLOW style: UNDERLINE
+// fg: light yellow, bg: nil, style: underline
 func TestPLYellowUnderline(t *testing.T) {
 	fmt.Println(PLYellowUnderline(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: BLUE style: UNDERLINE
+// fg: light yellow, bg: blue, style: underline
 func TestPLYellowBgBlueUnderline(t *testing.T) {
 	fmt.Println(PLYellowBgBlueUnderline(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: MAGENTA style: UNDERLINE
+// fg: light yellow, bg: magenta, style: underline
 func TestPLYellowBgMagentaUnderline(t *testing.T) {
 	fmt.Println(PLYellowBgMagentaUnderline(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: CYAN style: UNDERLINE
+// fg: light yellow, bg: cyan, style: underline
 func TestPLYellowBgCyanUnderline(t *testing.T) {
 	fmt.Println(PLYellowBgCyanUnderline(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: WHITE style: UNDERLINE
+// fg: light yellow, bg: white, style: underline
 func TestPLYellowBgWhiteUnderline(t *testing.T) {
 	fmt.Println(PLYellowBgWhiteUnderline(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: BLACK style: UNDERLINE
+// fg: light blue, bg: black, style: underline
 func TestPLBlueBgBlackUnderline(t *testing.T) {
 	fmt.Println(PLBlueBgBlackUnderline(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: RED style: UNDERLINE
+// fg: light blue, bg: red, style: underline
 func TestPLBlueBgRedUnderline(t *testing.T) {
 	fmt.Println(PLBlueBgRedUnderline(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: GREEN style: UNDERLINE
+// fg: light blue, bg: green, style: underline
 func TestPLBlueBgGreenUnderline(t *testing.T) {
 	fmt.Println(PLBlueBgGreenUnderline(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: YELLOW style: UNDERLINE
+// fg: light blue, bg: yellow, style: underline
 func TestPLBlueBgYellowUnderline(t *testing.T) {
 	fmt.Println(PLBlueBgYellowUnderline(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: BLUE style: UNDERLINE
+// fg: light blue, bg: nil, style: underline
 func TestPLBlueUnderline(t *testing.T) {
 	fmt.Println(PLBlueUnderline(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: MAGENTA style: UNDERLINE
+// fg: light blue, bg: magenta, style: underline
 func TestPLBlueBgMagentaUnderline(t *testing.T) {
 	fmt.Println(PLBlueBgMagentaUnderline(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: CYAN style: UNDERLINE
+// fg: light blue, bg: cyan, style: underline
 func TestPLBlueBgCyanUnderline(t *testing.T) {
 	fmt.Println(PLBlueBgCyanUnderline(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: WHITE style: UNDERLINE
+// fg: light blue, bg: white, style: underline
 func TestPLBlueBgWhiteUnderline(t *testing.T) {
 	fmt.Println(PLBlueBgWhiteUnderline(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: BLACK style: UNDERLINE
+// fg: light magenta, bg: black, style: underline
 func TestPLMagentaBgBlackUnderline(t *testing.T) {
 	fmt.Println(PLMagentaBgBlackUnderline(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: RED style: UNDERLINE
+// fg: light magenta, bg: red, style: underline
 func TestPLMagentaBgRedUnderline(t *testing.T) {
 	fmt.Println(PLMagentaBgRedUnderline(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: GREEN style: UNDERLINE
+// fg: light magenta, bg: green, style: underline
 func TestPLMagentaBgGreenUnderline(t *testing.T) {
 	fmt.Println(PLMagentaBgGreenUnderline(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: YELLOW style: UNDERLINE
+// fg: light magenta, bg: yellow, style: underline
 func TestPLMagentaBgYellowUnderline(t *testing.T) {
 	fmt.Println(PLMagentaBgYellowUnderline(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: BLUE style: UNDERLINE
+// fg: light magenta, bg: blue, style: underline
 func TestPLMagentaBgBlueUnderline(t *testing.T) {
 	fmt.Println(PLMagentaBgBlueUnderline(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: MAGENTA style: UNDERLINE
+// fg: light magenta, bg: nil, style: underline
 func TestPLMagentaUnderline(t *testing.T) {
 	fmt.Println(PLMagentaUnderline(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: CYAN style: UNDERLINE
+// fg: light magenta, bg: cyan, style: underline
 func TestPLMagentaBgCyanUnderline(t *testing.T) {
 	fmt.Println(PLMagentaBgCyanUnderline(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: WHITE style: UNDERLINE
+// fg: light magenta, bg: white, style: underline
 func TestPLMagentaBgWhiteUnderline(t *testing.T) {
 	fmt.Println(PLMagentaBgWhiteUnderline(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: BLACK style: UNDERLINE
+// fg: light cyan, bg: black, style: underline
 func TestPLCyanBgBlackUnderline(t *testing.T) {
 	fmt.Println(PLCyanBgBlackUnderline(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: RED style: UNDERLINE
+// fg: light cyan, bg: red, style: underline
 func TestPLCyanBgRedUnderline(t *testing.T) {
 	fmt.Println(PLCyanBgRedUnderline(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: GREEN style: UNDERLINE
+// fg: light cyan, bg: green, style: underline
 func TestPLCyanBgGreenUnderline(t *testing.T) {
 	fmt.Println(PLCyanBgGreenUnderline(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: YELLOW style: UNDERLINE
+// fg: light cyan, bg: yellow, style: underline
 func TestPLCyanBgYellowUnderline(t *testing.T) {
 	fmt.Println(PLCyanBgYellowUnderline(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: BLUE style: UNDERLINE
+// fg: light cyan, bg: blue, style: underline
 func TestPLCyanBgBlueUnderline(t *testing.T) {
 	fmt.Println(PLCyanBgBlueUnderline(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: MAGENTA style: UNDERLINE
+// fg: light cyan, bg: magenta, style: underline
 func TestPLCyanBgMagentaUnderline(t *testing.T) {
 	fmt.Println(PLCyanBgMagentaUnderline(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: CYAN style: UNDERLINE
+// fg: light cyan, bg: nil, style: underline
 func TestPLCyanUnderline(t *testing.T) {
 	fmt.Println(PLCyanUnderline(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: WHITE style: UNDERLINE
+// fg: light cyan, bg: white, style: underline
 func TestPLCyanBgWhiteUnderline(t *testing.T) {
 	fmt.Println(PLCyanBgWhiteUnderline(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: BLACK style: UNDERLINE
+// fg: light white, bg: black, style: underline
 func TestPLWhiteBgBlackUnderline(t *testing.T) {
 	fmt.Println(PLWhiteBgBlackUnderline(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: RED style: UNDERLINE
+// fg: light white, bg: red, style: underline
 func TestPLWhiteBgRedUnderline(t *testing.T) {
 	fmt.Println(PLWhiteBgRedUnderline(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: GREEN style: UNDERLINE
+// fg: light white, bg: green, style: underline
 func TestPLWhiteBgGreenUnderline(t *testing.T) {
 	fmt.Println(PLWhiteBgGreenUnderline(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: YELLOW style: UNDERLINE
+// fg: light white, bg: yellow, style: underline
 func TestPLWhiteBgYellowUnderline(t *testing.T) {
 	fmt.Println(PLWhiteBgYellowUnderline(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: BLUE style: UNDERLINE
+// fg: light white, bg: blue, style: underline
 func TestPLWhiteBgBlueUnderline(t *testing.T) {
 	fmt.Println(PLWhiteBgBlueUnderline(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: MAGENTA style: UNDERLINE
+// fg: light white, bg: magenta, style: underline
 func TestPLWhiteBgMagentaUnderline(t *testing.T) {
 	fmt.Println(PLWhiteBgMagentaUnderline(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: CYAN style: UNDERLINE
+// fg: light white, bg: cyan, style: underline
 func TestPLWhiteBgCyanUnderline(t *testing.T) {
 	fmt.Println(PLWhiteBgCyanUnderline(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: WHITE style: UNDERLINE
+// fg: light white, bg: nil, style: underline
 func TestPLWhiteUnderline(t *testing.T) {
 	fmt.Println(PLWhiteUnderline(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: BLACK style: BLINK
+// fg: light black, bg: nil, style: blink
 func TestPLBlackBlink(t *testing.T) {
 	fmt.Println(PLBlackBlink(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: RED style: BLINK
+// fg: light black, bg: red, style: blink
 func TestPLBlackBgRedBlink(t *testing.T) {
 	fmt.Println(PLBlackBgRedBlink(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: GREEN style: BLINK
+// fg: light black, bg: green, style: blink
 func TestPLBlackBgGreenBlink(t *testing.T) {
 	fmt.Println(PLBlackBgGreenBlink(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: YELLOW style: BLINK
+// fg: light black, bg: yellow, style: blink
 func TestPLBlackBgYellowBlink(t *testing.T) {
 	fmt.Println(PLBlackBgYellowBlink(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: BLUE style: BLINK
+// fg: light black, bg: blue, style: blink
 func TestPLBlackBgBlueBlink(t *testing.T) {
 	fmt.Println(PLBlackBgBlueBlink(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: MAGENTA style: BLINK
+// fg: light black, bg: magenta, style: blink
 func TestPLBlackBgMagentaBlink(t *testing.T) {
 	fmt.Println(PLBlackBgMagentaBlink(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: CYAN style: BLINK
+// fg: light black, bg: cyan, style: blink
 func TestPLBlackBgCyanBlink(t *testing.T) {
 	fmt.Println(PLBlackBgCyanBlink(globalStr))
 }
 
-// fg: BLACK(is_light: true) bg: WHITE style: BLINK
+// fg: light black, bg: white, style: blink
 func TestPLBlackBgWhiteBlink(t *testing.T) {
 	fmt.Println(PLBlackBgWhiteBlink(globalStr))
 }
 
-// fg: RED(is_light: true) bg: BLACK style: BLINK
+// fg: light red, bg: black, style: blink
 func TestPLRedBgBlackBlink(t *testing.T) {
 	fmt.Println(PLRedBgBlackBlink(globalStr))
 }
 
-// fg: RED(is_light: true) bg: RED style: BLINK
+// fg: light red, bg: nil, style: blink
 func TestPLRedBlink(t *testing.T) {
 	fmt.Println(PLRedBlink(globalStr))
 }
 
-// fg: RED(is_light: true) bg: GREEN style: BLINK
+// fg: light red, bg: green, style: blink
 func TestPLRedBgGreenBlink(t *testing.T) {
 	fmt.Println(PLRedBgGreenBlink(globalStr))
 }
 
-// fg: RED(is_light: true) bg: YELLOW style: BLINK
+// fg: light red, bg: yellow, style: blink
 func TestPLRedBgYellowBlink(t *testing.T) {
 	fmt.Println(PLRedBgYellowBlink(globalStr))
 }
 
-// fg: RED(is_light: true) bg: BLUE style: BLINK
+// fg: light red, bg: blue, style: blink
 func TestPLRedBgBlueBlink(t *testing.T) {
 	fmt.Println(PLRedBgBlueBlink(globalStr))
 }
 
-// fg: RED(is_light: true) bg: MAGENTA style: BLINK
+// fg: light red, bg: magenta, style: blink
 func TestPLRedBgMagentaBlink(t *testing.T) {
 	fmt.Println(PLRedBgMagentaBlink(globalStr))
 }
 
-// fg: RED(is_light: true) bg: CYAN style: BLINK
+// fg: light red, bg: cyan, style: blink
 func TestPLRedBgCyanBlink(t *testing.T) {
 	fmt.Println(PLRedBgCyanBlink(globalStr))
 }
 
-// fg: RED(is_light: true) bg: WHITE style: BLINK
+// fg: light red, bg: white, style: blink
 func TestPLRedBgWhiteBlink(t *testing.T) {
 	fmt.Println(PLRedBgWhiteBlink(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: BLACK style: BLINK
+// fg: light green, bg: black, style: blink
 func TestPLGreenBgBlackBlink(t *testing.T) {
 	fmt.Println(PLGreenBgBlackBlink(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: RED style: BLINK
+// fg: light green, bg: red, style: blink
 func TestPLGreenBgRedBlink(t *testing.T) {
 	fmt.Println(PLGreenBgRedBlink(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: GREEN style: BLINK
+// fg: light green, bg: nil, style: blink
 func TestPLGreenBlink(t *testing.T) {
 	fmt.Println(PLGreenBlink(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: YELLOW style: BLINK
+// fg: light green, bg: yellow, style: blink
 func TestPLGreenBgYellowBlink(t *testing.T) {
 	fmt.Println(PLGreenBgYellowBlink(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: BLUE style: BLINK
+// fg: light green, bg: blue, style: blink
 func TestPLGreenBgBlueBlink(t *testing.T) {
 	fmt.Println(PLGreenBgBlueBlink(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: MAGENTA style: BLINK
+// fg: light green, bg: magenta, style: blink
 func TestPLGreenBgMagentaBlink(t *testing.T) {
 	fmt.Println(PLGreenBgMagentaBlink(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: CYAN style: BLINK
+// fg: light green, bg: cyan, style: blink
 func TestPLGreenBgCyanBlink(t *testing.T) {
 	fmt.Println(PLGreenBgCyanBlink(globalStr))
 }
 
-// fg: GREEN(is_light: true) bg: WHITE style: BLINK
+// fg: light green, bg: white, style: blink
 func TestPLGreenBgWhiteBlink(t *testing.T) {
 	fmt.Println(PLGreenBgWhiteBlink(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: BLACK style: BLINK
+// fg: light yellow, bg: black, style: blink
 func TestPLYellowBgBlackBlink(t *testing.T) {
 	fmt.Println(PLYellowBgBlackBlink(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: RED style: BLINK
+// fg: light yellow, bg: red, style: blink
 func TestPLYellowBgRedBlink(t *testing.T) {
 	fmt.Println(PLYellowBgRedBlink(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: GREEN style: BLINK
+// fg: light yellow, bg: green, style: blink
 func TestPLYellowBgGreenBlink(t *testing.T) {
 	fmt.Println(PLYellowBgGreenBlink(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: YELLOW style: BLINK
+// fg: light yellow, bg: nil, style: blink
 func TestPLYellowBlink(t *testing.T) {
 	fmt.Println(PLYellowBlink(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: BLUE style: BLINK
+// fg: light yellow, bg: blue, style: blink
 func TestPLYellowBgBlueBlink(t *testing.T) {
 	fmt.Println(PLYellowBgBlueBlink(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: MAGENTA style: BLINK
+// fg: light yellow, bg: magenta, style: blink
 func TestPLYellowBgMagentaBlink(t *testing.T) {
 	fmt.Println(PLYellowBgMagentaBlink(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: CYAN style: BLINK
+// fg: light yellow, bg: cyan, style: blink
 func TestPLYellowBgCyanBlink(t *testing.T) {
 	fmt.Println(PLYellowBgCyanBlink(globalStr))
 }
 
-// fg: YELLOW(is_light: true) bg: WHITE style: BLINK
+// fg: light yellow, bg: white, style: blink
 func TestPLYellowBgWhiteBlink(t *testing.T) {
 	fmt.Println(PLYellowBgWhiteBlink(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: BLACK style: BLINK
+// fg: light blue, bg: black, style: blink
 func TestPLBlueBgBlackBlink(t *testing.T) {
 	fmt.Println(PLBlueBgBlackBlink(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: RED style: BLINK
+// fg: light blue, bg: red, style: blink
 func TestPLBlueBgRedBlink(t *testing.T) {
 	fmt.Println(PLBlueBgRedBlink(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: GREEN style: BLINK
+// fg: light blue, bg: green, style: blink
 func TestPLBlueBgGreenBlink(t *testing.T) {
 	fmt.Println(PLBlueBgGreenBlink(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: YELLOW style: BLINK
+// fg: light blue, bg: yellow, style: blink
 func TestPLBlueBgYellowBlink(t *testing.T) {
 	fmt.Println(PLBlueBgYellowBlink(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: BLUE style: BLINK
+// fg: light blue, bg: nil, style: blink
 func TestPLBlueBlink(t *testing.T) {
 	fmt.Println(PLBlueBlink(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: MAGENTA style: BLINK
+// fg: light blue, bg: magenta, style: blink
 func TestPLBlueBgMagentaBlink(t *testing.T) {
 	fmt.Println(PLBlueBgMagentaBlink(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: CYAN style: BLINK
+// fg: light blue, bg: cyan, style: blink
 func TestPLBlueBgCyanBlink(t *testing.T) {
 	fmt.Println(PLBlueBgCyanBlink(globalStr))
 }
 
-// fg: BLUE(is_light: true) bg: WHITE style: BLINK
+// fg: light blue, bg: white, style: blink
 func TestPLBlueBgWhiteBlink(t *testing.T) {
 	fmt.Println(PLBlueBgWhiteBlink(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: BLACK style: BLINK
+// fg: light magenta, bg: black, style: blink
 func TestPLMagentaBgBlackBlink(t *testing.T) {
 	fmt.Println(PLMagentaBgBlackBlink(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: RED style: BLINK
+// fg: light magenta, bg: red, style: blink
 func TestPLMagentaBgRedBlink(t *testing.T) {
 	fmt.Println(PLMagentaBgRedBlink(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: GREEN style: BLINK
+// fg: light magenta, bg: green, style: blink
 func TestPLMagentaBgGreenBlink(t *testing.T) {
 	fmt.Println(PLMagentaBgGreenBlink(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: YELLOW style: BLINK
+// fg: light magenta, bg: yellow, style: blink
 func TestPLMagentaBgYellowBlink(t *testing.T) {
 	fmt.Println(PLMagentaBgYellowBlink(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: BLUE style: BLINK
+// fg: light magenta, bg: blue, style: blink
 func TestPLMagentaBgBlueBlink(t *testing.T) {
 	fmt.Println(PLMagentaBgBlueBlink(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: MAGENTA style: BLINK
+// fg: light magenta, bg: nil, style: blink
 func TestPLMagentaBlink(t *testing.T) {
 	fmt.Println(PLMagentaBlink(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: CYAN style: BLINK
+// fg: light magenta, bg: cyan, style: blink
 func TestPLMagentaBgCyanBlink(t *testing.T) {
 	fmt.Println(PLMagentaBgCyanBlink(globalStr))
 }
 
-// fg: MAGENTA(is_light: true) bg: WHITE style: BLINK
+// fg: light magenta, bg: white, style: blink
 func TestPLMagentaBgWhiteBlink(t *testing.T) {
 	fmt.Println(PLMagentaBgWhiteBlink(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: BLACK style: BLINK
+// fg: light cyan, bg: black, style: blink
 func TestPLCyanBgBlackBlink(t *testing.T) {
 	fmt.Println(PLCyanBgBlackBlink(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: RED style: BLINK
+// fg: light cyan, bg: red, style: blink
 func TestPLCyanBgRedBlink(t *testing.T) {
 	fmt.Println(PLCyanBgRedBlink(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: GREEN style: BLINK
+// fg: light cyan, bg: green, style: blink
 func TestPLCyanBgGreenBlink(t *testing.T) {
 	fmt.Println(PLCyanBgGreenBlink(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: YELLOW style: BLINK
+// fg: light cyan, bg: yellow, style: blink
 func TestPLCyanBgYellowBlink(t *testing.T) {
 	fmt.Println(PLCyanBgYellowBlink(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: BLUE style: BLINK
+// fg: light cyan, bg: blue, style: blink
 func TestPLCyanBgBlueBlink(t *testing.T) {
 	fmt.Println(PLCyanBgBlueBlink(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: MAGENTA style: BLINK
+// fg: light cyan, bg: magenta, style: blink
 func TestPLCyanBgMagentaBlink(t *testing.T) {
 	fmt.Println(PLCyanBgMagentaBlink(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: CYAN style: BLINK
+// fg: light cyan, bg: nil, style: blink
 func TestPLCyanBlink(t *testing.T) {
 	fmt.Println(PLCyanBlink(globalStr))
 }
 
-// fg: CYAN(is_light: true) bg: WHITE style: BLINK
+// fg: light cyan, bg: white, style: blink
 func TestPLCyanBgWhiteBlink(t *testing.T) {
 	fmt.Println(PLCyanBgWhiteBlink(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: BLACK style: BLINK
+// fg: light white, bg: black, style: blink
 func TestPLWhiteBgBlackBlink(t *testing.T) {
 	fmt.Println(PLWhiteBgBlackBlink(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: RED style: BLINK
+// fg: light white, bg: red, style: blink
 func TestPLWhiteBgRedBlink(t *testing.T) {
 	fmt.Println(PLWhiteBgRedBlink(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: GREEN style: BLINK
+// fg: light white, bg: green, style: blink
 func TestPLWhiteBgGreenBlink(t *testing.T) {
 	fmt.Println(PLWhiteBgGreenBlink(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: YELLOW style: BLINK
+// fg: light white, bg: yellow, style: blink
 func TestPLWhiteBgYellowBlink(t *testing.T) {
 	fmt.Println(PLWhiteBgYellowBlink(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: BLUE style: BLINK
+// fg: light white, bg: blue, style: blink
 func TestPLWhiteBgBlueBlink(t *testing.T) {
 	fmt.Println(PLWhiteBgBlueBlink(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: MAGENTA style: BLINK
+// fg: light white, bg: magenta, style: blink
 func TestPLWhiteBgMagentaBlink(t *testing.T) {
 	fmt.Println(PLWhiteBgMagentaBlink(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: CYAN style: BLINK
+// fg: light white, bg: cyan, style: blink
 func TestPLWhiteBgCyanBlink(t *testing.T) {
 	fmt.Println(PLWhiteBgCyanBlink(globalStr))
 }
 
-// fg: WHITE(is_light: true) bg: WHITE style: BLINK
+// fg: light white, bg: nil, style: blink
 func TestPLWhiteBlink(t *testing.T) {
 	fmt.Println(PLWhiteBlink(globalStr))
 }
