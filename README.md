@@ -13,6 +13,8 @@ Function format:
 
 example: `cr.PLYellowBgRedBold` means Light Yellow as forground, Red as background, Bold
 
+I thought this color is enough for me. if you want to get more, can see [fatih/color](https://github.com/fatih/color) or `pull request` :).
+
 ## Ref
 https://en.wikipedia.org/wiki/ANSI_escape_code
 
