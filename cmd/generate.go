@@ -8,8 +8,6 @@ import (
 )
 
 func main() {
-	colors := []string{"BLACK", "RED", "GREEN", "YELLOW", "BLUE", "MAGENTA", "CYAN", "WHITE"}
-
 	crFile, err := os.Create("../cr.go")
 	if err != nil {
 		panic(err)
@@ -28,6 +26,9 @@ func main() {
 	crTestFile.WriteString("package cr\n\n")
 	crTestFile.WriteString("import (\n\t\"fmt\"\n\t\"testing\"\n)\n\n")
 	crTestFile.WriteString("var globalStr = \"Hello, World!\"\n\n")
+
+	colors := []string{"BLACK", "RED", "GREEN", "YELLOW", "BLUE", "MAGENTA", "CYAN", "WHITE"}
+
 	for _, light := range []bool{false, true} {
 		for _, style := range []string{"nil", "BOLD", "FAINT", "ITALIC", "UNDERLINE", "BLINK"} {
 			for _, fg := range colors {
