@@ -4,7 +4,14 @@ A package to print `colorful` text in terminal.
 
 ## Usage
 
-Can see [cr_test.go](./cr_test.go)
+Colors: `cr.BLACK`, `cr.RED`, `cr.GREEN`, `cr.YELLOW`, `cr.BLUE`, `cr.MAGENTA`, `cr.CYAN`, `cr.WHITE`
+
+Styles: `cr.BOLD`, `cr.FAINT`, `cr.ITALIC`, `cr.UNDERLINE`, `cr.BLINK`
+
+Function format:
+`cr.P[L?(light)]Color[Bg?[Color]][Style]`
+
+example: `cr.PLYellowBgRedBold` means Light Yellow as forground, Red as background, Bold
 
 ## Ref
 https://en.wikipedia.org/wiki/ANSI_escape_code
